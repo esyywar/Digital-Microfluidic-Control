@@ -60,8 +60,9 @@
 		<Item Name="Type Definitions" Type="Folder">
 			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
 		</Item>
-		<Item Name="Actuation Signal.vi" Type="VI" URL="../Actuation Signal.vi"/>
 		<Item Name="Calculate DO Pin.vi" Type="VI" URL="../Calculate DO Pin.vi"/>
+		<Item Name="Electrode Switch Function.vi" Type="VI" URL="../Electrode Switch Function.vi"/>
+		<Item Name="Genereate Square Wave.vi" Type="VI" URL="../Genereate Square Wave.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
