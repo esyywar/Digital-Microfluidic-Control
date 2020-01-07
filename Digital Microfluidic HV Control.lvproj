@@ -97,22 +97,25 @@
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{9BF574F9-C330-4200-AD06-F166DD1EFF52}</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">This application can control switching of AC and DC signals from the Arduino Uno. Controls the 6 pins numbered 2-7.</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Digital Microfluidic HV Control</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Digital Microfluidic HV Control</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{70D99A64-EC00-4B17-9D89-76B490DF7A49}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DMF Control.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Digital Microfluidic HV Control/DMF Control.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/DMF Control.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Digital Microfluidic HV Control/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/DMFicon.ico</Property>
 				<Property Name="Source[0].itemID" Type="Str">{9B66D1B0-AC1A-4A49-9336-4071A861CBCC}</Property>
