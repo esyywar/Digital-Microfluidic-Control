@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name dmf_relay_board)(type Legacy)(uri ${KIPRJMOD}/dmf_relay_board.lib)(options "")(descr ""))
+)
