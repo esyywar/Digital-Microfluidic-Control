@@ -73,12 +73,12 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x30 J2
 U 1 1 5EA5096A
-P 10200 3750
-F 0 "J2" H 10118 2025 50  0000 C CNN
-F 1 "Relays to Electrodes 1" H 10118 2116 50  0000 C CNN
-F 2 "dmf_relay_board:MOLEX_30POS_FFC_TOP_CONN" H 10200 3750 50  0001 C CNN
-F 3 "~" H 10200 3750 50  0001 C CNN
-	1    10200 3750
+P 10150 3750
+F 0 "J2" H 10068 2025 50  0000 C CNN
+F 1 "Relays to Electrodes 1" H 10068 2116 50  0000 C CNN
+F 2 "dmf_relay_board:MOLEX_30POS_FFC_TOP_CONN" H 10150 3750 50  0001 C CNN
+F 3 "~" H 10150 3750 50  0001 C CNN
+	1    10150 3750
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -125,246 +125,6 @@ Wire Wire Line
 	8450 2800 8450 3000
 Wire Wire Line
 	8450 3150 8450 3000
-Wire Wire Line
-	7250 5600 7250 5400
-Text GLabel 7250 5600 3    50   Input ~ 0
-ELEC_60
-Wire Wire Line
-	7100 5600 7100 5400
-Text GLabel 7100 5600 3    50   Input ~ 0
-ELEC_59
-Wire Wire Line
-	6950 5600 6950 5400
-Text GLabel 6950 5600 3    50   Input ~ 0
-ELEC_58
-Wire Wire Line
-	6800 5600 6800 5400
-Text GLabel 6800 5600 3    50   Input ~ 0
-ELEC_57
-Wire Wire Line
-	6650 5600 6650 5400
-Text GLabel 6650 5600 3    50   Input ~ 0
-ELEC_56
-Wire Wire Line
-	6500 5600 6500 5400
-Text GLabel 6500 5600 3    50   Input ~ 0
-ELEC_55
-Wire Wire Line
-	6350 5600 6350 5400
-Text GLabel 6350 5600 3    50   Input ~ 0
-ELEC_54
-Wire Wire Line
-	6200 5600 6200 5400
-Text GLabel 6200 5600 3    50   Input ~ 0
-ELEC_53
-Wire Wire Line
-	6050 5600 6050 5400
-Text GLabel 6050 5600 3    50   Input ~ 0
-ELEC_52
-Wire Wire Line
-	5900 5600 5900 5400
-Text GLabel 5900 5600 3    50   Input ~ 0
-ELEC_51
-Wire Wire Line
-	5750 5600 5750 5400
-Text GLabel 5750 5600 3    50   Input ~ 0
-ELEC_50
-Wire Wire Line
-	5600 5600 5600 5400
-Text GLabel 5600 5600 3    50   Input ~ 0
-ELEC_49
-Wire Wire Line
-	5450 5600 5450 5400
-Text GLabel 5450 5600 3    50   Input ~ 0
-ELEC_48
-Wire Wire Line
-	5300 5600 5300 5400
-Text GLabel 5300 5600 3    50   Input ~ 0
-ELEC_47
-Wire Wire Line
-	5150 5600 5150 5400
-Text GLabel 5150 5600 3    50   Input ~ 0
-ELEC_46
-Wire Wire Line
-	5000 5600 5000 5400
-Text GLabel 5000 5600 3    50   Input ~ 0
-ELEC_45
-Wire Wire Line
-	4850 5600 4850 5400
-Text GLabel 4850 5600 3    50   Input ~ 0
-ELEC_44
-Wire Wire Line
-	4700 5600 4700 5400
-Text GLabel 4700 5600 3    50   Input ~ 0
-ELEC_43
-Wire Wire Line
-	4550 5600 4550 5400
-Text GLabel 4550 5600 3    50   Input ~ 0
-ELEC_42
-Wire Wire Line
-	4400 5600 4400 5400
-Text GLabel 4400 5600 3    50   Input ~ 0
-ELEC_41
-Wire Wire Line
-	3650 4850 3850 4850
-Wire Wire Line
-	3650 4700 3850 4700
-Wire Wire Line
-	3650 4550 3850 4550
-Wire Wire Line
-	3650 4400 3850 4400
-Wire Wire Line
-	3650 4250 3850 4250
-Wire Wire Line
-	3650 4100 3850 4100
-Wire Wire Line
-	3650 3950 3850 3950
-Wire Wire Line
-	3650 3800 3850 3800
-Wire Wire Line
-	3650 3650 3850 3650
-Wire Wire Line
-	3850 3500 3650 3500
-Wire Wire Line
-	3650 3350 3850 3350
-Wire Wire Line
-	3650 3200 3850 3200
-Wire Wire Line
-	3650 3050 3850 3050
-Wire Wire Line
-	3850 2900 3650 2900
-Wire Wire Line
-	3650 2750 3850 2750
-Wire Wire Line
-	3850 2600 3650 2600
-Wire Wire Line
-	3650 2450 3850 2450
-Wire Wire Line
-	3650 2300 3850 2300
-Wire Wire Line
-	3650 2150 3850 2150
-Wire Wire Line
-	3850 2000 3650 2000
-Wire Wire Line
-	4400 1250 4400 1450
-Wire Wire Line
-	4550 1250 4550 1450
-Wire Wire Line
-	4700 1250 4700 1450
-Wire Wire Line
-	4850 1250 4850 1450
-Wire Wire Line
-	5000 1250 5000 1450
-Wire Wire Line
-	5150 1250 5150 1450
-Wire Wire Line
-	5300 1250 5300 1450
-Wire Wire Line
-	5450 1250 5450 1450
-Wire Wire Line
-	5600 1250 5600 1450
-Wire Wire Line
-	5750 1250 5750 1450
-Wire Wire Line
-	5900 1250 5900 1450
-Wire Wire Line
-	6050 1250 6050 1450
-Wire Wire Line
-	6200 1250 6200 1450
-Wire Wire Line
-	6350 1250 6350 1450
-Wire Wire Line
-	6500 1250 6500 1450
-Wire Wire Line
-	6650 1250 6650 1450
-Wire Wire Line
-	6800 1250 6800 1450
-Wire Wire Line
-	6950 1450 6950 1250
-Wire Wire Line
-	7100 1250 7100 1450
-Wire Wire Line
-	7250 1250 7250 1450
-Text GLabel 3650 4850 0    50   Input ~ 0
-ELEC_40
-Text GLabel 3650 4700 0    50   Input ~ 0
-ELEC_39
-Text GLabel 3650 4550 0    50   Input ~ 0
-ELEC_38
-Text GLabel 3650 4400 0    50   Input ~ 0
-ELEC_37
-Text GLabel 3650 4250 0    50   Input ~ 0
-ELEC_36
-Text GLabel 3650 4100 0    50   Input ~ 0
-ELEC_35
-Text GLabel 3650 3950 0    50   Input ~ 0
-ELEC_34
-Text GLabel 3650 3800 0    50   Input ~ 0
-ELEC_33
-Text GLabel 3650 3650 0    50   Input ~ 0
-ELEC_32
-Text GLabel 3650 3500 0    50   Input ~ 0
-ELEC_31
-Text GLabel 3650 3350 0    50   Input ~ 0
-ELEC_30
-Text GLabel 3650 3200 0    50   Input ~ 0
-ELEC_29
-Text GLabel 3650 3050 0    50   Input ~ 0
-ELEC_28
-Text GLabel 3650 2900 0    50   Input ~ 0
-ELEC_27
-Text GLabel 3650 2750 0    50   Input ~ 0
-ELEC_26
-Text GLabel 3650 2600 0    50   Input ~ 0
-ELEC_25
-Text GLabel 3650 2450 0    50   Input ~ 0
-ELEC_24
-Text GLabel 3650 2300 0    50   Input ~ 0
-ELEC_23
-Text GLabel 3650 2150 0    50   Input ~ 0
-ELEC_22
-Text GLabel 3650 2000 0    50   Input ~ 0
-ELEC_21
-Text GLabel 4400 1250 1    50   Input ~ 0
-ELEC_20
-Text GLabel 4550 1250 1    50   Input ~ 0
-ELEC_19
-Text GLabel 4700 1250 1    50   Input ~ 0
-ELEC_18
-Text GLabel 4850 1250 1    50   Input ~ 0
-ELEC_17
-Text GLabel 5000 1250 1    50   Input ~ 0
-ELEC_16
-Text GLabel 5150 1250 1    50   Input ~ 0
-ELEC_15
-Text GLabel 5300 1250 1    50   Input ~ 0
-ELEC_14
-Text GLabel 5450 1250 1    50   Input ~ 0
-ELEC_13
-Text GLabel 5600 1250 1    50   Input ~ 0
-ELEC_12
-Text GLabel 5750 1250 1    50   Input ~ 0
-ELEC_11
-Text GLabel 5900 1250 1    50   Input ~ 0
-ELEC_10
-Text GLabel 6050 1250 1    50   Input ~ 0
-ELEC_9
-Text GLabel 6200 1250 1    50   Input ~ 0
-ELEC_8
-Text GLabel 6350 1250 1    50   Input ~ 0
-ELEC_7
-Text GLabel 6500 1250 1    50   Input ~ 0
-ELEC_6
-Text GLabel 6650 1250 1    50   Input ~ 0
-ELEC_5
-Text GLabel 6800 1250 1    50   Input ~ 0
-ELEC_4
-Text GLabel 6950 1250 1    50   Input ~ 0
-ELEC_3
-Text GLabel 7100 1250 1    50   Input ~ 0
-ELEC_2
-Text GLabel 7250 1250 1    50   Input ~ 0
-ELEC_1
 NoConn ~ 7750 2550
 NoConn ~ 7750 2700
 NoConn ~ 7750 3750
@@ -515,246 +275,248 @@ NoConn ~ 7750 4350
 NoConn ~ 7750 4500
 NoConn ~ 7750 4650
 NoConn ~ 7750 4800
-Text GLabel 10600 3250 2    50   Input ~ 0
-ELEC_20
-Text GLabel 10600 3350 2    50   Input ~ 0
-ELEC_19
-Text GLabel 10600 3450 2    50   Input ~ 0
-ELEC_18
-Text GLabel 10600 3550 2    50   Input ~ 0
-ELEC_17
-Text GLabel 10600 3650 2    50   Input ~ 0
-ELEC_16
-Text GLabel 10600 3750 2    50   Input ~ 0
-ELEC_15
-Text GLabel 10600 3850 2    50   Input ~ 0
-ELEC_14
-Text GLabel 10600 3950 2    50   Input ~ 0
-ELEC_13
-Text GLabel 10600 4050 2    50   Input ~ 0
-ELEC_12
-Text GLabel 10600 4150 2    50   Input ~ 0
-ELEC_11
-Text GLabel 10600 4250 2    50   Input ~ 0
-ELEC_10
-Text GLabel 10600 4350 2    50   Input ~ 0
-ELEC_9
-Text GLabel 10600 4450 2    50   Input ~ 0
-ELEC_8
-Text GLabel 10600 4550 2    50   Input ~ 0
-ELEC_7
-Text GLabel 10600 4650 2    50   Input ~ 0
-ELEC_6
-Text GLabel 10600 4750 2    50   Input ~ 0
-ELEC_5
-Text GLabel 10600 4850 2    50   Input ~ 0
-ELEC_4
-Text GLabel 10600 4950 2    50   Input ~ 0
-ELEC_3
-Text GLabel 10600 5050 2    50   Input ~ 0
-ELEC_2
-Text GLabel 10600 5150 2    50   Input ~ 0
-ELEC_1
-Wire Wire Line
-	10600 5150 10400 5150
-Wire Wire Line
-	10600 5050 10400 5050
-Wire Wire Line
-	10400 4950 10600 4950
-Wire Wire Line
-	10600 4850 10400 4850
-Wire Wire Line
-	10600 4750 10400 4750
-Wire Wire Line
-	10600 4650 10400 4650
-Wire Wire Line
-	10600 4550 10400 4550
-Wire Wire Line
-	10600 4450 10400 4450
-Wire Wire Line
-	10600 4350 10400 4350
-Wire Wire Line
-	10600 4250 10400 4250
-Wire Wire Line
-	10600 4150 10400 4150
-Wire Wire Line
-	10600 4050 10400 4050
-Wire Wire Line
-	10600 3950 10400 3950
-Wire Wire Line
-	10600 3850 10400 3850
-Wire Wire Line
-	10600 3750 10400 3750
-Wire Wire Line
-	10600 3650 10400 3650
-Wire Wire Line
-	10600 3550 10400 3550
-Wire Wire Line
-	10600 3450 10400 3450
-Wire Wire Line
-	10600 3350 10400 3350
-Wire Wire Line
-	10600 3250 10400 3250
-Text GLabel 10600 2250 2    50   Input ~ 0
-ELEC_30
-Text GLabel 10600 2350 2    50   Input ~ 0
-ELEC_29
-Text GLabel 10600 2450 2    50   Input ~ 0
-ELEC_28
-Text GLabel 10600 2550 2    50   Input ~ 0
-ELEC_27
-Text GLabel 10600 2650 2    50   Input ~ 0
-ELEC_26
-Text GLabel 10600 2750 2    50   Input ~ 0
-ELEC_25
-Text GLabel 10600 2850 2    50   Input ~ 0
-ELEC_24
-Text GLabel 10600 2950 2    50   Input ~ 0
-ELEC_23
-Text GLabel 10600 3050 2    50   Input ~ 0
-ELEC_22
-Text GLabel 10600 3150 2    50   Input ~ 0
-ELEC_21
-Wire Wire Line
-	10600 2250 10400 2250
-Wire Wire Line
-	10400 2350 10600 2350
-Wire Wire Line
-	10600 2450 10400 2450
-Wire Wire Line
-	10400 2550 10600 2550
-Wire Wire Line
-	10600 2650 10400 2650
-Wire Wire Line
-	10600 2850 10400 2850
-Wire Wire Line
-	10400 2750 10600 2750
-Wire Wire Line
-	10400 2950 10600 2950
-Wire Wire Line
-	10600 3050 10400 3050
-Wire Wire Line
-	10400 3150 10600 3150
-Wire Wire Line
-	9400 4250 9200 4250
-Wire Wire Line
-	9400 4350 9200 4350
-Wire Wire Line
-	9400 4450 9200 4450
-Wire Wire Line
-	9400 4550 9200 4550
-Wire Wire Line
-	9400 4650 9200 4650
-Wire Wire Line
-	9400 4750 9200 4750
-Wire Wire Line
-	9400 4850 9200 4850
-Wire Wire Line
-	9400 4950 9200 4950
-Wire Wire Line
-	9400 5050 9200 5050
-Wire Wire Line
-	9200 5150 9400 5150
-Text GLabel 9400 4250 2    50   Input ~ 0
-ELEC_40
-Text GLabel 9400 4350 2    50   Input ~ 0
-ELEC_39
-Text GLabel 9400 4450 2    50   Input ~ 0
-ELEC_38
-Text GLabel 9400 4550 2    50   Input ~ 0
-ELEC_37
-Text GLabel 9400 4650 2    50   Input ~ 0
-ELEC_36
-Text GLabel 9400 4750 2    50   Input ~ 0
-ELEC_35
-Text GLabel 9400 4850 2    50   Input ~ 0
-ELEC_34
-Text GLabel 9400 4950 2    50   Input ~ 0
-ELEC_33
-Text GLabel 9400 5050 2    50   Input ~ 0
-ELEC_32
-Text GLabel 9400 5150 2    50   Input ~ 0
-ELEC_31
-Wire Wire Line
-	9400 2250 9200 2250
-Text GLabel 9400 2250 2    50   Input ~ 0
-ELEC_60
-Wire Wire Line
-	9400 2350 9200 2350
-Text GLabel 9400 2350 2    50   Input ~ 0
-ELEC_59
-Wire Wire Line
-	9400 2450 9200 2450
-Text GLabel 9400 2450 2    50   Input ~ 0
-ELEC_58
-Wire Wire Line
-	9400 2550 9200 2550
-Text GLabel 9400 2550 2    50   Input ~ 0
-ELEC_57
-Wire Wire Line
-	9400 2650 9200 2650
-Text GLabel 9400 2650 2    50   Input ~ 0
-ELEC_56
-Wire Wire Line
-	9400 2750 9200 2750
-Text GLabel 9400 2750 2    50   Input ~ 0
-ELEC_55
-Wire Wire Line
-	9400 2850 9200 2850
-Text GLabel 9400 2850 2    50   Input ~ 0
-ELEC_54
-Wire Wire Line
-	9400 2950 9200 2950
-Text GLabel 9400 2950 2    50   Input ~ 0
-ELEC_53
-Wire Wire Line
-	9400 3150 9200 3150
-Text GLabel 9400 3150 2    50   Input ~ 0
-ELEC_51
-Wire Wire Line
-	9400 3250 9200 3250
-Text GLabel 9400 3250 2    50   Input ~ 0
-ELEC_50
-Wire Wire Line
-	9400 3350 9200 3350
-Text GLabel 9400 3350 2    50   Input ~ 0
-ELEC_49
-Wire Wire Line
-	9400 3450 9200 3450
-Text GLabel 9400 3450 2    50   Input ~ 0
-ELEC_48
-Wire Wire Line
-	9400 3550 9200 3550
-Text GLabel 9400 3550 2    50   Input ~ 0
-ELEC_47
-Wire Wire Line
-	9400 3750 9200 3750
-Text GLabel 9400 3750 2    50   Input ~ 0
-ELEC_45
-Wire Wire Line
-	9400 3850 9200 3850
-Text GLabel 9400 3850 2    50   Input ~ 0
-ELEC_44
-Wire Wire Line
-	9400 3950 9200 3950
-Text GLabel 9400 3950 2    50   Input ~ 0
-ELEC_43
-Wire Wire Line
-	9400 4050 9200 4050
-Wire Wire Line
-	9400 4150 9200 4150
-Text GLabel 9400 4150 2    50   Input ~ 0
-ELEC_41
-Text GLabel 9400 4050 2    50   Input ~ 0
-ELEC_42
-Text GLabel 9400 3650 2    50   Input ~ 0
-ELEC_46
-Wire Wire Line
-	9400 3650 9200 3650
-Text GLabel 9400 3050 2    50   Input ~ 0
-ELEC_52
-Wire Wire Line
-	9400 3050 9200 3050
 Wire Wire Line
 	1000 3100 1000 3250
+Wire Wire Line
+	3700 3050 3850 3050
+Text GLabel 3700 3050 0    50   Input ~ 0
+CHNL_28
+Wire Wire Line
+	3700 2900 3850 2900
+Text GLabel 3700 2900 0    50   Input ~ 0
+CHNL_27
+Wire Wire Line
+	3700 2750 3850 2750
+Text GLabel 3700 2750 0    50   Input ~ 0
+CHNL_26
+Wire Wire Line
+	3700 2600 3850 2600
+Text GLabel 3700 2600 0    50   Input ~ 0
+CHNL_25
+Wire Wire Line
+	3700 3200 3850 3200
+Text GLabel 3700 3200 0    50   Input ~ 0
+CHNL_29
+Wire Wire Line
+	3700 3350 3850 3350
+Text GLabel 3700 3350 0    50   Input ~ 0
+CHNL_30
+Wire Wire Line
+	3700 3500 3850 3500
+Text GLabel 3700 3500 0    50   Input ~ 0
+CHNL_31
+Wire Wire Line
+	3700 3650 3850 3650
+Text GLabel 3700 3650 0    50   Input ~ 0
+CHNL_32
+Text GLabel 10550 2250 2    50   Input ~ 0
+CHNL_28
+Text GLabel 10550 2450 2    50   Input ~ 0
+CHNL_27
+Text GLabel 10550 2650 2    50   Input ~ 0
+CHNL_26
+Text GLabel 10550 2850 2    50   Input ~ 0
+CHNL_25
+Text GLabel 10550 2350 2    50   Input ~ 0
+CHNL_29
+Text GLabel 10550 2550 2    50   Input ~ 0
+CHNL_30
+Text GLabel 10550 2750 2    50   Input ~ 0
+CHNL_31
+Text GLabel 10550 2950 2    50   Input ~ 0
+CHNL_32
+Wire Wire Line
+	10350 2350 10550 2350
+Wire Wire Line
+	10350 2550 10550 2550
+Wire Wire Line
+	10350 2750 10550 2750
+Wire Wire Line
+	10350 2950 10550 2950
+Wire Wire Line
+	10350 2250 10550 2250
+Wire Wire Line
+	10350 2450 10550 2450
+Wire Wire Line
+	10350 2650 10550 2650
+Wire Wire Line
+	10350 2850 10550 2850
+Wire Wire Line
+	3700 2450 3850 2450
+Text GLabel 3700 2450 0    50   Input ~ 0
+CHNL_24
+Wire Wire Line
+	3700 2300 3850 2300
+Text GLabel 3700 2300 0    50   Input ~ 0
+CHNL_23
+Wire Wire Line
+	3700 2150 3850 2150
+Text GLabel 3700 2150 0    50   Input ~ 0
+CHNL_22
+Wire Wire Line
+	3700 2000 3850 2000
+Text GLabel 3700 2000 0    50   Input ~ 0
+CHNL_21
+Text GLabel 10550 3050 2    50   Input ~ 0
+CHNL_24
+Text GLabel 10550 3250 2    50   Input ~ 0
+CHNL_23
+Text GLabel 10550 3450 2    50   Input ~ 0
+CHNL_22
+Text GLabel 10550 3650 2    50   Input ~ 0
+CHNL_21
+Wire Wire Line
+	10350 3050 10550 3050
+Wire Wire Line
+	10350 3250 10550 3250
+Wire Wire Line
+	10350 3450 10550 3450
+Wire Wire Line
+	10350 3650 10550 3650
+Text GLabel 4400 1300 1    50   Input ~ 0
+CHNL_20
+Text GLabel 4550 1300 1    50   Input ~ 0
+CHNL_19
+Text GLabel 4700 1300 1    50   Input ~ 0
+CHNL_18
+Wire Wire Line
+	4400 1300 4400 1450
+Wire Wire Line
+	4550 1300 4550 1450
+Wire Wire Line
+	4700 1300 4700 1450
+Text GLabel 4850 1300 1    50   Input ~ 0
+CHNL_17
+Wire Wire Line
+	4850 1300 4850 1450
+Text GLabel 10550 3850 2    50   Input ~ 0
+CHNL_20
+Text GLabel 10550 4050 2    50   Input ~ 0
+CHNL_19
+Text GLabel 10550 4250 2    50   Input ~ 0
+CHNL_18
+Text GLabel 10550 4450 2    50   Input ~ 0
+CHNL_17
+Wire Wire Line
+	10550 3850 10350 3850
+Wire Wire Line
+	10350 4050 10550 4050
+Wire Wire Line
+	10550 4250 10350 4250
+Wire Wire Line
+	10350 4450 10550 4450
+Text GLabel 5000 1300 1    50   Input ~ 0
+CHNL_16
+Wire Wire Line
+	5000 1300 5000 1450
+Text GLabel 5150 1300 1    50   Input ~ 0
+CHNL_15
+Wire Wire Line
+	5150 1300 5150 1450
+Text GLabel 5300 1300 1    50   Input ~ 0
+CHNL_14
+Wire Wire Line
+	5300 1300 5300 1450
+Text GLabel 10550 4650 2    50   Input ~ 0
+CHNL_16
+Text GLabel 10550 4850 2    50   Input ~ 0
+CHNL_15
+Text GLabel 10550 5050 2    50   Input ~ 0
+CHNL_14
+Wire Wire Line
+	10350 4650 10550 4650
+Wire Wire Line
+	10350 4850 10550 4850
+Wire Wire Line
+	10350 5050 10550 5050
+Text GLabel 5450 1300 1    50   Input ~ 0
+CHNL_13
+Wire Wire Line
+	5450 1300 5450 1450
+Text GLabel 5600 1300 1    50   Input ~ 0
+CHNL_12
+Wire Wire Line
+	5600 1300 5600 1450
+Text GLabel 5750 1300 1    50   Input ~ 0
+CHNL_11
+Wire Wire Line
+	5750 1300 5750 1450
+Text GLabel 5900 1300 1    50   Input ~ 0
+CHNL_10
+Wire Wire Line
+	5900 1300 5900 1450
+Text GLabel 10550 3150 2    50   Input ~ 0
+CHNL_13
+Text GLabel 10550 3350 2    50   Input ~ 0
+CHNL_12
+Text GLabel 10550 3550 2    50   Input ~ 0
+CHNL_11
+Text GLabel 10550 3750 2    50   Input ~ 0
+CHNL_10
+Wire Wire Line
+	10350 3150 10550 3150
+Wire Wire Line
+	10350 3350 10550 3350
+Wire Wire Line
+	10350 3550 10550 3550
+Wire Wire Line
+	10350 3750 10550 3750
+Text GLabel 6050 1300 1    50   Input ~ 0
+CHNL_9
+Wire Wire Line
+	6050 1300 6050 1450
+Text GLabel 6200 1300 1    50   Input ~ 0
+CHNL_8
+Wire Wire Line
+	6200 1300 6200 1450
+Text GLabel 6350 1300 1    50   Input ~ 0
+CHNL_7
+Wire Wire Line
+	6350 1300 6350 1450
+Text GLabel 6500 1300 1    50   Input ~ 0
+CHNL_6
+Wire Wire Line
+	6500 1300 6500 1450
+Text GLabel 6650 1300 1    50   Input ~ 0
+CHNL_5
+Wire Wire Line
+	6650 1300 6650 1450
+Text GLabel 6800 1300 1    50   Input ~ 0
+CHNL_4
+Wire Wire Line
+	6800 1300 6800 1450
+Text GLabel 6950 1300 1    50   Input ~ 0
+CHNL_3
+Wire Wire Line
+	6950 1300 6950 1450
+NoConn ~ 7100 1450
+NoConn ~ 7250 1450
+Text GLabel 10550 4550 2    50   Input ~ 0
+CHNL_6
+Text GLabel 10550 4350 2    50   Input ~ 0
+CHNL_5
+Text GLabel 10550 4150 2    50   Input ~ 0
+CHNL_4
+Text GLabel 10550 3950 2    50   Input ~ 0
+CHNL_3
+Wire Wire Line
+	10550 3950 10350 3950
+Wire Wire Line
+	10550 4150 10350 4150
+Wire Wire Line
+	10550 4350 10350 4350
+Wire Wire Line
+	10550 4550 10350 4550
+Text GLabel 10550 5150 2    50   Input ~ 0
+CHNL_9
+Text GLabel 10550 4950 2    50   Input ~ 0
+CHNL_8
+Text GLabel 10550 4750 2    50   Input ~ 0
+CHNL_7
+Wire Wire Line
+	10550 4750 10350 4750
+Wire Wire Line
+	10350 4950 10550 4950
+Wire Wire Line
+	10550 5150 10350 5150
 $EndSCHEMATC
