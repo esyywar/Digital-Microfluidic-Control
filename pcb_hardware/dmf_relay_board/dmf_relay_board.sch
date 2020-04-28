@@ -24,7 +24,7 @@ F 3 "https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf" H 2050 4200
 	1    2050 4200
 	1    0    0    -1  
 $EndComp
-Text Notes 3000 6450 0    50   ~ 0
+Text Notes 3000 6400 0    50   ~ 0
 FFC to Electrodes from Relay Board
 $Comp
 L Connector_Generic:Conn_01x02 J1
@@ -84,23 +84,23 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x30 J5
 U 1 1 5EA57770
-P 5250 7050
-F 0 "J5" V 5467 6996 50  0000 C CNN
-F 1 "Electrodes from Relay 2" V 5376 6996 50  0000 C CNN
-F 2 "dmf_relay_board:MOLEX_30POS_FFC_TOP_CONN" H 5250 7050 50  0001 C CNN
-F 3 "~" H 5250 7050 50  0001 C CNN
-	1    5250 7050
+P 5250 6750
+F 0 "J5" V 5467 6696 50  0000 C CNN
+F 1 "Electrodes from Relay 2" V 5376 6696 50  0000 C CNN
+F 2 "dmf_relay_board:MOLEX_30POS_FFC_TOP_CONN" H 5250 6750 50  0001 C CNN
+F 3 "~" H 5250 6750 50  0001 C CNN
+	1    5250 6750
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x30 J4
 U 1 1 5EA5AA18
-P 2150 7050
-F 0 "J4" V 2367 6996 50  0000 C CNN
-F 1 "Electrodes from Relay 1" V 2276 6996 50  0000 C CNN
-F 2 "dmf_relay_board:MOLEX_30POS_FFC_TOP_CONN" H 2150 7050 50  0001 C CNN
-F 3 "~" H 2150 7050 50  0001 C CNN
-	1    2150 7050
+P 2150 6750
+F 0 "J4" V 2367 6696 50  0000 C CNN
+F 1 "Electrodes from Relay 1" V 2276 6696 50  0000 C CNN
+F 2 "dmf_relay_board:MOLEX_30POS_FFC_TOP_CONN" H 2150 6750 50  0001 C CNN
+F 3 "~" H 2150 6750 50  0001 C CNN
+	1    2150 6750
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -765,4 +765,15 @@ Wire Wire Line
 	9200 2550 9350 2550
 Wire Wire Line
 	9350 2750 9200 2750
+$Comp
+L dmf_relay_board:ELEC_SML E?
+U 1 1 5EAF9D2D
+P 750 7100
+F 0 "E?" V 646 7188 50  0000 L CNN
+F 1 "ELEC_SML" V 737 7188 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 850 6800 50  0001 C CNN
+F 3 "" H 750 7100 50  0001 C CNN
+	1    750  7100
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
