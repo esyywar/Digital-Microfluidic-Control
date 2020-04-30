@@ -181,6 +181,20 @@ X D6 9 -500 0 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# dmf_relay_board_ELEC_LG
+#
+DEF dmf_relay_board_ELEC_LG E 0 40 Y Y 1 F N
+F0 "E" 150 0 50 H V C CNN
+F1 "dmf_relay_board_ELEC_LG" 450 0 50 H V C CNN
+F2 "dmf_relay_board:ELECTRODE_3_89_4MIL_4_5" 100 -300 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 0 20 0 0 0 EL_LG Normal 0 C C
+S -50 50 50 -50 0 1 0 f
+X ~ 1 -150 0 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
 # dmf_relay_board_ELEC_SML
 #
 DEF dmf_relay_board_ELEC_SML E 0 40 Y Y 1 F N
@@ -190,6 +204,20 @@ F2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" 100 -300 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 T 0 0 0 20 0 0 0 EL_SM Normal 0 C C
+S -50 50 50 -50 0 1 0 f
+X ~ 1 -150 0 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# dmf_relay_board_ELEC_XS
+#
+DEF dmf_relay_board_ELEC_XS E 0 40 Y Y 1 F N
+F0 "E" 150 0 50 H V C CNN
+F1 "dmf_relay_board_ELEC_XS" 400 0 50 H V C CNN
+F2 "dmf_relay_board:ELECTRODE_1_375_4MIL_4_5" 100 -300 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 0 20 0 0 0 EL_XS Normal 0 C C
 S -50 50 50 -50 0 1 0 f
 X ~ 1 -150 0 100 R 50 50 1 1 W
 ENDDRAW

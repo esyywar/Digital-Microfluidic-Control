@@ -1,8 +1,8 @@
-(module ELECTRODE_2_75_4MIL_4_5 (layer F.Cu) (tedit 5EA870CF)
-  (fp_text reference ELEC_1 (at 0.49 2.21) (layer F.SilkS) hide
+(module ELECTRODE_2_75_4MIL_4_5 (layer F.Cu) (tedit 5EAA2605)
+  (fp_text reference REF** (at 0.49 2.21) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value FX (at 1.14 -2.07) (layer F.Fab) hide
+  (fp_text value E_SM (at 1.14 -2.07) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 1.411 0.515625) (end 1.051 0.859375) (layer F.Cu) (width 0.1))
