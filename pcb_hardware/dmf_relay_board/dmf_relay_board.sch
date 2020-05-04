@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_Module:Arduino_Nano_v2.x A1
+L dmf_relay_board-rescue:Arduino_Nano_v2.x-MCU_Module A1
 U 1 1 5E9E6DB3
 P 2050 4200
 F 0 "A1" H 2400 3200 50  0000 C CNN
@@ -27,7 +27,7 @@ $EndComp
 Text Notes 3000 6250 0    50   ~ 0
 FFC to Electrodes from Relay Board
 $Comp
-L Connector_Generic:Conn_01x02 J1
+L dmf_relay_board-rescue:Conn_01x02-Connector_Generic J1
 U 1 1 5EA107F4
 P 2150 1550
 F 0 "J1" H 2230 1542 50  0000 L CNN
@@ -58,7 +58,7 @@ Text GLabel 1150 4400 0    50   Input ~ 0
 Wire Wire Line
 	1150 4400 1550 4400
 $Comp
-L power:GND #PWR0101
+L dmf_relay_board-rescue:GND-power #PWR0101
 U 1 1 5EA2B7C4
 P 2050 5450
 F 0 "#PWR0101" H 2050 5200 50  0001 C CNN
@@ -71,7 +71,7 @@ $EndComp
 Wire Wire Line
 	2050 5450 2050 5200
 $Comp
-L Connector_Generic:Conn_01x30 J2
+L dmf_relay_board-rescue:Conn_01x30-Connector_Generic J2
 U 1 1 5EA5096A
 P 10150 3750
 F 0 "J2" H 10068 2025 50  0000 C CNN
@@ -82,7 +82,7 @@ F 3 "~" H 10150 3750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x30 J5
+L dmf_relay_board-rescue:Conn_01x30-Connector_Generic J5
 U 1 1 5EA57770
 P 5200 6550
 F 0 "J5" V 5417 6496 50  0000 C CNN
@@ -93,7 +93,7 @@ F 3 "~" H 5200 6550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x30 J4
+L dmf_relay_board-rescue:Conn_01x30-Connector_Generic J4
 U 1 1 5EA5AA18
 P 2100 6550
 F 0 "J4" V 2317 6496 50  0000 C CNN
@@ -104,7 +104,7 @@ F 3 "~" H 2100 6550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x30 J3
+L dmf_relay_board-rescue:Conn_01x30-Connector_Generic J3
 U 1 1 5EA7D0A7
 P 9000 3750
 F 0 "J3" H 8918 2025 50  0000 C CNN
@@ -141,7 +141,7 @@ Wire Wire Line
 Wire Wire Line
 	7750 3100 8450 3100
 $Comp
-L power:GND #PWR0102
+L dmf_relay_board-rescue:GND-power #PWR0102
 U 1 1 5EA2C7CD
 P 8450 2650
 F 0 "#PWR0102" H 8450 2400 50  0001 C CNN
@@ -174,7 +174,7 @@ HV Driver IC - Push-Pull HV507
 NoConn ~ 7750 2050
 NoConn ~ 7750 4150
 $Comp
-L Device:LED D1
+L dmf_relay_board-rescue:LED-Device D1
 U 1 1 5EA661B1
 P 1000 3400
 F 0 "D1" V 947 3478 50  0000 L CNN
@@ -204,7 +204,7 @@ NoConn ~ 1550 4800
 NoConn ~ 1550 4600
 NoConn ~ 1550 4500
 $Comp
-L Device:R R1
+L dmf_relay_board-rescue:R-Device R1
 U 1 1 5EA8BE96
 P 1000 3800
 F 0 "R1" H 1070 3846 50  0000 L CNN
@@ -215,7 +215,7 @@ F 3 "~" H 1000 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0103
+L dmf_relay_board-rescue:GND-power #PWR0103
 U 1 1 5EA9273C
 P 1000 3100
 F 0 "#PWR0103" H 1000 2850 50  0001 C CNN
@@ -433,7 +433,7 @@ CHNL_8
 Text GLabel 10500 4750 2    50   Input ~ 0
 CHNL_7
 $Comp
-L power:GND #PWR0104
+L dmf_relay_board-rescue:GND-power #PWR0104
 U 1 1 5EB873B4
 P 1750 1850
 F 0 "#PWR0104" H 1750 1600 50  0001 C CNN
@@ -1365,4 +1365,5 @@ F 3 "" H 4200 7000 50  0001 C CNN
 	1    4200 7000
 	0    1    1    0   
 $EndComp
+NoConn ~ 1550 3800
 $EndSCHEMATC
