@@ -1,4 +1,4 @@
-update=2020-04-27 8:42:54 PM
+update=2020-05-04 9:56:09 PM
 version=1
 last_client=kicad
 [general]
@@ -258,6 +258,17 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
+Name=ELEC_HV
+Clearance=0
+TrackWidth=0.2
+ViaDiameter=0.6
+ViaDrill=0.3
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/3]
 Name=LV_Power
 Clearance=0.2
 TrackWidth=0.35
