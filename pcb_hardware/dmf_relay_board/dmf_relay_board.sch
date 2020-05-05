@@ -16,1354 +16,1534 @@ $EndDescr
 $Comp
 L dmf_relay_board-rescue:Arduino_Nano_v2.x-MCU_Module A1
 U 1 1 5E9E6DB3
-P 2050 4200
-F 0 "A1" H 2400 3200 50  0000 C CNN
-F 1 "Arduino_Nano_v2.x" H 2600 3100 50  0000 C CNN
-F 2 "Module:Arduino_Nano" H 2050 4200 50  0001 C CIN
-F 3 "https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf" H 2050 4200 50  0001 C CNN
-	1    2050 4200
+P 2050 4050
+F 0 "A1" H 2400 3050 50  0000 C CNN
+F 1 "Arduino_Nano_v2.x" H 2600 2950 50  0000 C CNN
+F 2 "Module:Arduino_Nano" H 2050 4050 50  0001 C CIN
+F 3 "https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf" H 2050 4050 50  0001 C CNN
+	1    2050 4050
 	1    0    0    -1  
 $EndComp
-Text Notes 3000 6250 0    50   ~ 0
+Text Notes 2950 6050 0    50   ~ 0
 FFC to Electrodes from Relay Board
 $Comp
 L dmf_relay_board-rescue:Conn_01x02-Connector_Generic J1
 U 1 1 5EA107F4
-P 2150 1550
-F 0 "J1" H 2230 1542 50  0000 L CNN
-F 1 "HVPS" H 2230 1451 50  0000 L CNN
-F 2 "dmf_relay_board:TE_HV_2POS_CONN_TB" H 2150 1550 50  0001 C CNN
-F 3 "~" H 2150 1550 50  0001 C CNN
-	1    2150 1550
+P 2150 1400
+F 0 "J1" H 2230 1392 50  0000 L CNN
+F 1 "HVPS" H 2230 1301 50  0000 L CNN
+F 2 "dmf_relay_board:TE_HV_2POS_CONN_TB" H 2150 1400 50  0001 C CNN
+F 3 "~" H 2150 1400 50  0001 C CNN
+	1    2150 1400
 	1    0    0    -1  
 $EndComp
-Text GLabel 1350 4700 0    50   Input ~ 0
+Text GLabel 1350 4550 0    50   Input ~ 0
 DI
 Wire Wire Line
-	1350 4700 1550 4700
-Text GLabel 1350 4900 0    50   Input ~ 0
+	1350 4550 1550 4550
+Text GLabel 1350 4750 0    50   Input ~ 0
 SCLK
 Wire Wire Line
-	1550 4900 1350 4900
-Text GLabel 2250 3050 1    50   Input ~ 0
+	1550 4750 1350 4750
+Text GLabel 2250 2900 1    50   Input ~ 0
 VDD
 Wire Wire Line
-	2250 3050 2250 3200
-Text GLabel 1350 4300 0    50   Input ~ 0
+	2250 2900 2250 3050
+Text GLabel 1350 4150 0    50   Input ~ 0
 ~BL
 Wire Wire Line
-	1350 4300 1550 4300
-Text GLabel 1150 4400 0    50   Input ~ 0
+	1350 4150 1550 4150
+Text GLabel 1150 4250 0    50   Input ~ 0
 ~LE
 Wire Wire Line
-	1150 4400 1550 4400
+	1150 4250 1550 4250
 $Comp
 L dmf_relay_board-rescue:GND-power #PWR0101
 U 1 1 5EA2B7C4
-P 2050 5450
-F 0 "#PWR0101" H 2050 5200 50  0001 C CNN
-F 1 "GND" H 2055 5277 50  0000 C CNN
-F 2 "" H 2050 5450 50  0001 C CNN
-F 3 "" H 2050 5450 50  0001 C CNN
-	1    2050 5450
+P 2050 5300
+F 0 "#PWR0101" H 2050 5050 50  0001 C CNN
+F 1 "GND" H 2055 5127 50  0000 C CNN
+F 2 "" H 2050 5300 50  0001 C CNN
+F 3 "" H 2050 5300 50  0001 C CNN
+	1    2050 5300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2050 5450 2050 5200
+	2050 5300 2050 5050
 $Comp
 L dmf_relay_board-rescue:Conn_01x30-Connector_Generic J2
 U 1 1 5EA5096A
-P 10150 3750
-F 0 "J2" H 10068 2025 50  0000 C CNN
-F 1 "Relays to Electrodes 1" H 10068 2116 50  0000 C CNN
-F 2 "dmf_relay_board:MOLEX_30POS_FFC_TOP_CONN" H 10150 3750 50  0001 C CNN
-F 3 "~" H 10150 3750 50  0001 C CNN
-	1    10150 3750
+P 10150 3600
+F 0 "J2" H 10068 1875 50  0000 C CNN
+F 1 "Relays to Electrodes 1" H 10068 1966 50  0000 C CNN
+F 2 "dmf_relay_board:MOLEX_30POS_FFC_TOP_CONN" H 10150 3600 50  0001 C CNN
+F 3 "~" H 10150 3600 50  0001 C CNN
+	1    10150 3600
 	-1   0    0    1   
 $EndComp
 $Comp
 L dmf_relay_board-rescue:Conn_01x30-Connector_Generic J5
 U 1 1 5EA57770
-P 5200 6550
-F 0 "J5" V 5417 6496 50  0000 C CNN
-F 1 "Electrodes from Relay 2" V 5326 6496 50  0000 C CNN
-F 2 "dmf_relay_board:MOLEX_30POS_FFC_TOP_CONN" H 5200 6550 50  0001 C CNN
-F 3 "~" H 5200 6550 50  0001 C CNN
-	1    5200 6550
+P 5200 6250
+F 0 "J5" V 5417 6196 50  0000 C CNN
+F 1 "Electrodes from Relay 2" V 5326 6196 50  0000 C CNN
+F 2 "dmf_relay_board:MOLEX_30POS_FFC_TOP_CONN" H 5200 6250 50  0001 C CNN
+F 3 "~" H 5200 6250 50  0001 C CNN
+	1    5200 6250
 	0    -1   -1   0   
 $EndComp
 $Comp
 L dmf_relay_board-rescue:Conn_01x30-Connector_Generic J4
 U 1 1 5EA5AA18
-P 2100 6550
-F 0 "J4" V 2317 6496 50  0000 C CNN
-F 1 "Electrodes from Relay 1" V 2226 6496 50  0000 C CNN
-F 2 "dmf_relay_board:MOLEX_30POS_FFC_TOP_CONN" H 2100 6550 50  0001 C CNN
-F 3 "~" H 2100 6550 50  0001 C CNN
-	1    2100 6550
+P 2100 6250
+F 0 "J4" V 2317 6196 50  0000 C CNN
+F 1 "Electrodes from Relay 1" V 2226 6196 50  0000 C CNN
+F 2 "dmf_relay_board:MOLEX_30POS_FFC_TOP_CONN" H 2100 6250 50  0001 C CNN
+F 3 "~" H 2100 6250 50  0001 C CNN
+	1    2100 6250
 	0    -1   -1   0   
 $EndComp
 $Comp
 L dmf_relay_board-rescue:Conn_01x30-Connector_Generic J3
 U 1 1 5EA7D0A7
-P 9000 3750
-F 0 "J3" H 8918 2025 50  0000 C CNN
-F 1 "Relays to Electrodes 2" H 8918 2116 50  0000 C CNN
-F 2 "dmf_relay_board:MOLEX_30POS_FFC_TOP_CONN" H 9000 3750 50  0001 C CNN
-F 3 "~" H 9000 3750 50  0001 C CNN
-	1    9000 3750
+P 9000 3600
+F 0 "J3" H 8918 1875 50  0000 C CNN
+F 1 "Relays to Electrodes 2" H 8918 1966 50  0000 C CNN
+F 2 "dmf_relay_board:MOLEX_30POS_FFC_TOP_CONN" H 9000 3600 50  0001 C CNN
+F 3 "~" H 9000 3600 50  0001 C CNN
+	1    9000 3600
 	-1   0    0    1   
 $EndComp
-Text Notes 2250 1150 2    50   ~ 0
+Text Notes 2250 1000 2    50   ~ 0
 Connector from HVPS
-Text Notes 2850 2650 2    50   ~ 0
+Text Notes 2850 2500 2    50   ~ 0
 Arduino Nano Connected to PC via USB
-Text Notes 10650 1700 2    50   ~ 0
+Text Notes 10800 1650 2    50   ~ 0
 FFC Connectors Out Relay Board to Electrodes
-Connection ~ 8450 2950
+Connection ~ 8450 2800
 Wire Wire Line
-	8450 3100 8450 2950
+	8450 2950 8450 2800
+NoConn ~ 7750 2350
 NoConn ~ 7750 2500
-NoConn ~ 7750 2650
+NoConn ~ 7750 3550
 NoConn ~ 7750 3700
-NoConn ~ 7750 3850
 Wire Wire Line
-	8050 3250 8200 3250
-Connection ~ 8050 3250
-Wire Wire Line
-	7750 3400 8050 3400
-Wire Wire Line
-	8050 3400 8050 3250
+	8050 3100 8200 3100
+Connection ~ 8050 3100
 Wire Wire Line
 	7750 3250 8050 3250
 Wire Wire Line
-	7750 2950 8450 2950
+	8050 3250 8050 3100
 Wire Wire Line
-	7750 3100 8450 3100
+	7750 3100 8050 3100
+Wire Wire Line
+	7750 2800 8450 2800
+Wire Wire Line
+	7750 2950 8450 2950
 $Comp
 L dmf_relay_board-rescue:GND-power #PWR0102
 U 1 1 5EA2C7CD
-P 8450 2650
-F 0 "#PWR0102" H 8450 2400 50  0001 C CNN
-F 1 "GND" H 8455 2477 50  0000 C CNN
-F 2 "" H 8450 2650 50  0001 C CNN
-F 3 "" H 8450 2650 50  0001 C CNN
-	1    8450 2650
+P 8450 2500
+F 0 "#PWR0102" H 8450 2250 50  0001 C CNN
+F 1 "GND" H 8455 2327 50  0000 C CNN
+F 2 "" H 8450 2500 50  0001 C CNN
+F 3 "" H 8450 2500 50  0001 C CNN
+	1    8450 2500
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7750 2200 8000 2200
-Text GLabel 8000 2200 2    50   Input ~ 0
+	7750 2050 8000 2050
+Text GLabel 8000 2050 2    50   Input ~ 0
 ~LE
 Wire Wire Line
-	7750 3550 8000 3550
-Text GLabel 8000 3550 2    50   Input ~ 0
+	7750 3400 8000 3400
+Text GLabel 8000 3400 2    50   Input ~ 0
 ~BL
-Text GLabel 8200 3250 2    50   Input ~ 0
+Text GLabel 8200 3100 2    50   Input ~ 0
 VDD
 Wire Wire Line
-	7750 2350 8000 2350
-Text GLabel 8000 2350 2    50   Input ~ 0
+	7750 2200 8000 2200
+Text GLabel 8000 2200 2    50   Input ~ 0
 SCLK
 Wire Wire Line
-	7950 4000 7750 4000
-Text GLabel 7950 4000 2    50   Input ~ 0
+	7950 3850 7750 3850
+Text GLabel 7950 3850 2    50   Input ~ 0
 DI
-Text Notes 5100 750  0    50   ~ 0
+Text Notes 5100 650  0    50   ~ 0
 HV Driver IC - Push-Pull HV507
-NoConn ~ 7750 2050
-NoConn ~ 7750 4150
+NoConn ~ 7750 1900
+NoConn ~ 7750 4000
 $Comp
 L dmf_relay_board-rescue:LED-Device D1
 U 1 1 5EA661B1
-P 1000 3400
-F 0 "D1" V 947 3478 50  0000 L CNN
-F 1 "LED" V 1038 3478 50  0000 L CNN
-F 2 "LED_THT:LED_D5.0mm_FlatTop" H 1000 3400 50  0001 C CNN
-F 3 "~" H 1000 3400 50  0001 C CNN
-	1    1000 3400
+P 1000 3250
+F 0 "D1" V 947 3328 50  0000 L CNN
+F 1 "LED" V 1038 3328 50  0000 L CNN
+F 2 "LED_THT:LED_D5.0mm_FlatTop" H 1000 3250 50  0001 C CNN
+F 3 "~" H 1000 3250 50  0001 C CNN
+	1    1000 3250
 	0    1    1    0   
 $EndComp
-NoConn ~ 1550 3600
-NoConn ~ 1550 3700
-NoConn ~ 1950 3200
-NoConn ~ 2150 3200
-NoConn ~ 2550 4000
-NoConn ~ 2550 4200
-NoConn ~ 2550 4300
-NoConn ~ 2550 4400
-NoConn ~ 2550 4500
-NoConn ~ 2550 4600
-NoConn ~ 2550 4700
-NoConn ~ 2550 4800
-NoConn ~ 2550 4900
-NoConn ~ 2550 3700
-NoConn ~ 2550 3600
-NoConn ~ 2150 5200
-NoConn ~ 1550 4800
-NoConn ~ 1550 4600
-NoConn ~ 1550 4500
+NoConn ~ 1550 3450
+NoConn ~ 1550 3550
+NoConn ~ 1950 3050
+NoConn ~ 2150 3050
+NoConn ~ 2550 3850
+NoConn ~ 2550 4050
+NoConn ~ 2550 4150
+NoConn ~ 2550 4250
+NoConn ~ 2550 4350
+NoConn ~ 2550 4450
+NoConn ~ 2550 4550
+NoConn ~ 2550 4650
+NoConn ~ 2550 4750
+NoConn ~ 2550 3550
+NoConn ~ 2550 3450
+NoConn ~ 2150 5050
+NoConn ~ 1550 4650
+NoConn ~ 1550 4450
+NoConn ~ 1550 4350
 $Comp
 L dmf_relay_board-rescue:R-Device R1
 U 1 1 5EA8BE96
-P 1000 3800
-F 0 "R1" H 1070 3846 50  0000 L CNN
-F 1 "R" H 1070 3755 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 930 3800 50  0001 C CNN
-F 3 "~" H 1000 3800 50  0001 C CNN
-	1    1000 3800
+P 1000 3650
+F 0 "R1" H 1070 3696 50  0000 L CNN
+F 1 "R" H 1070 3605 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 930 3650 50  0001 C CNN
+F 3 "~" H 1000 3650 50  0001 C CNN
+	1    1000 3650
 	1    0    0    -1  
 $EndComp
 $Comp
 L dmf_relay_board-rescue:GND-power #PWR0103
 U 1 1 5EA9273C
-P 1000 3100
-F 0 "#PWR0103" H 1000 2850 50  0001 C CNN
-F 1 "GND" H 1005 2927 50  0000 C CNN
-F 2 "" H 1000 3100 50  0001 C CNN
-F 3 "" H 1000 3100 50  0001 C CNN
-	1    1000 3100
+P 1000 2950
+F 0 "#PWR0103" H 1000 2700 50  0001 C CNN
+F 1 "GND" H 1005 2777 50  0000 C CNN
+F 2 "" H 1000 2950 50  0001 C CNN
+F 3 "" H 1000 2950 50  0001 C CNN
+	1    1000 2950
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1550 4100 1000 4100
+	1550 3950 1000 3950
 Wire Wire Line
-	1000 4100 1000 3950
+	1000 3950 1000 3800
 Wire Wire Line
-	1000 3650 1000 3550
-NoConn ~ 1550 4200
-NoConn ~ 1550 4000
-NoConn ~ 1550 3900
-Text GLabel 1650 1450 0    50   Input ~ 0
+	1000 3500 1000 3400
+NoConn ~ 1550 4050
+NoConn ~ 1550 3850
+NoConn ~ 1550 3750
+Text GLabel 1650 1300 0    50   Input ~ 0
 VPP
 Wire Wire Line
-	1750 1650 1950 1650
+	1750 1500 1950 1500
 Wire Wire Line
-	1650 1450 1750 1450
+	1650 1300 1750 1300
 Wire Wire Line
-	1750 1450 1750 1550
+	1750 1300 1750 1400
 Wire Wire Line
-	1750 1550 1950 1550
-Text GLabel 8000 1900 2    50   Input ~ 0
+	1750 1400 1950 1400
+Text GLabel 8000 1750 2    50   Input ~ 0
 VPP
 Wire Wire Line
-	8000 1900 7750 1900
+	8000 1750 7750 1750
+NoConn ~ 7750 4150
 NoConn ~ 7750 4300
-NoConn ~ 7750 4450
 Wire Wire Line
-	1000 3100 1000 3250
-Wire Wire Line
-	3700 3000 3850 3000
-Text GLabel 3700 3000 0    50   Input ~ 0
-CHNL_28
+	1000 2950 1000 3100
 Wire Wire Line
 	3700 2850 3850 2850
 Text GLabel 3700 2850 0    50   Input ~ 0
-CHNL_27
+CHNL_28
 Wire Wire Line
 	3700 2700 3850 2700
 Text GLabel 3700 2700 0    50   Input ~ 0
-CHNL_26
+CHNL_27
 Wire Wire Line
 	3700 2550 3850 2550
 Text GLabel 3700 2550 0    50   Input ~ 0
-CHNL_25
-Wire Wire Line
-	3700 3150 3850 3150
-Text GLabel 3700 3150 0    50   Input ~ 0
-CHNL_29
-Wire Wire Line
-	3700 3300 3850 3300
-Text GLabel 3700 3300 0    50   Input ~ 0
-CHNL_30
-Wire Wire Line
-	3700 3450 3850 3450
-Text GLabel 3700 3450 0    50   Input ~ 0
-CHNL_31
-Wire Wire Line
-	3700 3600 3850 3600
-Text GLabel 3700 3600 0    50   Input ~ 0
-CHNL_32
-Text GLabel 10500 2250 2    50   Input ~ 0
-CHNL_28
-Text GLabel 10500 2450 2    50   Input ~ 0
-CHNL_27
-Text GLabel 10500 2650 2    50   Input ~ 0
 CHNL_26
-Text GLabel 10500 2850 2    50   Input ~ 0
-CHNL_25
-Text GLabel 10500 2350 2    50   Input ~ 0
-CHNL_29
-Text GLabel 10500 2550 2    50   Input ~ 0
-CHNL_30
-Text GLabel 10500 2750 2    50   Input ~ 0
-CHNL_31
-Text GLabel 10500 2950 2    50   Input ~ 0
-CHNL_32
 Wire Wire Line
 	3700 2400 3850 2400
 Text GLabel 3700 2400 0    50   Input ~ 0
-CHNL_24
+CHNL_25
+Wire Wire Line
+	3700 3000 3850 3000
+Text GLabel 3700 3000 0    50   Input ~ 0
+CHNL_29
+Wire Wire Line
+	3700 3150 3850 3150
+Text GLabel 3700 3150 0    50   Input ~ 0
+CHNL_30
+Wire Wire Line
+	3700 3300 3850 3300
+Text GLabel 3700 3300 0    50   Input ~ 0
+CHNL_31
+Wire Wire Line
+	3700 3450 3850 3450
+Text GLabel 3700 3450 0    50   Input ~ 0
+CHNL_32
+Text GLabel 10500 2100 2    50   Input ~ 0
+CHNL_28
+Text GLabel 10500 2300 2    50   Input ~ 0
+CHNL_27
+Text GLabel 10500 2500 2    50   Input ~ 0
+CHNL_26
+Text GLabel 10500 2700 2    50   Input ~ 0
+CHNL_25
+Text GLabel 10500 2200 2    50   Input ~ 0
+CHNL_29
+Text GLabel 10500 2400 2    50   Input ~ 0
+CHNL_30
+Text GLabel 10500 2600 2    50   Input ~ 0
+CHNL_31
+Text GLabel 10500 2800 2    50   Input ~ 0
+CHNL_32
 Wire Wire Line
 	3700 2250 3850 2250
 Text GLabel 3700 2250 0    50   Input ~ 0
-CHNL_23
+CHNL_24
 Wire Wire Line
 	3700 2100 3850 2100
 Text GLabel 3700 2100 0    50   Input ~ 0
-CHNL_22
+CHNL_23
 Wire Wire Line
 	3700 1950 3850 1950
 Text GLabel 3700 1950 0    50   Input ~ 0
-CHNL_21
-Text GLabel 10500 3050 2    50   Input ~ 0
-CHNL_24
-Text GLabel 10500 3250 2    50   Input ~ 0
-CHNL_23
-Text GLabel 10500 3450 2    50   Input ~ 0
 CHNL_22
-Text GLabel 10500 3650 2    50   Input ~ 0
+Wire Wire Line
+	3700 1800 3850 1800
+Text GLabel 3700 1800 0    50   Input ~ 0
 CHNL_21
-Text GLabel 4400 1250 1    50   Input ~ 0
+Text GLabel 10500 2900 2    50   Input ~ 0
+CHNL_24
+Text GLabel 10500 3100 2    50   Input ~ 0
+CHNL_23
+Text GLabel 10500 3300 2    50   Input ~ 0
+CHNL_22
+Text GLabel 10500 3500 2    50   Input ~ 0
+CHNL_21
+Text GLabel 4400 1100 1    50   Input ~ 0
 CHNL_20
-Text GLabel 4550 1250 1    50   Input ~ 0
+Text GLabel 4550 1100 1    50   Input ~ 0
 CHNL_19
-Text GLabel 4700 1250 1    50   Input ~ 0
+Text GLabel 4700 1100 1    50   Input ~ 0
 CHNL_18
 Wire Wire Line
-	4400 1250 4400 1400
+	4400 1100 4400 1250
 Wire Wire Line
-	4550 1250 4550 1400
+	4550 1100 4550 1250
 Wire Wire Line
-	4700 1250 4700 1400
-Text GLabel 4850 1250 1    50   Input ~ 0
+	4700 1100 4700 1250
+Text GLabel 4850 1100 1    50   Input ~ 0
 CHNL_17
 Wire Wire Line
-	4850 1250 4850 1400
-Text GLabel 10500 3850 2    50   Input ~ 0
+	4850 1100 4850 1250
+Text GLabel 10500 3700 2    50   Input ~ 0
 CHNL_20
-Text GLabel 10500 4050 2    50   Input ~ 0
+Text GLabel 10500 3900 2    50   Input ~ 0
 CHNL_19
-Text GLabel 10500 4450 2    50   Input ~ 0
+Text GLabel 10500 4300 2    50   Input ~ 0
 CHNL_17
-Text GLabel 5000 1250 1    50   Input ~ 0
+Text GLabel 5000 1100 1    50   Input ~ 0
 CHNL_16
 Wire Wire Line
-	5000 1250 5000 1400
-Text GLabel 5150 1250 1    50   Input ~ 0
+	5000 1100 5000 1250
+Text GLabel 5150 1100 1    50   Input ~ 0
 CHNL_15
 Wire Wire Line
-	5150 1250 5150 1400
-Text GLabel 5300 1250 1    50   Input ~ 0
+	5150 1100 5150 1250
+Text GLabel 5300 1100 1    50   Input ~ 0
 CHNL_14
 Wire Wire Line
-	5300 1250 5300 1400
-Text GLabel 10500 4650 2    50   Input ~ 0
+	5300 1100 5300 1250
+Text GLabel 10500 4500 2    50   Input ~ 0
 CHNL_16
-Text GLabel 10500 4850 2    50   Input ~ 0
+Text GLabel 10500 4700 2    50   Input ~ 0
 CHNL_15
-Text GLabel 10500 5050 2    50   Input ~ 0
+Text GLabel 10500 4900 2    50   Input ~ 0
 CHNL_14
-Text GLabel 5450 1250 1    50   Input ~ 0
+Text GLabel 5450 1100 1    50   Input ~ 0
 CHNL_13
 Wire Wire Line
-	5450 1250 5450 1400
-Text GLabel 5600 1250 1    50   Input ~ 0
+	5450 1100 5450 1250
+Text GLabel 5600 1100 1    50   Input ~ 0
 CHNL_12
 Wire Wire Line
-	5600 1250 5600 1400
-Text GLabel 5750 1250 1    50   Input ~ 0
+	5600 1100 5600 1250
+Text GLabel 5750 1100 1    50   Input ~ 0
 CHNL_11
 Wire Wire Line
-	5750 1250 5750 1400
-Text GLabel 5900 1250 1    50   Input ~ 0
+	5750 1100 5750 1250
+Text GLabel 5900 1100 1    50   Input ~ 0
 CHNL_10
 Wire Wire Line
-	5900 1250 5900 1400
-Text GLabel 10500 3150 2    50   Input ~ 0
+	5900 1100 5900 1250
+Text GLabel 10500 3000 2    50   Input ~ 0
 CHNL_13
-Text GLabel 10500 3350 2    50   Input ~ 0
+Text GLabel 10500 3200 2    50   Input ~ 0
 CHNL_12
-Text GLabel 10500 3550 2    50   Input ~ 0
+Text GLabel 10500 3400 2    50   Input ~ 0
 CHNL_11
-Text GLabel 10500 3750 2    50   Input ~ 0
+Text GLabel 10500 3600 2    50   Input ~ 0
 CHNL_10
-Text GLabel 6050 1250 1    50   Input ~ 0
+Text GLabel 6050 1100 1    50   Input ~ 0
 CHNL_9
 Wire Wire Line
-	6050 1250 6050 1400
-Text GLabel 6200 1250 1    50   Input ~ 0
+	6050 1100 6050 1250
+Text GLabel 6200 1100 1    50   Input ~ 0
 CHNL_8
 Wire Wire Line
-	6200 1250 6200 1400
-Text GLabel 6350 1250 1    50   Input ~ 0
+	6200 1100 6200 1250
+Text GLabel 6350 1100 1    50   Input ~ 0
 CHNL_7
 Wire Wire Line
-	6350 1250 6350 1400
-Text GLabel 6500 1250 1    50   Input ~ 0
+	6350 1100 6350 1250
+Text GLabel 6500 1100 1    50   Input ~ 0
 CHNL_6
 Wire Wire Line
-	6500 1250 6500 1400
-Text GLabel 6650 1250 1    50   Input ~ 0
+	6500 1100 6500 1250
+Text GLabel 6650 1100 1    50   Input ~ 0
 CHNL_5
 Wire Wire Line
-	6650 1250 6650 1400
-Text GLabel 6800 1250 1    50   Input ~ 0
+	6650 1100 6650 1250
+Text GLabel 6800 1100 1    50   Input ~ 0
 CHNL_4
 Wire Wire Line
-	6800 1250 6800 1400
-Text GLabel 6950 1250 1    50   Input ~ 0
+	6800 1100 6800 1250
+Text GLabel 6950 1100 1    50   Input ~ 0
 CHNL_3
 Wire Wire Line
-	6950 1250 6950 1400
-NoConn ~ 7100 1400
-NoConn ~ 7250 1400
-Text GLabel 10500 4550 2    50   Input ~ 0
+	6950 1100 6950 1250
+NoConn ~ 7100 1250
+NoConn ~ 7250 1250
+Text GLabel 10500 4400 2    50   Input ~ 0
 CHNL_6
-Text GLabel 10500 4350 2    50   Input ~ 0
+Text GLabel 10500 4200 2    50   Input ~ 0
 CHNL_5
-Text GLabel 10500 4150 2    50   Input ~ 0
+Text GLabel 10500 4000 2    50   Input ~ 0
 CHNL_4
-Text GLabel 10500 3950 2    50   Input ~ 0
+Text GLabel 10500 3800 2    50   Input ~ 0
 CHNL_3
-Text GLabel 10500 5150 2    50   Input ~ 0
+Text GLabel 10500 5000 2    50   Input ~ 0
 CHNL_9
-Text GLabel 10500 4950 2    50   Input ~ 0
+Text GLabel 10500 4800 2    50   Input ~ 0
 CHNL_8
-Text GLabel 10500 4750 2    50   Input ~ 0
+Text GLabel 10500 4600 2    50   Input ~ 0
 CHNL_7
 $Comp
 L dmf_relay_board-rescue:GND-power #PWR0104
 U 1 1 5EB873B4
-P 1750 1850
-F 0 "#PWR0104" H 1750 1600 50  0001 C CNN
-F 1 "GND" H 1755 1677 50  0000 C CNN
-F 2 "" H 1750 1850 50  0001 C CNN
-F 3 "" H 1750 1850 50  0001 C CNN
-	1    1750 1850
+P 1750 1700
+F 0 "#PWR0104" H 1750 1450 50  0001 C CNN
+F 1 "GND" H 1755 1527 50  0000 C CNN
+F 2 "" H 1750 1700 50  0001 C CNN
+F 3 "" H 1750 1700 50  0001 C CNN
+	1    1750 1700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7750 2800 8450 2800
-Connection ~ 8450 2800
-Wire Wire Line
-	8450 2800 8450 2950
+	7750 2650 8450 2650
+Connection ~ 8450 2650
 Wire Wire Line
 	8450 2650 8450 2800
 Wire Wire Line
+	8450 2500 8450 2650
+Wire Wire Line
+	3700 3600 3850 3600
+Text GLabel 3700 3600 0    50   Input ~ 0
+CHNL_33
+Wire Wire Line
 	3700 3750 3850 3750
 Text GLabel 3700 3750 0    50   Input ~ 0
-CHNL_33
+CHNL_34
 Wire Wire Line
 	3700 3900 3850 3900
 Text GLabel 3700 3900 0    50   Input ~ 0
-CHNL_34
+CHNL_35
 Wire Wire Line
 	3700 4050 3850 4050
 Text GLabel 3700 4050 0    50   Input ~ 0
+CHNL_36
+Text GLabel 9350 4400 2    50   Input ~ 0
+CHNL_33
+Text GLabel 9350 4600 2    50   Input ~ 0
+CHNL_34
+Text GLabel 9350 4800 2    50   Input ~ 0
 CHNL_35
+Text GLabel 9350 5000 2    50   Input ~ 0
+CHNL_36
+Text GLabel 10500 4100 2    50   Input ~ 0
+CHNL_18
+Wire Wire Line
+	10350 2100 10500 2100
+Wire Wire Line
+	10350 2200 10500 2200
+Wire Wire Line
+	10350 2300 10500 2300
+Wire Wire Line
+	10350 2400 10500 2400
+Wire Wire Line
+	10350 2500 10500 2500
+Wire Wire Line
+	10350 2600 10500 2600
+Wire Wire Line
+	10350 2700 10500 2700
+Wire Wire Line
+	10350 2800 10500 2800
+Wire Wire Line
+	10350 2900 10500 2900
+Wire Wire Line
+	10350 3000 10500 3000
+Wire Wire Line
+	10350 3100 10500 3100
+Wire Wire Line
+	10350 3200 10500 3200
+Wire Wire Line
+	10350 3300 10500 3300
+Wire Wire Line
+	10350 3400 10500 3400
+Wire Wire Line
+	10350 3500 10500 3500
+Wire Wire Line
+	10350 3600 10500 3600
+Wire Wire Line
+	10350 3700 10500 3700
+Wire Wire Line
+	10350 3800 10500 3800
+Wire Wire Line
+	10350 3900 10500 3900
+Wire Wire Line
+	10350 4000 10500 4000
+Wire Wire Line
+	10350 4100 10500 4100
+Wire Wire Line
+	10350 4200 10500 4200
+Wire Wire Line
+	10350 4300 10500 4300
+Wire Wire Line
+	10350 4400 10500 4400
+Wire Wire Line
+	10350 4500 10500 4500
+Wire Wire Line
+	10350 4600 10500 4600
+Wire Wire Line
+	10350 4700 10500 4700
+Wire Wire Line
+	10350 4800 10500 4800
+Wire Wire Line
+	10350 4900 10500 4900
+Wire Wire Line
+	10350 5000 10500 5000
+Wire Wire Line
+	9350 4400 9200 4400
+Wire Wire Line
+	9200 4600 9350 4600
+Wire Wire Line
+	9350 4800 9200 4800
+Wire Wire Line
+	9200 5000 9350 5000
 Wire Wire Line
 	3700 4200 3850 4200
 Text GLabel 3700 4200 0    50   Input ~ 0
-CHNL_36
-Text GLabel 9350 4550 2    50   Input ~ 0
-CHNL_33
-Text GLabel 9350 4750 2    50   Input ~ 0
-CHNL_34
-Text GLabel 9350 4950 2    50   Input ~ 0
-CHNL_35
-Text GLabel 9350 5150 2    50   Input ~ 0
-CHNL_36
-Text GLabel 10500 4250 2    50   Input ~ 0
-CHNL_18
-Wire Wire Line
-	10350 2250 10500 2250
-Wire Wire Line
-	10350 2350 10500 2350
-Wire Wire Line
-	10350 2450 10500 2450
-Wire Wire Line
-	10350 2550 10500 2550
-Wire Wire Line
-	10350 2650 10500 2650
-Wire Wire Line
-	10350 2750 10500 2750
-Wire Wire Line
-	10350 2850 10500 2850
-Wire Wire Line
-	10350 2950 10500 2950
-Wire Wire Line
-	10350 3050 10500 3050
-Wire Wire Line
-	10350 3150 10500 3150
-Wire Wire Line
-	10350 3250 10500 3250
-Wire Wire Line
-	10350 3350 10500 3350
-Wire Wire Line
-	10350 3450 10500 3450
-Wire Wire Line
-	10350 3550 10500 3550
-Wire Wire Line
-	10350 3650 10500 3650
-Wire Wire Line
-	10350 3750 10500 3750
-Wire Wire Line
-	10350 3850 10500 3850
-Wire Wire Line
-	10350 3950 10500 3950
-Wire Wire Line
-	10350 4050 10500 4050
-Wire Wire Line
-	10350 4150 10500 4150
-Wire Wire Line
-	10350 4250 10500 4250
-Wire Wire Line
-	10350 4350 10500 4350
-Wire Wire Line
-	10350 4450 10500 4450
-Wire Wire Line
-	10350 4550 10500 4550
-Wire Wire Line
-	10350 4650 10500 4650
-Wire Wire Line
-	10350 4750 10500 4750
-Wire Wire Line
-	10350 4850 10500 4850
-Wire Wire Line
-	10350 4950 10500 4950
-Wire Wire Line
-	10350 5050 10500 5050
-Wire Wire Line
-	10350 5150 10500 5150
-Wire Wire Line
-	9350 4550 9200 4550
-Wire Wire Line
-	9200 4750 9350 4750
-Wire Wire Line
-	9350 4950 9200 4950
-Wire Wire Line
-	9200 5150 9350 5150
+CHNL_37
 Wire Wire Line
 	3700 4350 3850 4350
 Text GLabel 3700 4350 0    50   Input ~ 0
-CHNL_37
+CHNL_38
 Wire Wire Line
 	3700 4500 3850 4500
 Text GLabel 3700 4500 0    50   Input ~ 0
-CHNL_38
+CHNL_39
 Wire Wire Line
 	3700 4650 3850 4650
 Text GLabel 3700 4650 0    50   Input ~ 0
-CHNL_39
-Wire Wire Line
-	3700 4800 3850 4800
-Text GLabel 3700 4800 0    50   Input ~ 0
 CHNL_40
 Wire Wire Line
-	9350 5050 9200 5050
-Text GLabel 9350 5050 2    50   Input ~ 0
+	9350 4900 9200 4900
+Text GLabel 9350 4900 2    50   Input ~ 0
 CHNL_37
 Wire Wire Line
-	9350 4850 9200 4850
-Text GLabel 9350 4850 2    50   Input ~ 0
+	9350 4700 9200 4700
+Text GLabel 9350 4700 2    50   Input ~ 0
 CHNL_38
 Wire Wire Line
-	9350 4650 9200 4650
-Text GLabel 9350 4650 2    50   Input ~ 0
+	9350 4500 9200 4500
+Text GLabel 9350 4500 2    50   Input ~ 0
 CHNL_39
 Wire Wire Line
-	9350 4450 9200 4450
-Text GLabel 9350 4450 2    50   Input ~ 0
+	9350 4300 9200 4300
+Text GLabel 9350 4300 2    50   Input ~ 0
 CHNL_40
 Wire Wire Line
-	1750 1650 1750 1850
-Text GLabel 4400 5550 3    50   Input ~ 0
+	1750 1500 1750 1700
+Text GLabel 4400 5400 3    50   Input ~ 0
 CHNL_41
 Wire Wire Line
-	4400 5350 4400 5550
-Text GLabel 4550 5550 3    50   Input ~ 0
+	4400 5200 4400 5400
+Text GLabel 4550 5400 3    50   Input ~ 0
 CHNL_42
 Wire Wire Line
-	4550 5350 4550 5550
-Text GLabel 4700 5550 3    50   Input ~ 0
+	4550 5200 4550 5400
+Text GLabel 4700 5400 3    50   Input ~ 0
 CHNL_43
 Wire Wire Line
-	4700 5350 4700 5550
-Text GLabel 4850 5550 3    50   Input ~ 0
+	4700 5200 4700 5400
+Text GLabel 4850 5400 3    50   Input ~ 0
 CHNL_44
 Wire Wire Line
-	4850 5350 4850 5550
-Text GLabel 5000 5550 3    50   Input ~ 0
+	4850 5200 4850 5400
+Text GLabel 5000 5400 3    50   Input ~ 0
 CHNL_45
 Wire Wire Line
-	5000 5350 5000 5550
-Text GLabel 9350 4250 2    50   Input ~ 0
+	5000 5200 5000 5400
+Text GLabel 9350 4100 2    50   Input ~ 0
 CHNL_41
-Text GLabel 9350 4050 2    50   Input ~ 0
+Text GLabel 9350 3900 2    50   Input ~ 0
 CHNL_42
-Text GLabel 9350 3850 2    50   Input ~ 0
+Text GLabel 9350 3700 2    50   Input ~ 0
 CHNL_43
-Text GLabel 9350 3650 2    50   Input ~ 0
+Text GLabel 9350 3500 2    50   Input ~ 0
 CHNL_44
-Text GLabel 9350 3450 2    50   Input ~ 0
+Text GLabel 9350 3300 2    50   Input ~ 0
 CHNL_45
 Wire Wire Line
-	9350 4250 9200 4250
+	9350 4100 9200 4100
 Wire Wire Line
-	9350 4050 9200 4050
+	9350 3900 9200 3900
 Wire Wire Line
-	9350 3850 9200 3850
+	9350 3700 9200 3700
 Wire Wire Line
-	9350 3650 9200 3650
+	9350 3500 9200 3500
 Wire Wire Line
-	9200 3450 9350 3450
-Text GLabel 5150 5550 3    50   Input ~ 0
+	9200 3300 9350 3300
+Text GLabel 5150 5400 3    50   Input ~ 0
 CHNL_46
 Wire Wire Line
-	5150 5350 5150 5550
-Text GLabel 5300 5550 3    50   Input ~ 0
+	5150 5200 5150 5400
+Text GLabel 5300 5400 3    50   Input ~ 0
 CHNL_47
 Wire Wire Line
-	5300 5350 5300 5550
-Text GLabel 5450 5550 3    50   Input ~ 0
+	5300 5200 5300 5400
+Text GLabel 5450 5400 3    50   Input ~ 0
 CHNL_48
 Wire Wire Line
-	5450 5350 5450 5550
-Text GLabel 5600 5550 3    50   Input ~ 0
+	5450 5200 5450 5400
+Text GLabel 5600 5400 3    50   Input ~ 0
 CHNL_49
 Wire Wire Line
-	5600 5350 5600 5550
-Text GLabel 9350 3250 2    50   Input ~ 0
+	5600 5200 5600 5400
+Text GLabel 9350 3100 2    50   Input ~ 0
 CHNL_46
-Text GLabel 9350 3050 2    50   Input ~ 0
+Text GLabel 9350 2900 2    50   Input ~ 0
 CHNL_47
-Text GLabel 9350 2850 2    50   Input ~ 0
+Text GLabel 9350 2700 2    50   Input ~ 0
 CHNL_48
-Text GLabel 9350 2650 2    50   Input ~ 0
+Text GLabel 9350 2500 2    50   Input ~ 0
 CHNL_49
 Wire Wire Line
-	9350 2650 9200 2650
+	9350 2500 9200 2500
 Wire Wire Line
-	9350 2850 9200 2850
+	9350 2700 9200 2700
 Wire Wire Line
-	9350 3050 9200 3050
+	9350 2900 9200 2900
 Wire Wire Line
-	9350 3250 9200 3250
-Text GLabel 5750 5550 3    50   Input ~ 0
+	9350 3100 9200 3100
+Text GLabel 5750 5400 3    50   Input ~ 0
 CHNL_50
 Wire Wire Line
-	5750 5350 5750 5550
-Text GLabel 5900 5550 3    50   Input ~ 0
+	5750 5200 5750 5400
+Text GLabel 5900 5400 3    50   Input ~ 0
 CHNL_51
 Wire Wire Line
-	5900 5350 5900 5550
-Text GLabel 9350 2450 2    50   Input ~ 0
+	5900 5200 5900 5400
+Text GLabel 9350 2300 2    50   Input ~ 0
 CHNL_50
-Text GLabel 9350 2250 2    50   Input ~ 0
+Text GLabel 9350 2100 2    50   Input ~ 0
 CHNL_51
 Wire Wire Line
-	9350 2250 9200 2250
+	9350 2100 9200 2100
 Wire Wire Line
-	9350 2450 9200 2450
-Text GLabel 6050 5550 3    50   Input ~ 0
+	9350 2300 9200 2300
+Text GLabel 6050 5400 3    50   Input ~ 0
 CHNL_52
 Wire Wire Line
-	6050 5350 6050 5550
-Text GLabel 6200 5550 3    50   Input ~ 0
+	6050 5200 6050 5400
+Text GLabel 6200 5400 3    50   Input ~ 0
 CHNL_53
 Wire Wire Line
-	6200 5350 6200 5550
-Text GLabel 6350 5550 3    50   Input ~ 0
+	6200 5200 6200 5400
+Text GLabel 6350 5400 3    50   Input ~ 0
 CHNL_54
 Wire Wire Line
-	6350 5350 6350 5550
-Text GLabel 6500 5550 3    50   Input ~ 0
+	6350 5200 6350 5400
+Text GLabel 6500 5400 3    50   Input ~ 0
 CHNL_55
 Wire Wire Line
-	6500 5350 6500 5550
-Text GLabel 9350 2350 2    50   Input ~ 0
+	6500 5200 6500 5400
+Text GLabel 9350 2200 2    50   Input ~ 0
 CHNL_52
-Text GLabel 9350 2550 2    50   Input ~ 0
+Text GLabel 9350 2400 2    50   Input ~ 0
 CHNL_53
-Text GLabel 9350 2750 2    50   Input ~ 0
+Text GLabel 9350 2600 2    50   Input ~ 0
 CHNL_54
-Text GLabel 9350 2950 2    50   Input ~ 0
+Text GLabel 9350 2800 2    50   Input ~ 0
 CHNL_55
 Wire Wire Line
-	9350 4350 9200 4350
+	9350 4200 9200 4200
 Wire Wire Line
-	9200 4150 9350 4150
+	9200 4000 9350 4000
 Wire Wire Line
-	9350 3950 9200 3950
+	9350 3800 9200 3800
 Wire Wire Line
-	9200 3750 9350 3750
-Text GLabel 6650 5550 3    50   Input ~ 0
+	9200 3600 9350 3600
+Text GLabel 6650 5400 3    50   Input ~ 0
 CHNL_56
 Wire Wire Line
-	6650 5350 6650 5550
-Text GLabel 6800 5550 3    50   Input ~ 0
+	6650 5200 6650 5400
+Text GLabel 6800 5400 3    50   Input ~ 0
 CHNL_57
 Wire Wire Line
-	6800 5350 6800 5550
-Text GLabel 6950 5550 3    50   Input ~ 0
+	6800 5200 6800 5400
+Text GLabel 6950 5400 3    50   Input ~ 0
 CHNL_58
 Wire Wire Line
-	6950 5350 6950 5550
-Text GLabel 7100 5550 3    50   Input ~ 0
+	6950 5200 6950 5400
+Text GLabel 7100 5400 3    50   Input ~ 0
 CHNL_59
 Wire Wire Line
-	7100 5350 7100 5550
-Text GLabel 9350 3150 2    50   Input ~ 0
+	7100 5200 7100 5400
+Text GLabel 9350 3000 2    50   Input ~ 0
 CHNL_56
-Text GLabel 9350 3350 2    50   Input ~ 0
+Text GLabel 9350 3200 2    50   Input ~ 0
 CHNL_57
-Text GLabel 9350 3550 2    50   Input ~ 0
+Text GLabel 9350 3400 2    50   Input ~ 0
 CHNL_58
-Text GLabel 9350 4350 2    50   Input ~ 0
+Text GLabel 9350 4200 2    50   Input ~ 0
 CHNL_59
 Wire Wire Line
-	9350 3550 9200 3550
+	9350 3400 9200 3400
 Wire Wire Line
-	9200 3350 9350 3350
+	9200 3200 9350 3200
 Wire Wire Line
-	9350 3150 9200 3150
+	9350 3000 9200 3000
 Wire Wire Line
-	9200 2950 9350 2950
+	9200 2800 9350 2800
 $Comp
 L dmf_relay_board:HV507 U1
 U 1 1 5E9F26EB
-P 5800 3350
-F 0 "U1" H 4050 5300 50  0000 L CNN
-F 1 "HV507" H 7400 1350 50  0000 L CNN
-F 2 "Package_QFP:PQFP-80_14x20mm_P0.8mm" V 5100 1950 50  0001 C CNN
-F 3 "" V 5100 1950 50  0001 C CNN
-	1    5800 3350
+P 5800 3200
+F 0 "U1" H 4050 5150 50  0000 L CNN
+F 1 "HV507" H 7400 1200 50  0000 L CNN
+F 2 "Package_QFP:PQFP-80_14x20mm_P0.8mm" V 5100 1800 50  0001 C CNN
+F 3 "" V 5100 1800 50  0001 C CNN
+	1    5800 3200
 	1    0    0    -1  
 $EndComp
-Text GLabel 7250 5550 3    50   Input ~ 0
+Text GLabel 7250 5400 3    50   Input ~ 0
 CHNL_60
 Wire Wire Line
-	7250 5550 7250 5350
-Text GLabel 7950 4750 2    50   Input ~ 0
-CHNL_61
-Wire Wire Line
-	7950 4750 7750 4750
+	7250 5400 7250 5200
 Text GLabel 7950 4600 2    50   Input ~ 0
-CHNL_62
+CHNL_61
 Wire Wire Line
 	7950 4600 7750 4600
-Text GLabel 9350 3950 2    50   Input ~ 0
-CHNL_61
-Text GLabel 9350 3750 2    50   Input ~ 0
+Text GLabel 7950 4450 2    50   Input ~ 0
 CHNL_62
-Text GLabel 9350 4150 2    50   Input ~ 0
+Wire Wire Line
+	7950 4450 7750 4450
+Text GLabel 9350 3800 2    50   Input ~ 0
+CHNL_61
+Text GLabel 9350 3600 2    50   Input ~ 0
+CHNL_62
+Text GLabel 9350 4000 2    50   Input ~ 0
 CHNL_60
 Wire Wire Line
-	9350 2350 9200 2350
+	9350 2200 9200 2200
 Wire Wire Line
-	9200 2550 9350 2550
+	9200 2400 9350 2400
 Wire Wire Line
-	9350 2750 9200 2750
+	9350 2600 9200 2600
+NoConn ~ 1550 3650
 $Comp
-L dmf_relay_board:ELEC_SML E1
-U 1 1 5EAF9D2D
-P 700 7000
-F 0 "E1" H 800 7000 50  0000 L CNN
-F 1 "ELEC_SML" H 950 7000 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 800 6700 50  0001 C CNN
-F 3 "" H 700 7000 50  0001 C CNN
-	1    700  7000
+L dmf_relay_board:ELEC_XS EXS2
+U 1 1 5EB5B5F9
+P 800 6750
+F 0 "EXS2" H 900 6750 50  0000 L CNN
+F 1 "ELEC_XS" H 1200 6750 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_1_375_4MIL_4_5" H 900 6450 50  0001 C CNN
+F 3 "" H 800 6750 50  0001 C CNN
+	1    800  6750
 	0    1    1    0   
 $EndComp
 $Comp
-L dmf_relay_board:ELEC_SML E2
-U 1 1 5EAFD205
-P 800 7000
-F 0 "E2" H 900 7000 50  0000 L CNN
-F 1 "ELEC_SML" H 1050 7000 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 900 6700 50  0001 C CNN
-F 3 "" H 800 7000 50  0001 C CNN
-	1    800  7000
+L dmf_relay_board:ELEC_XS EXS3
+U 1 1 5EB63142
+P 900 6750
+F 0 "EXS3" H 1000 6750 50  0000 L CNN
+F 1 "ELEC_XS" H 1300 6750 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_1_375_4MIL_4_5" H 1000 6450 50  0001 C CNN
+F 3 "" H 900 6750 50  0001 C CNN
+	1    900  6750
 	0    1    1    0   
 $EndComp
 $Comp
-L dmf_relay_board:ELEC_SML E3
-U 1 1 5EB03725
-P 900 7000
-F 0 "E3" H 1000 7000 50  0000 L CNN
-F 1 "ELEC_SML" H 1150 7000 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 1000 6700 50  0001 C CNN
-F 3 "" H 900 7000 50  0001 C CNN
-	1    900  7000
+L dmf_relay_board:ELEC_XS_TO_SM_1 EXS4
+U 1 1 5EB6942A
+P 1000 6750
+F 0 "EXS4" H 1100 6750 50  0000 L CNN
+F 1 "ELEC_XS_TO_SM_1" H 1400 6750 50  0000 L CNN
+F 2 "dmf_relay_board:ELEC_XS_TO_SM_NUM1" H 1100 6450 50  0001 C CNN
+F 3 "" H 1000 6750 50  0001 C CNN
+	1    1000 6750
 	0    1    1    0   
 $EndComp
 $Comp
-L dmf_relay_board:ELEC_SML E4
-U 1 1 5EB09B41
-P 1000 7000
-F 0 "E4" H 1100 7000 50  0000 L CNN
-F 1 "ELEC_SML" H 1250 7000 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 1100 6700 50  0001 C CNN
-F 3 "" H 1000 7000 50  0001 C CNN
-	1    1000 7000
+L dmf_relay_board:ELEC_XS EXS6
+U 1 1 5EB880F2
+P 1200 6750
+F 0 "EXS6" H 1300 6750 50  0000 L CNN
+F 1 "ELEC_XS" H 1600 6750 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_1_375_4MIL_4_5" H 1300 6450 50  0001 C CNN
+F 3 "" H 1200 6750 50  0001 C CNN
+	1    1200 6750
 	0    1    1    0   
 $EndComp
 $Comp
-L dmf_relay_board:ELEC_SML E5
-U 1 1 5EB0FF56
-P 1100 7000
-F 0 "E5" H 1200 7000 50  0000 L CNN
-F 1 "ELEC_SML" H 1350 7000 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 1200 6700 50  0001 C CNN
-F 3 "" H 1100 7000 50  0001 C CNN
-	1    1100 7000
+L dmf_relay_board:ELEC_XS EXS7
+U 1 1 5EB880F8
+P 1300 6750
+F 0 "EXS7" H 1400 6750 50  0000 L CNN
+F 1 "ELEC_XS" H 1700 6750 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_1_375_4MIL_4_5" H 1400 6450 50  0001 C CNN
+F 3 "" H 1300 6750 50  0001 C CNN
+	1    1300 6750
 	0    1    1    0   
 $EndComp
 $Comp
-L dmf_relay_board:ELEC_SML E6
-U 1 1 5EB1638F
-P 1200 7000
-F 0 "E6" H 1300 7000 50  0000 L CNN
-F 1 "ELEC_SML" H 1450 7000 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 1300 6700 50  0001 C CNN
-F 3 "" H 1200 7000 50  0001 C CNN
-	1    1200 7000
+L dmf_relay_board:ELEC_XS EXS10
+U 1 1 5EB8F428
+P 1600 6750
+F 0 "EXS10" H 1700 6750 50  0000 L CNN
+F 1 "ELEC_XS" H 2000 6750 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_1_375_4MIL_4_5" H 1700 6450 50  0001 C CNN
+F 3 "" H 1600 6750 50  0001 C CNN
+	1    1600 6750
 	0    1    1    0   
 $EndComp
 $Comp
-L dmf_relay_board:ELEC_SML E7
-U 1 1 5EB1C87A
-P 1300 7000
-F 0 "E7" H 1400 7000 50  0000 L CNN
-F 1 "ELEC_SML" H 1550 7000 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 1400 6700 50  0001 C CNN
-F 3 "" H 1300 7000 50  0001 C CNN
-	1    1300 7000
+L dmf_relay_board:ELEC_XS EXS11
+U 1 1 5EB8F42E
+P 1700 6750
+F 0 "EXS11" H 1800 6750 50  0000 L CNN
+F 1 "ELEC_XS" H 2100 6750 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_1_375_4MIL_4_5" H 1800 6450 50  0001 C CNN
+F 3 "" H 1700 6750 50  0001 C CNN
+	1    1700 6750
 	0    1    1    0   
 $EndComp
 $Comp
-L dmf_relay_board:ELEC_SML E8
-U 1 1 5EB22DAC
-P 1400 7000
-F 0 "E8" H 1500 7000 50  0000 L CNN
-F 1 "ELEC_SML" H 1650 7000 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 1500 6700 50  0001 C CNN
-F 3 "" H 1400 7000 50  0001 C CNN
-	1    1400 7000
+L dmf_relay_board:ELEC_XS EXS14
+U 1 1 5EB96377
+P 2000 6750
+F 0 "EXS14" H 2100 6750 50  0000 L CNN
+F 1 "ELEC_XS" H 2400 6750 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_1_375_4MIL_4_5" H 2100 6450 50  0001 C CNN
+F 3 "" H 2000 6750 50  0001 C CNN
+	1    2000 6750
 	0    1    1    0   
 $EndComp
 $Comp
-L dmf_relay_board:ELEC_SML E9
-U 1 1 5EB29199
-P 1500 7000
-F 0 "E9" H 1600 7000 50  0000 L CNN
-F 1 "ELEC_SML" H 1750 7000 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 1600 6700 50  0001 C CNN
-F 3 "" H 1500 7000 50  0001 C CNN
-	1    1500 7000
+L dmf_relay_board:ELEC_XS EXS15
+U 1 1 5EB9637D
+P 2100 6750
+F 0 "EXS15" H 2200 6750 50  0000 L CNN
+F 1 "ELEC_XS" H 2500 6750 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_1_375_4MIL_4_5" H 2200 6450 50  0001 C CNN
+F 3 "" H 2100 6750 50  0001 C CNN
+	1    2100 6750
 	0    1    1    0   
 $EndComp
 $Comp
-L dmf_relay_board:ELEC_SML E10
-U 1 1 5EB2F711
-P 1600 7000
-F 0 "E10" H 1700 7000 50  0000 L CNN
-F 1 "ELEC_SML" H 1850 7000 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 1700 6700 50  0001 C CNN
-F 3 "" H 1600 7000 50  0001 C CNN
-	1    1600 7000
+L dmf_relay_board:ELEC_XS EXS18
+U 1 1 5EB9CE70
+P 2400 6750
+F 0 "EXS18" H 2500 6750 50  0000 L CNN
+F 1 "ELEC_XS" H 2800 6750 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_1_375_4MIL_4_5" H 2500 6450 50  0001 C CNN
+F 3 "" H 2400 6750 50  0001 C CNN
+	1    2400 6750
 	0    1    1    0   
 $EndComp
 $Comp
-L dmf_relay_board:ELEC_SML E11
-U 1 1 5EB35AA2
-P 1700 7000
-F 0 "E11" H 1800 7000 50  0000 L CNN
-F 1 "ELEC_SML" H 1950 7000 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 1800 6700 50  0001 C CNN
-F 3 "" H 1700 7000 50  0001 C CNN
-	1    1700 7000
+L dmf_relay_board:ELEC_XS EXS19
+U 1 1 5EB9CE76
+P 2500 6750
+F 0 "EXS19" H 2600 6750 50  0000 L CNN
+F 1 "ELEC_XS" H 2900 6750 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_1_375_4MIL_4_5" H 2600 6450 50  0001 C CNN
+F 3 "" H 2500 6750 50  0001 C CNN
+	1    2500 6750
 	0    1    1    0   
 $EndComp
 $Comp
-L dmf_relay_board:ELEC_SML E12
-U 1 1 5EB3BEB9
-P 1800 7000
-F 0 "E12" H 1900 7000 50  0000 L CNN
-F 1 "ELEC_SML" H 2050 7000 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 1900 6700 50  0001 C CNN
-F 3 "" H 1800 7000 50  0001 C CNN
-	1    1800 7000
+L dmf_relay_board:ELEC_XS EXS22
+U 1 1 5EBA3E97
+P 4900 6700
+F 0 "EXS22" H 5000 6700 50  0000 L CNN
+F 1 "ELEC_XS" H 5300 6700 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_1_375_4MIL_4_5" H 5000 6400 50  0001 C CNN
+F 3 "" H 4900 6700 50  0001 C CNN
+	1    4900 6700
 	0    1    1    0   
 $EndComp
 $Comp
-L dmf_relay_board:ELEC_SML E13
-U 1 1 5EB4231C
-P 1900 7000
-F 0 "E13" H 2000 7000 50  0000 L CNN
-F 1 "ELEC_SML" H 2150 7000 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 2000 6700 50  0001 C CNN
-F 3 "" H 1900 7000 50  0001 C CNN
-	1    1900 7000
-	0    1    1    0   
-$EndComp
-$Comp
-L dmf_relay_board:ELEC_SML E14
-U 1 1 5EB488DE
-P 2000 7000
-F 0 "E14" H 2100 7000 50  0000 L CNN
-F 1 "ELEC_SML" H 2250 7000 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 2100 6700 50  0001 C CNN
-F 3 "" H 2000 7000 50  0001 C CNN
-	1    2000 7000
-	0    1    1    0   
-$EndComp
-$Comp
-L dmf_relay_board:ELEC_SML E15
-U 1 1 5EB4ECE1
-P 2100 7000
-F 0 "E15" H 2200 7000 50  0000 L CNN
-F 1 "ELEC_SML" H 2350 7000 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 2200 6700 50  0001 C CNN
-F 3 "" H 2100 7000 50  0001 C CNN
-	1    2100 7000
-	0    1    1    0   
-$EndComp
-$Comp
-L dmf_relay_board:ELEC_SML E16
-U 1 1 5EB5511F
-P 2200 7000
-F 0 "E16" H 2300 7000 50  0000 L CNN
-F 1 "ELEC_SML" H 2450 7000 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 2300 6700 50  0001 C CNN
-F 3 "" H 2200 7000 50  0001 C CNN
-	1    2200 7000
-	0    1    1    0   
-$EndComp
-$Comp
-L dmf_relay_board:ELEC_SML E17
-U 1 1 5EB5B5EF
-P 2300 7000
-F 0 "E17" H 2400 7000 50  0000 L CNN
-F 1 "ELEC_SML" H 2550 7000 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 2400 6700 50  0001 C CNN
-F 3 "" H 2300 7000 50  0001 C CNN
-	1    2300 7000
-	0    1    1    0   
-$EndComp
-$Comp
-L dmf_relay_board:ELEC_SML E18
-U 1 1 5EB61B5F
-P 2400 7000
-F 0 "E18" H 2500 7000 50  0000 L CNN
-F 1 "ELEC_SML" H 2650 7000 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 2500 6700 50  0001 C CNN
-F 3 "" H 2400 7000 50  0001 C CNN
-	1    2400 7000
-	0    1    1    0   
-$EndComp
-$Comp
-L dmf_relay_board:ELEC_SML E19
-U 1 1 5EB684C8
-P 2500 7000
-F 0 "E19" H 2600 7000 50  0000 L CNN
-F 1 "ELEC_SML" H 2750 7000 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 2600 6700 50  0001 C CNN
-F 3 "" H 2500 7000 50  0001 C CNN
-	1    2500 7000
-	0    1    1    0   
-$EndComp
-$Comp
-L dmf_relay_board:ELEC_SML E20
-U 1 1 5EB6E91B
-P 2600 7000
-F 0 "E20" H 2700 7000 50  0000 L CNN
-F 1 "ELEC_SML" H 2850 7000 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 2700 6700 50  0001 C CNN
-F 3 "" H 2600 7000 50  0001 C CNN
-	1    2600 7000
-	0    1    1    0   
-$EndComp
-$Comp
-L dmf_relay_board:ELEC_SML E22
-U 1 1 5EB74EFB
-P 2800 7000
-F 0 "E22" H 2900 7000 50  0000 L CNN
-F 1 "ELEC_SML" H 3050 7000 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 2900 6700 50  0001 C CNN
-F 3 "" H 2800 7000 50  0001 C CNN
-	1    2800 7000
-	0    1    1    0   
-$EndComp
-$Comp
-L dmf_relay_board:ELEC_SML E23
-U 1 1 5EB7B5BC
-P 2900 7000
-F 0 "E23" H 3000 7000 50  0000 L CNN
-F 1 "ELEC_SML" H 3150 7000 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 3000 6700 50  0001 C CNN
-F 3 "" H 2900 7000 50  0001 C CNN
-	1    2900 7000
-	0    1    1    0   
-$EndComp
-$Comp
-L dmf_relay_board:ELEC_SML E24
-U 1 1 5EB81A9D
-P 3000 7000
-F 0 "E24" H 3100 7000 50  0000 L CNN
-F 1 "ELEC_SML" H 3250 7000 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 3100 6700 50  0001 C CNN
-F 3 "" H 3000 7000 50  0001 C CNN
-	1    3000 7000
-	0    1    1    0   
-$EndComp
-$Comp
-L dmf_relay_board:ELEC_SML E25
-U 1 1 5EB87EFE
-P 3100 7000
-F 0 "E25" H 3200 7000 50  0000 L CNN
-F 1 "ELEC_SML" H 3350 7000 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 3200 6700 50  0001 C CNN
-F 3 "" H 3100 7000 50  0001 C CNN
-	1    3100 7000
-	0    1    1    0   
-$EndComp
-$Comp
-L dmf_relay_board:ELEC_SML E26
-U 1 1 5EB8E331
-P 3200 7000
-F 0 "E26" H 3300 7000 50  0000 L CNN
-F 1 "ELEC_SML" H 3450 7000 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 3300 6700 50  0001 C CNN
-F 3 "" H 3200 7000 50  0001 C CNN
-	1    3200 7000
-	0    1    1    0   
-$EndComp
-$Comp
-L dmf_relay_board:ELEC_SML E27
-U 1 1 5EB9470B
-P 3300 7000
-F 0 "E27" H 3400 7000 50  0000 L CNN
-F 1 "ELEC_SML" H 3550 7000 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 3400 6700 50  0001 C CNN
-F 3 "" H 3300 7000 50  0001 C CNN
-	1    3300 7000
-	0    1    1    0   
-$EndComp
-$Comp
-L dmf_relay_board:ELEC_SML E28
-U 1 1 5EB9AB81
-P 3400 7000
-F 0 "E28" H 3500 7000 50  0000 L CNN
-F 1 "ELEC_SML" H 3650 7000 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 3500 6700 50  0001 C CNN
-F 3 "" H 3400 7000 50  0001 C CNN
-	1    3400 7000
-	0    1    1    0   
-$EndComp
-$Comp
-L dmf_relay_board:ELEC_SML E29
-U 1 1 5EBA1024
-P 3500 7000
-F 0 "E29" H 3600 7000 50  0000 L CNN
-F 1 "ELEC_SML" H 3750 7000 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 3600 6700 50  0001 C CNN
-F 3 "" H 3500 7000 50  0001 C CNN
-	1    3500 7000
-	0    1    1    0   
-$EndComp
-$Comp
-L dmf_relay_board:ELEC_SML E30
-U 1 1 5EBA74CD
-P 3600 7000
-F 0 "E30" H 3700 7000 50  0000 L CNN
-F 1 "ELEC_SML" H 3850 7000 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 3700 6700 50  0001 C CNN
-F 3 "" H 3600 7000 50  0001 C CNN
-	1    3600 7000
-	0    1    1    0   
-$EndComp
-$Comp
-L dmf_relay_board:ELEC_SML E21
-U 1 1 5EBB6F9A
-P 2700 7000
-F 0 "E21" H 2800 7000 50  0000 L CNN
-F 1 "ELEC_SML" H 2950 7000 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 2800 6700 50  0001 C CNN
-F 3 "" H 2700 7000 50  0001 C CNN
-	1    2700 7000
+L dmf_relay_board:ELEC_XS EXS23
+U 1 1 5EBA3E9D
+P 4700 6700
+F 0 "EXS23" H 4800 6700 50  0000 L CNN
+F 1 "ELEC_XS" H 5100 6700 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_1_375_4MIL_4_5" H 4800 6400 50  0001 C CNN
+F 3 "" H 4700 6700 50  0001 C CNN
+	1    4700 6700
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	700  6750 700  6850
+	700  6450 700  6550
 Wire Wire Line
-	800  6750 800  6850
+	800  6450 800  6550
 Wire Wire Line
-	900  6850 900  6750
+	900  6450 900  6550
 Wire Wire Line
-	1000 6750 1000 6850
+	1000 6450 1000 6550
 Wire Wire Line
-	1100 6850 1100 6750
+	1100 6450 1100 6550
 Wire Wire Line
-	1200 6750 1200 6850
+	1200 6450 1200 6550
 Wire Wire Line
-	1300 6850 1300 6750
+	1300 6450 1300 6550
 Wire Wire Line
-	1400 6750 1400 6850
+	1400 6450 1400 6550
 Wire Wire Line
-	1500 6850 1500 6750
+	1500 6450 1500 6550
 Wire Wire Line
-	1600 6750 1600 6850
+	1600 6450 1600 6550
 Wire Wire Line
-	1700 6850 1700 6750
+	1700 6450 1700 6550
 Wire Wire Line
-	1800 6750 1800 6850
+	1800 6450 1800 6550
 Wire Wire Line
-	1900 6750 1900 6850
+	1900 6450 1900 6550
 Wire Wire Line
-	2000 6850 2000 6750
+	2000 6450 2000 6550
 Wire Wire Line
-	2100 6750 2100 6850
+	2100 6450 2100 6550
 Wire Wire Line
-	2200 6850 2200 6750
+	2200 6450 2200 6550
 Wire Wire Line
-	2300 6750 2300 6850
+	2300 6450 2300 6550
 Wire Wire Line
-	2400 6850 2400 6750
-Wire Wire Line
-	2500 6750 2500 6850
-Wire Wire Line
-	2600 6850 2600 6750
-Wire Wire Line
-	2700 6750 2700 6850
-Wire Wire Line
-	2800 6850 2800 6750
-Wire Wire Line
-	2900 6750 2900 6850
-Wire Wire Line
-	3000 6850 3000 6750
-Wire Wire Line
-	3100 6750 3100 6850
-Wire Wire Line
-	3200 6850 3200 6750
-Wire Wire Line
-	3300 6750 3300 6850
-Wire Wire Line
-	3400 6850 3400 6750
-Wire Wire Line
-	3500 6750 3500 6850
-Wire Wire Line
-	3600 6850 3600 6750
+	2400 6450 2400 6550
 $Comp
-L dmf_relay_board:ELEC_SML E31
-U 1 1 5ECAB486
-P 3800 7000
-F 0 "E31" H 3900 7000 50  0000 L CNN
-F 1 "ELEC_SML" H 4050 7000 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 3900 6700 50  0001 C CNN
-F 3 "" H 3800 7000 50  0001 C CNN
-	1    3800 7000
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3800 6850 3800 6750
-$Comp
-L dmf_relay_board:ELEC_SML E32
-U 1 1 5ECB4063
-P 3900 7000
-F 0 "E32" H 4000 7000 50  0000 L CNN
-F 1 "ELEC_SML" H 4150 7000 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 4000 6700 50  0001 C CNN
-F 3 "" H 3900 7000 50  0001 C CNN
-	1    3900 7000
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3900 6850 3900 6750
-$Comp
-L dmf_relay_board:ELEC_SML E33
-U 1 1 5ECBCDAC
-P 4000 7000
-F 0 "E33" H 4100 7000 50  0000 L CNN
-F 1 "ELEC_SML" H 4250 7000 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 4100 6700 50  0001 C CNN
-F 3 "" H 4000 7000 50  0001 C CNN
-	1    4000 7000
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4000 6850 4000 6750
-$Comp
-L dmf_relay_board:ELEC_SML E34
-U 1 1 5ECC5BDE
-P 4100 7000
-F 0 "E34" H 4200 7000 50  0000 L CNN
-F 1 "ELEC_SML" H 4350 7000 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 4200 6700 50  0001 C CNN
-F 3 "" H 4100 7000 50  0001 C CNN
-	1    4100 7000
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4100 6850 4100 6750
-Wire Wire Line
-	4200 6850 4200 6750
-$Comp
-L dmf_relay_board:ELEC_XS E50
-U 1 1 5EABD4BE
-P 6100 6900
-F 0 "E50" H 6200 6900 50  0000 L CNN
-F 1 "ELEC_XS" H 6350 6900 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_1_375_4MIL_4_5" H 6200 6600 50  0001 C CNN
-F 3 "" H 6100 6900 50  0001 C CNN
-	1    6100 6900
+L dmf_relay_board:ELEC_SML ESM6
+U 1 1 5EC3BE5B
+P 10050 5800
+F 0 "ESM6" H 10150 5800 50  0000 L CNN
+F 1 "ELEC_SML" H 10450 5800 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 10150 5500 50  0001 C CNN
+F 3 "" H 10050 5800 50  0001 C CNN
+	1    10050 5800
 	0    1    1    0   
 $EndComp
 $Comp
-L dmf_relay_board:ELEC_XS E51
-U 1 1 5EAD9B16
-P 6200 6900
-F 0 "E51" H 6300 6900 50  0000 L CNN
-F 1 "ELEC_XS" H 6450 6900 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_1_375_4MIL_4_5" H 6300 6600 50  0001 C CNN
-F 3 "" H 6200 6900 50  0001 C CNN
-	1    6200 6900
+L dmf_relay_board:ELEC_SML ESM7
+U 1 1 5EC3BE61
+P 10650 5800
+F 0 "ESM7" H 10750 5800 50  0000 L CNN
+F 1 "ELEC_SML" H 11050 5800 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 10750 5500 50  0001 C CNN
+F 3 "" H 10650 5800 50  0001 C CNN
+	1    10650 5800
 	0    1    1    0   
 $EndComp
 $Comp
-L dmf_relay_board:ELEC_XS E52
-U 1 1 5EAE2D28
-P 6300 6900
-F 0 "E52" H 6400 6900 50  0000 L CNN
-F 1 "ELEC_XS" H 6550 6900 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_1_375_4MIL_4_5" H 6400 6600 50  0001 C CNN
-F 3 "" H 6300 6900 50  0001 C CNN
-	1    6300 6900
+L dmf_relay_board:ELEC_SML ESM8
+U 1 1 5EC3BE67
+P 8250 5750
+F 0 "ESM8" H 8350 5750 50  0000 L CNN
+F 1 "ELEC_SML" H 8650 5750 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 8350 5450 50  0001 C CNN
+F 3 "" H 8250 5750 50  0001 C CNN
+	1    8250 5750
 	0    1    1    0   
 $EndComp
 $Comp
-L dmf_relay_board:ELEC_XS E53
-U 1 1 5EAEBF94
-P 6400 6900
-F 0 "E53" H 6500 6900 50  0000 L CNN
-F 1 "ELEC_XS" H 6650 6900 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_1_375_4MIL_4_5" H 6500 6600 50  0001 C CNN
-F 3 "" H 6400 6900 50  0001 C CNN
-	1    6400 6900
+L dmf_relay_board:ELEC_SML ESM9
+U 1 1 5EC44308
+P 10850 5800
+F 0 "ESM9" H 10950 5800 50  0000 L CNN
+F 1 "ELEC_SML" H 11250 5800 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 10950 5500 50  0001 C CNN
+F 3 "" H 10850 5800 50  0001 C CNN
+	1    10850 5800
 	0    1    1    0   
 $EndComp
 $Comp
-L dmf_relay_board:ELEC_XS E54
-U 1 1 5EAF51DF
-P 6500 6900
-F 0 "E54" H 6600 6900 50  0000 L CNN
-F 1 "ELEC_XS" H 6750 6900 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_1_375_4MIL_4_5" H 6600 6600 50  0001 C CNN
-F 3 "" H 6500 6900 50  0001 C CNN
-	1    6500 6900
+L dmf_relay_board:ELEC_SML ESM10
+U 1 1 5EC4430E
+P 8100 5750
+F 0 "ESM10" H 8200 5750 50  0000 L CNN
+F 1 "ELEC_SML" H 8500 5750 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 8200 5450 50  0001 C CNN
+F 3 "" H 8100 5750 50  0001 C CNN
+	1    8100 5750
 	0    1    1    0   
 $EndComp
 $Comp
-L dmf_relay_board:ELEC_XS E55
-U 1 1 5EAFE455
-P 6600 6900
-F 0 "E55" H 6700 6900 50  0000 L CNN
-F 1 "ELEC_XS" H 6850 6900 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_1_375_4MIL_4_5" H 6700 6600 50  0001 C CNN
-F 3 "" H 6600 6900 50  0001 C CNN
-	1    6600 6900
+L dmf_relay_board:ELEC_SML ESM11
+U 1 1 5EC44314
+P 11050 5800
+F 0 "ESM11" H 11150 5800 50  0000 L CNN
+F 1 "ELEC_SML" H 11450 5800 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 11150 5500 50  0001 C CNN
+F 3 "" H 11050 5800 50  0001 C CNN
+	1    11050 5800
 	0    1    1    0   
 $EndComp
 $Comp
-L dmf_relay_board:ELEC_LG E60
-U 1 1 5EB461EF
-P 4800 6900
-F 0 "E60" H 4900 6900 50  0000 L CNN
-F 1 "ELEC_LG" H 5050 6900 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_3_89_4MIL_4_5" H 4900 6600 50  0001 C CNN
-F 3 "" H 4800 6900 50  0001 C CNN
-	1    4800 6900
-	0    1    1    0   
-$EndComp
-$Comp
-L dmf_relay_board:ELEC_LG E61
-U 1 1 5EB50AC6
-P 4900 6900
-F 0 "E61" H 5000 6900 50  0000 L CNN
-F 1 "ELEC_LG" H 5150 6900 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_3_89_4MIL_4_5" H 5000 6600 50  0001 C CNN
-F 3 "" H 4900 6900 50  0001 C CNN
-	1    4900 6900
-	0    1    1    0   
-$EndComp
-$Comp
-L dmf_relay_board:ELEC_LG E62
-U 1 1 5EB59CB6
-P 5000 6900
-F 0 "E62" H 5100 6900 50  0000 L CNN
-F 1 "ELEC_LG" H 5250 6900 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_3_89_4MIL_4_5" H 5100 6600 50  0001 C CNN
-F 3 "" H 5000 6900 50  0001 C CNN
-	1    5000 6900
-	0    1    1    0   
-$EndComp
-$Comp
-L dmf_relay_board:ELEC_LG E63
-U 1 1 5EB62F6F
-P 5100 6900
-F 0 "E63" H 5200 6900 50  0000 L CNN
-F 1 "ELEC_LG" H 5350 6900 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_3_89_4MIL_4_5" H 5200 6600 50  0001 C CNN
-F 3 "" H 5100 6900 50  0001 C CNN
-	1    5100 6900
-	0    1    1    0   
-$EndComp
-$Comp
-L dmf_relay_board:ELEC_LG E64
-U 1 1 5EB6C24B
-P 5200 6900
-F 0 "E64" H 5300 6900 50  0000 L CNN
-F 1 "ELEC_LG" H 5450 6900 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_3_89_4MIL_4_5" H 5300 6600 50  0001 C CNN
-F 3 "" H 5200 6900 50  0001 C CNN
-	1    5200 6900
-	0    1    1    0   
-$EndComp
-$Comp
-L dmf_relay_board:ELEC_LG E65
-U 1 1 5EB754B7
-P 5300 6900
-F 0 "E65" H 5400 6900 50  0000 L CNN
-F 1 "ELEC_LG" H 5550 6900 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_3_89_4MIL_4_5" H 5400 6600 50  0001 C CNN
-F 3 "" H 5300 6900 50  0001 C CNN
-	1    5300 6900
+L dmf_relay_board:ELEC_SML ESM12
+U 1 1 5EC4431A
+P 7950 5750
+F 0 "ESM12" H 8050 5750 50  0000 L CNN
+F 1 "ELEC_SML" H 8350 5750 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 8050 5450 50  0001 C CNN
+F 3 "" H 7950 5750 50  0001 C CNN
+	1    7950 5750
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4300 6850 4300 6750
+	2500 6450 2500 6550
+Wire Wire Line
+	2600 6550 2600 6450
+Wire Wire Line
+	2700 6450 2700 6550
+Wire Wire Line
+	2800 6550 2800 6450
+Wire Wire Line
+	2900 6450 2900 6550
+Wire Wire Line
+	3000 6550 3000 6450
+Wire Wire Line
+	3100 6450 3100 6550
+Wire Wire Line
+	3200 6550 3200 6450
+Wire Wire Line
+	3300 6450 3300 6550
+Wire Wire Line
+	3400 6550 3400 6450
+Wire Wire Line
+	3500 6450 3500 6550
+Wire Wire Line
+	3600 6550 3600 6450
 $Comp
-L dmf_relay_board:ELEC_SML E36
-U 1 1 5ECD7D65
-P 4300 7000
-F 0 "E36" H 4400 7000 50  0000 L CNN
-F 1 "ELEC_SML" H 4550 7000 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 4400 6700 50  0001 C CNN
-F 3 "" H 4300 7000 50  0001 C CNN
-	1    4300 7000
+L dmf_relay_board:ELEC_SML ESM13
+U 1 1 5ECB403D
+P 11250 5800
+F 0 "ESM13" H 11350 5800 50  0000 L CNN
+F 1 "ELEC_SML" H 11650 5800 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 11350 5500 50  0001 C CNN
+F 3 "" H 11250 5800 50  0001 C CNN
+	1    11250 5800
 	0    1    1    0   
 $EndComp
 $Comp
-L dmf_relay_board:ELEC_SML E35
-U 1 1 5ECCEC22
-P 4200 7000
-F 0 "E35" H 4300 7000 50  0000 L CNN
-F 1 "ELEC_SML" H 4450 7000 50  0000 L CNN
-F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 4300 6700 50  0001 C CNN
-F 3 "" H 4200 7000 50  0001 C CNN
-	1    4200 7000
+L dmf_relay_board:ELEC_SML ESM14
+U 1 1 5ECB4043
+P 7800 5750
+F 0 "ESM14" H 7900 5750 50  0000 L CNN
+F 1 "ELEC_SML" H 8200 5750 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 7900 5450 50  0001 C CNN
+F 3 "" H 7800 5750 50  0001 C CNN
+	1    7800 5750
 	0    1    1    0   
 $EndComp
-NoConn ~ 1550 3800
+$Comp
+L dmf_relay_board:ELEC_SML ESM15
+U 1 1 5ECB4049
+P 11450 5800
+F 0 "ESM15" H 11550 5800 50  0000 L CNN
+F 1 "ELEC_SML" H 11850 5800 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 11550 5500 50  0001 C CNN
+F 3 "" H 11450 5800 50  0001 C CNN
+	1    11450 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L dmf_relay_board:ELEC_SML ESM16
+U 1 1 5ECB404F
+P 11550 5800
+F 0 "ESM16" H 11650 5800 50  0000 L CNN
+F 1 "ELEC_SML" H 11950 5800 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 11650 5500 50  0001 C CNN
+F 3 "" H 11550 5800 50  0001 C CNN
+	1    11550 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L dmf_relay_board:ELEC_SML ESM17
+U 1 1 5ECB4055
+P 11650 5800
+F 0 "ESM17" H 11750 5800 50  0000 L CNN
+F 1 "ELEC_SML" H 12050 5800 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 11750 5500 50  0001 C CNN
+F 3 "" H 11650 5800 50  0001 C CNN
+	1    11650 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L dmf_relay_board:ELEC_SML ESM18
+U 1 1 5ECB405B
+P 8400 5750
+F 0 "ESM18" H 8500 5750 50  0000 L CNN
+F 1 "ELEC_SML" H 8800 5750 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 8500 5450 50  0001 C CNN
+F 3 "" H 8400 5750 50  0001 C CNN
+	1    8400 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L dmf_relay_board:ELEC_SML ESM19
+U 1 1 5ECB4061
+P 11850 5800
+F 0 "ESM19" H 11950 5800 50  0000 L CNN
+F 1 "ELEC_SML" H 12250 5800 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 11950 5500 50  0001 C CNN
+F 3 "" H 11850 5800 50  0001 C CNN
+	1    11850 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L dmf_relay_board:ELEC_SML ESM20
+U 1 1 5ECB4067
+P 8550 5750
+F 0 "ESM20" H 8650 5750 50  0000 L CNN
+F 1 "ELEC_SML" H 8950 5750 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 8650 5450 50  0001 C CNN
+F 3 "" H 8550 5750 50  0001 C CNN
+	1    8550 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L dmf_relay_board:ELEC_SML ESM21
+U 1 1 5ECB406D
+P 12050 5800
+F 0 "ESM21" H 12150 5800 50  0000 L CNN
+F 1 "ELEC_SML" H 12450 5800 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 12150 5500 50  0001 C CNN
+F 3 "" H 12050 5800 50  0001 C CNN
+	1    12050 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L dmf_relay_board:ELEC_SML ESM22
+U 1 1 5ECB4073
+P 8700 5750
+F 0 "ESM22" H 8800 5750 50  0000 L CNN
+F 1 "ELEC_SML" H 9100 5750 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 8800 5450 50  0001 C CNN
+F 3 "" H 8700 5750 50  0001 C CNN
+	1    8700 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L dmf_relay_board:ELEC_SML ESM23
+U 1 1 5ECB4079
+P 7400 6200
+F 0 "ESM23" H 7500 6200 50  0000 L CNN
+F 1 "ELEC_SML" H 7800 6200 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 7500 5900 50  0001 C CNN
+F 3 "" H 7400 6200 50  0001 C CNN
+	1    7400 6200
+	0    1    1    0   
+$EndComp
+$Comp
+L dmf_relay_board:ELEC_SML ESM24
+U 1 1 5ECB407F
+P 7500 6200
+F 0 "ESM24" H 7600 6200 50  0000 L CNN
+F 1 "ELEC_SML" H 7900 6200 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 7600 5900 50  0001 C CNN
+F 3 "" H 7500 6200 50  0001 C CNN
+	1    7500 6200
+	0    1    1    0   
+$EndComp
+$Comp
+L dmf_relay_board:ELEC_SML ESM25
+U 1 1 5ECBEE18
+P 4300 6700
+F 0 "ESM25" H 4400 6700 50  0000 L CNN
+F 1 "ELEC_SML" H 4700 6700 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 4400 6400 50  0001 C CNN
+F 3 "" H 4300 6700 50  0001 C CNN
+	1    4300 6700
+	0    1    1    0   
+$EndComp
+$Comp
+L dmf_relay_board:ELEC_SML ESM26
+U 1 1 5ECBEE1E
+P 4100 6700
+F 0 "ESM26" H 4200 6700 50  0000 L CNN
+F 1 "ELEC_SML" H 4500 6700 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 4200 6400 50  0001 C CNN
+F 3 "" H 4100 6700 50  0001 C CNN
+	1    4100 6700
+	0    1    1    0   
+$EndComp
+$Comp
+L dmf_relay_board:ELEC_SML ESM27
+U 1 1 5ECBEE24
+P 3900 6700
+F 0 "ESM27" H 4000 6700 50  0000 L CNN
+F 1 "ELEC_SML" H 4300 6700 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 4000 6400 50  0001 C CNN
+F 3 "" H 3900 6700 50  0001 C CNN
+	1    3900 6700
+	0    1    1    0   
+$EndComp
+$Comp
+L dmf_relay_board:ELEC_SML ESM28
+U 1 1 5ECBEE2A
+P 3600 6700
+F 0 "ESM28" H 3700 6700 50  0000 L CNN
+F 1 "ELEC_SML" H 4000 6700 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 3700 6400 50  0001 C CNN
+F 3 "" H 3600 6700 50  0001 C CNN
+	1    3600 6700
+	0    1    1    0   
+$EndComp
+$Comp
+L dmf_relay_board:ELEC_SML ESM29
+U 1 1 5ECBEE30
+P 3400 6700
+F 0 "ESM29" H 3500 6700 50  0000 L CNN
+F 1 "ELEC_SML" H 3800 6700 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 3500 6400 50  0001 C CNN
+F 3 "" H 3400 6700 50  0001 C CNN
+	1    3400 6700
+	0    1    1    0   
+$EndComp
+$Comp
+L dmf_relay_board:ELEC_XS_TO_SM_2 EXS8
+U 1 1 5ECEC283
+P 1400 6750
+F 0 "EXS8" H 1500 6750 50  0000 L CNN
+F 1 "ELEC_XS_TO_SM_2" H 1800 6750 50  0000 L CNN
+F 2 "dmf_relay_board:ELEC_XS_TO_SM_NUM2" H 1500 6450 50  0001 C CNN
+F 3 "" H 1400 6750 50  0001 C CNN
+	1    1400 6750
+	0    1    1    0   
+$EndComp
+$Comp
+L dmf_relay_board:ELEC_XS_TO_SM_3 EXS12
+U 1 1 5ECF7064
+P 1800 6750
+F 0 "EXS12" H 1900 6750 50  0000 L CNN
+F 1 "ELEC_XS_TO_SM_3" H 2200 6750 50  0000 L CNN
+F 2 "dmf_relay_board:ELEC_XS_TO_SM_NUM3" H 1900 6450 50  0001 C CNN
+F 3 "" H 1800 6750 50  0001 C CNN
+	1    1800 6750
+	0    1    1    0   
+$EndComp
+$Comp
+L dmf_relay_board:ELEC_XS_TO_SM_4 EXS16
+U 1 1 5ECF8122
+P 2200 6750
+F 0 "EXS16" H 2300 6750 50  0000 L CNN
+F 1 "ELEC_XS_TO_SM_4" H 2600 6750 50  0000 L CNN
+F 2 "dmf_relay_board:ELEC_XS_TO_SM_NUM4" H 2300 6450 50  0001 C CNN
+F 3 "" H 2200 6750 50  0001 C CNN
+	1    2200 6750
+	0    1    1    0   
+$EndComp
+$Comp
+L dmf_relay_board:ELEC_XS_TO_SM_5 EXS20
+U 1 1 5ED0B2FD
+P 2600 6750
+F 0 "EXS20" H 2700 6750 50  0000 L CNN
+F 1 "ELEC_XS_TO_SM_5" H 3000 6750 50  0000 L CNN
+F 2 "dmf_relay_board:ELEC_XS_TO_SM_NUM5" H 2700 6450 50  0001 C CNN
+F 3 "" H 2600 6750 50  0001 C CNN
+	1    2600 6750
+	0    1    1    0   
+$EndComp
+$Comp
+L dmf_relay_board:ELEC_XS_TO_SM_6 EXS24
+U 1 1 5ED0BE0B
+P 4500 6700
+F 0 "EXS24" H 4600 6700 50  0000 L CNN
+F 1 "ELEC_XS_TO_SM_6" H 4900 6700 50  0000 L CNN
+F 2 "dmf_relay_board:ELEC_XS_TO_SM_NUM6" H 4600 6400 50  0001 C CNN
+F 3 "" H 4500 6700 50  0001 C CNN
+	1    4500 6700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3800 6450 3800 6550
+Wire Wire Line
+	3900 6450 3900 6550
+Wire Wire Line
+	4000 6450 4000 6550
+Wire Wire Line
+	4100 6450 4100 6550
+Wire Wire Line
+	4200 6450 4200 6550
+Wire Wire Line
+	4300 6450 4300 6550
+Wire Wire Line
+	4400 6450 4400 6550
+Wire Wire Line
+	4500 6450 4500 6550
+Wire Wire Line
+	4600 6450 4600 6550
+Wire Wire Line
+	4700 6450 4700 6550
+Wire Wire Line
+	4800 6450 4800 6550
+Wire Wire Line
+	4900 6450 4900 6550
+Wire Wire Line
+	5000 6450 5000 6550
+Wire Wire Line
+	5100 6450 5100 6550
+Wire Wire Line
+	5200 6450 5200 6550
+Wire Wire Line
+	5300 6450 5300 6550
+Wire Wire Line
+	5400 6450 5400 6550
+Wire Wire Line
+	5500 6450 5500 6550
+Wire Wire Line
+	5600 6450 5600 6550
+Wire Wire Line
+	5700 6450 5700 6550
+Wire Wire Line
+	5800 6450 5800 6550
+Wire Wire Line
+	5900 6450 5900 6550
+Wire Wire Line
+	6000 6450 6000 6550
+Wire Wire Line
+	6100 6450 6100 6550
+$Comp
+L dmf_relay_board:ELEC_LG ELG2
+U 1 1 5EE279B2
+P 6300 6750
+F 0 "ELG2" H 6400 6750 50  0000 L CNN
+F 1 "ELEC_LG" H 6700 6750 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_3_89_4MIL_4_5" H 6400 6450 50  0001 C CNN
+F 3 "" H 6300 6750 50  0001 C CNN
+	1    6300 6750
+	0    1    1    0   
+$EndComp
+$Comp
+L dmf_relay_board:ELEC_SM_TO_LG_1 ELG1
+U 1 1 5EE36744
+P 6200 6750
+F 0 "ELG1" H 6300 6750 50  0000 L CNN
+F 1 "ELEC_SM_TO_LG_1" H 6600 6750 50  0000 L CNN
+F 2 "dmf_relay_board:ELEC_SM_TO_LG_NUM1" H 6300 6450 50  0001 C CNN
+F 3 "" H 6200 6750 50  0001 C CNN
+	1    6200 6750
+	0    1    1    0   
+$EndComp
+$Comp
+L dmf_relay_board:ELEC_LG ELG4
+U 1 1 5EE37D08
+P 6500 6750
+F 0 "ELG4" H 6600 6750 50  0000 L CNN
+F 1 "ELEC_LG" H 6900 6750 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_3_89_4MIL_4_5" H 6600 6450 50  0001 C CNN
+F 3 "" H 6500 6750 50  0001 C CNN
+	1    6500 6750
+	0    1    1    0   
+$EndComp
+$Comp
+L dmf_relay_board:ELEC_SM_TO_LG_2 ELG3
+U 1 1 5EE42D8A
+P 6400 6750
+F 0 "ELG3" H 6500 6750 50  0000 L CNN
+F 1 "ELEC_SM_TO_LG_2" H 6800 6750 50  0000 L CNN
+F 2 "dmf_relay_board:ELEC_SM_TO_LG_NUM2" H 6500 6450 50  0001 C CNN
+F 3 "" H 6400 6750 50  0001 C CNN
+	1    6400 6750
+	0    1    1    0   
+$EndComp
+$Comp
+L dmf_relay_board:ELEC_SM_TO_LG_3 ELG5
+U 1 1 5EE43D21
+P 3000 6700
+F 0 "ELG5" H 3100 6700 50  0000 L CNN
+F 1 "ELEC_SM_TO_LG_3" H 3400 6700 50  0000 L CNN
+F 2 "dmf_relay_board:ELEC_SM_TO_LG_NUM3" H 3100 6400 50  0001 C CNN
+F 3 "" H 3000 6700 50  0001 C CNN
+	1    3000 6700
+	0    1    1    0   
+$EndComp
+$Comp
+L dmf_relay_board:ELEC_LG ELG6
+U 1 1 5EE45B64
+P 2800 6700
+F 0 "ELG6" H 2900 6700 50  0000 L CNN
+F 1 "ELEC_LG" H 3200 6700 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_3_89_4MIL_4_5" H 2900 6400 50  0001 C CNN
+F 3 "" H 2800 6700 50  0001 C CNN
+	1    2800 6700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6200 6450 6200 6550
+Wire Wire Line
+	6300 6450 6300 6550
+Wire Wire Line
+	6400 6450 6400 6550
+Wire Wire Line
+	6500 6450 6500 6550
+Wire Wire Line
+	6600 6450 6600 6550
+Wire Wire Line
+	6700 6550 6700 6450
+$Comp
+L dmf_relay_board:ELEC_SML ESM30
+U 1 1 5ECBEE36
+P 3200 6700
+F 0 "ESM30" H 3300 6700 50  0000 L CNN
+F 1 "ELEC_SML" H 3600 6700 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 3300 6400 50  0001 C CNN
+F 3 "" H 3200 6700 50  0001 C CNN
+	1    3200 6700
+	0    1    1    0   
+$EndComp
+$Comp
+L dmf_relay_board:ELEC_SML ESM5
+U 1 1 5EC3BE55
+P 9400 6250
+F 0 "ESM5" H 9500 6250 50  0000 L CNN
+F 1 "ELEC_SML" H 9800 6250 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 9500 5950 50  0001 C CNN
+F 3 "" H 9400 6250 50  0001 C CNN
+	1    9400 6250
+	0    1    1    0   
+$EndComp
+$Comp
+L dmf_relay_board:ELEC_SML ESM4
+U 1 1 5EC34020
+P 9850 5800
+F 0 "ESM4" H 9950 5800 50  0000 L CNN
+F 1 "ELEC_SML" H 10250 5800 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 9950 5500 50  0001 C CNN
+F 3 "" H 9850 5800 50  0001 C CNN
+	1    9850 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L dmf_relay_board:ELEC_SML ESM3
+U 1 1 5EC3401A
+P 9200 6250
+F 0 "ESM3" H 9300 6250 50  0000 L CNN
+F 1 "ELEC_SML" H 9600 6250 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 9300 5950 50  0001 C CNN
+F 3 "" H 9200 6250 50  0001 C CNN
+	1    9200 6250
+	0    1    1    0   
+$EndComp
+$Comp
+L dmf_relay_board:ELEC_SML ESM2
+U 1 1 5EC2C352
+P 9650 5800
+F 0 "ESM2" H 9750 5800 50  0000 L CNN
+F 1 "ELEC_SML" H 10050 5800 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 9750 5500 50  0001 C CNN
+F 3 "" H 9650 5800 50  0001 C CNN
+	1    9650 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L dmf_relay_board:ELEC_SML ESM1
+U 1 1 5EC2B3CE
+P 9000 6250
+F 0 "ESM1" H 9100 6250 50  0000 L CNN
+F 1 "ELEC_SML" H 9400 6250 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_2_75_4MIL_4_5" H 9100 5950 50  0001 C CNN
+F 3 "" H 9000 6250 50  0001 C CNN
+	1    9000 6250
+	0    1    1    0   
+$EndComp
+$Comp
+L dmf_relay_board:ELEC_XS EXS1
+U 1 1 5F011512
+P 700 6750
+F 0 "EXS1" H 800 6750 50  0000 L CNN
+F 1 "ELEC_XS" H 1100 6750 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_1_375_4MIL_4_5" H 800 6450 50  0001 C CNN
+F 3 "" H 700 6750 50  0001 C CNN
+	1    700  6750
+	0    1    1    0   
+$EndComp
+$Comp
+L dmf_relay_board:ELEC_XS EXS5
+U 1 1 5F01CEDA
+P 1100 6750
+F 0 "EXS5" H 1200 6750 50  0000 L CNN
+F 1 "ELEC_XS" H 1500 6750 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_1_375_4MIL_4_5" H 1200 6450 50  0001 C CNN
+F 3 "" H 1100 6750 50  0001 C CNN
+	1    1100 6750
+	0    1    1    0   
+$EndComp
+$Comp
+L dmf_relay_board:ELEC_XS EXS9
+U 1 1 5F0287A7
+P 1500 6750
+F 0 "EXS9" H 1600 6750 50  0000 L CNN
+F 1 "ELEC_XS" H 1900 6750 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_1_375_4MIL_4_5" H 1600 6450 50  0001 C CNN
+F 3 "" H 1500 6750 50  0001 C CNN
+	1    1500 6750
+	0    1    1    0   
+$EndComp
+$Comp
+L dmf_relay_board:ELEC_XS EXS13
+U 1 1 5F033F57
+P 1900 6750
+F 0 "EXS13" H 2000 6750 50  0000 L CNN
+F 1 "ELEC_XS" H 2300 6750 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_1_375_4MIL_4_5" H 2000 6450 50  0001 C CNN
+F 3 "" H 1900 6750 50  0001 C CNN
+	1    1900 6750
+	0    1    1    0   
+$EndComp
+$Comp
+L dmf_relay_board:ELEC_XS EXS17
+U 1 1 5F03F885
+P 2300 6750
+F 0 "EXS17" H 2400 6750 50  0000 L CNN
+F 1 "ELEC_XS" H 2700 6750 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_1_375_4MIL_4_5" H 2400 6450 50  0001 C CNN
+F 3 "" H 2300 6750 50  0001 C CNN
+	1    2300 6750
+	0    1    1    0   
+$EndComp
+$Comp
+L dmf_relay_board:ELEC_XS EXS21
+U 1 1 5F04B151
+P 5100 6700
+F 0 "EXS21" H 5200 6700 50  0000 L CNN
+F 1 "ELEC_XS" H 5500 6700 50  0000 L CNN
+F 2 "dmf_relay_board:ELECTRODE_1_375_4MIL_4_5" H 5200 6400 50  0001 C CNN
+F 3 "" H 5100 6700 50  0001 C CNN
+	1    5100 6700
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
