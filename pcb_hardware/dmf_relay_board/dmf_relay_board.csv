@@ -1,0 +1,7 @@
+Designator,Package,Quantity,Comment,Datasheet
+U1,PQFP-80_14x20mm_P0.8mm,1,HV506 - high voltage driver IC,http://ww1.microchip.com/downloads/en/DeviceDoc/20005845A.pdf
+A1,Arduino Nano,1,Microcontroller,https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf
+D1,THT LED,1,Status LED for latching input on U1,N/A
+R1,THT Axial Resistor,1,Current limit to D1,N/A
+J1,TE_HV_2POS_CONN_TB,1,THT connector to high voltage power supply,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=282837&DocType=Customer+Drawing&DocLang=English
+"J2, J3, J4, J5",MOLEX_30POS_FFC_TOP_CONN,4,30 position THT FFC connectors for high voltage signals,https://www.digikey.ca/product-detail/en/te-connectivity-amp-connectors/7-520355-0/A144436-ND/1151775
