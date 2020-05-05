@@ -1,0 +1,1425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:\Rahul's Stuff\Developments\Digital-Microfluidic-Control\pcb_hardware\dmf_relay_board\dmf_relay_board.sch</source>
+    <date>2020-05-05 1:44:26 AM</date>
+    <tool>Eeschema (5.1.5)-3</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>dmf_relay_board.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="A1">
+      <value>Arduino_Nano_v2.x</value>
+      <footprint>Module:Arduino_Nano</footprint>
+      <datasheet>https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf</datasheet>
+      <libsource lib="dmf_relay_board-rescue" part="Arduino_Nano_v2.x-MCU_Module" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9E6DB3</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>HVPS</value>
+      <footprint>dmf_relay_board:TE_HV_2POS_CONN_TB</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="dmf_relay_board-rescue" part="Conn_01x02-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA107F4</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Relays to Electrodes 1</value>
+      <footprint>dmf_relay_board:MOLEX_30POS_FFC_TOP_CONN</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="dmf_relay_board-rescue" part="Conn_01x30-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA5096A</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Electrodes from Relay 2</value>
+      <footprint>dmf_relay_board:MOLEX_30POS_FFC_TOP_CONN</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="dmf_relay_board-rescue" part="Conn_01x30-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA57770</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Electrodes from Relay 1</value>
+      <footprint>dmf_relay_board:MOLEX_30POS_FFC_TOP_CONN</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="dmf_relay_board-rescue" part="Conn_01x30-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA5AA18</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Relays to Electrodes 2</value>
+      <footprint>dmf_relay_board:MOLEX_30POS_FFC_TOP_CONN</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="dmf_relay_board-rescue" part="Conn_01x30-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA7D0A7</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm_FlatTop</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="dmf_relay_board-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA661B1</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="dmf_relay_board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EA8BE96</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>HV507</value>
+      <footprint>Package_QFP:PQFP-80_14x20mm_P0.8mm</footprint>
+      <libsource lib="dmf_relay_board" part="HV507" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9F26EB</tstamp>
+    </comp>
+    <comp ref="EXS2">
+      <value>ELEC_XS_TO_SM_1</value>
+      <footprint>dmf_relay_board:ELEC_XS_TO_SM_NUM1</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_XS_TO_SM_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB6942A</tstamp>
+    </comp>
+    <comp ref="EXS3">
+      <value>ELEC_XS</value>
+      <footprint>dmf_relay_board:ELECTRODE_1_375_4MIL_4_5</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_XS" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB880F2</tstamp>
+    </comp>
+    <comp ref="EXS5">
+      <value>ELEC_XS</value>
+      <footprint>dmf_relay_board:ELECTRODE_1_375_4MIL_4_5</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_XS" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB8F428</tstamp>
+    </comp>
+    <comp ref="EXS11">
+      <value>ELEC_XS</value>
+      <footprint>dmf_relay_board:ELECTRODE_1_375_4MIL_4_5</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_XS" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB9637D</tstamp>
+    </comp>
+    <comp ref="EXS9">
+      <value>ELEC_XS</value>
+      <footprint>dmf_relay_board:ELECTRODE_1_375_4MIL_4_5</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_XS" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB9CE70</tstamp>
+    </comp>
+    <comp ref="ESM6">
+      <value>ELEC_SML</value>
+      <footprint>dmf_relay_board:ELECTRODE_2_75_4MIL_4_5</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_SML" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC3BE5B</tstamp>
+    </comp>
+    <comp ref="ESM7">
+      <value>ELEC_SML</value>
+      <footprint>dmf_relay_board:ELECTRODE_2_75_4MIL_4_5</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_SML" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC3BE61</tstamp>
+    </comp>
+    <comp ref="ESM8">
+      <value>ELEC_SML</value>
+      <footprint>dmf_relay_board:ELECTRODE_2_75_4MIL_4_5</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_SML" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC3BE67</tstamp>
+    </comp>
+    <comp ref="ESM9">
+      <value>ELEC_SML</value>
+      <footprint>dmf_relay_board:ELECTRODE_2_75_4MIL_4_5</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_SML" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC44308</tstamp>
+    </comp>
+    <comp ref="ESM10">
+      <value>ELEC_SML</value>
+      <footprint>dmf_relay_board:ELECTRODE_2_75_4MIL_4_5</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_SML" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC4430E</tstamp>
+    </comp>
+    <comp ref="ESM11">
+      <value>ELEC_SML</value>
+      <footprint>dmf_relay_board:ELECTRODE_2_75_4MIL_4_5</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_SML" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC44314</tstamp>
+    </comp>
+    <comp ref="ESM12">
+      <value>ELEC_SML</value>
+      <footprint>dmf_relay_board:ELECTRODE_2_75_4MIL_4_5</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_SML" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC4431A</tstamp>
+    </comp>
+    <comp ref="ESM13">
+      <value>ELEC_SML</value>
+      <footprint>dmf_relay_board:ELECTRODE_2_75_4MIL_4_5</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_SML" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECB403D</tstamp>
+    </comp>
+    <comp ref="ESM14">
+      <value>ELEC_SML</value>
+      <footprint>dmf_relay_board:ELECTRODE_2_75_4MIL_4_5</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_SML" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECB4043</tstamp>
+    </comp>
+    <comp ref="ESM15">
+      <value>ELEC_SML</value>
+      <footprint>dmf_relay_board:ELECTRODE_2_75_4MIL_4_5</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_SML" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECB4049</tstamp>
+    </comp>
+    <comp ref="ESM16">
+      <value>ELEC_SML</value>
+      <footprint>dmf_relay_board:ELECTRODE_2_75_4MIL_4_5</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_SML" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECB404F</tstamp>
+    </comp>
+    <comp ref="ESM17">
+      <value>ELEC_SML</value>
+      <footprint>dmf_relay_board:ELECTRODE_2_75_4MIL_4_5</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_SML" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECB4055</tstamp>
+    </comp>
+    <comp ref="ESM18">
+      <value>ELEC_SML</value>
+      <footprint>dmf_relay_board:ELECTRODE_2_75_4MIL_4_5</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_SML" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECB405B</tstamp>
+    </comp>
+    <comp ref="ESM19">
+      <value>ELEC_SML</value>
+      <footprint>dmf_relay_board:ELECTRODE_2_75_4MIL_4_5</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_SML" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECB4061</tstamp>
+    </comp>
+    <comp ref="ESM20">
+      <value>ELEC_SML</value>
+      <footprint>dmf_relay_board:ELECTRODE_2_75_4MIL_4_5</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_SML" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECB4067</tstamp>
+    </comp>
+    <comp ref="ESM21">
+      <value>ELEC_SML</value>
+      <footprint>dmf_relay_board:ELECTRODE_2_75_4MIL_4_5</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_SML" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECB406D</tstamp>
+    </comp>
+    <comp ref="ESM22">
+      <value>ELEC_SML</value>
+      <footprint>dmf_relay_board:ELECTRODE_2_75_4MIL_4_5</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_SML" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECB4073</tstamp>
+    </comp>
+    <comp ref="ESM23">
+      <value>ELEC_SML</value>
+      <footprint>dmf_relay_board:ELECTRODE_2_75_4MIL_4_5</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_SML" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECB4079</tstamp>
+    </comp>
+    <comp ref="ESM24">
+      <value>ELEC_SML</value>
+      <footprint>dmf_relay_board:ELECTRODE_2_75_4MIL_4_5</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_SML" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECB407F</tstamp>
+    </comp>
+    <comp ref="ESM28">
+      <value>ELEC_SML</value>
+      <footprint>dmf_relay_board:ELECTRODE_2_75_4MIL_4_5</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_SML" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECBEE2A</tstamp>
+    </comp>
+    <comp ref="ESM29">
+      <value>ELEC_SML</value>
+      <footprint>dmf_relay_board:ELECTRODE_2_75_4MIL_4_5</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_SML" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECBEE30</tstamp>
+    </comp>
+    <comp ref="EXS6">
+      <value>ELEC_XS_TO_SM_3</value>
+      <footprint>dmf_relay_board:ELEC_XS_TO_SM_NUM3</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_XS_TO_SM_3" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECF7064</tstamp>
+    </comp>
+    <comp ref="ELG2">
+      <value>ELEC_LG</value>
+      <footprint>dmf_relay_board:ELECTRODE_3_89_4MIL_4_5</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_LG" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE279B2</tstamp>
+    </comp>
+    <comp ref="ELG1">
+      <value>ELEC_SM_TO_LG_1</value>
+      <footprint>dmf_relay_board:ELEC_SM_TO_LG_NUM1</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_SM_TO_LG_1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE36744</tstamp>
+    </comp>
+    <comp ref="ELG4">
+      <value>ELEC_LG</value>
+      <footprint>dmf_relay_board:ELECTRODE_3_89_4MIL_4_5</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_LG" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE37D08</tstamp>
+    </comp>
+    <comp ref="ELG3">
+      <value>ELEC_SM_TO_LG_2</value>
+      <footprint>dmf_relay_board:ELEC_SM_TO_LG_NUM2</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_SM_TO_LG_2" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE42D8A</tstamp>
+    </comp>
+    <comp ref="ELG5">
+      <value>ELEC_SM_TO_LG_3</value>
+      <footprint>dmf_relay_board:ELEC_SM_TO_LG_NUM3</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_SM_TO_LG_3" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE43D21</tstamp>
+    </comp>
+    <comp ref="ELG6">
+      <value>ELEC_LG</value>
+      <footprint>dmf_relay_board:ELECTRODE_3_89_4MIL_4_5</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_LG" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE45B64</tstamp>
+    </comp>
+    <comp ref="ESM30">
+      <value>ELEC_SML</value>
+      <footprint>dmf_relay_board:ELECTRODE_2_75_4MIL_4_5</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_SML" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECBEE36</tstamp>
+    </comp>
+    <comp ref="ESM5">
+      <value>ELEC_SML</value>
+      <footprint>dmf_relay_board:ELECTRODE_2_75_4MIL_4_5</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_SML" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC3BE55</tstamp>
+    </comp>
+    <comp ref="ESM4">
+      <value>ELEC_SML</value>
+      <footprint>dmf_relay_board:ELECTRODE_2_75_4MIL_4_5</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_SML" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC34020</tstamp>
+    </comp>
+    <comp ref="ESM3">
+      <value>ELEC_SML</value>
+      <footprint>dmf_relay_board:ELECTRODE_2_75_4MIL_4_5</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_SML" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC3401A</tstamp>
+    </comp>
+    <comp ref="ESM2">
+      <value>ELEC_SML</value>
+      <footprint>dmf_relay_board:ELECTRODE_2_75_4MIL_4_5</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_SML" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC2C352</tstamp>
+    </comp>
+    <comp ref="ESM1">
+      <value>ELEC_SML</value>
+      <footprint>dmf_relay_board:ELECTRODE_2_75_4MIL_4_5</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_SML" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC2B3CE</tstamp>
+    </comp>
+    <comp ref="EXS1">
+      <value>ELEC_XS</value>
+      <footprint>dmf_relay_board:ELECTRODE_1_375_4MIL_4_5</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_XS" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F011512</tstamp>
+    </comp>
+    <comp ref="EXS7">
+      <value>ELEC_XS</value>
+      <footprint>dmf_relay_board:ELECTRODE_1_375_4MIL_4_5</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_XS" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F0287A7</tstamp>
+    </comp>
+    <comp ref="EXS10">
+      <value>ELEC_XS_TO_SM_5</value>
+      <footprint>dmf_relay_board:ELEC_XS_TO_SM_NUM5</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_XS_TO_SM_5" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED0B2FD</tstamp>
+    </comp>
+    <comp ref="EXS4">
+      <value>ELEC_XS_TO_SM_2</value>
+      <footprint>dmf_relay_board:ELEC_XS_TO_SM_NUM2</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_XS_TO_SM_2" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECEC283</tstamp>
+    </comp>
+    <comp ref="EXS8">
+      <value>ELEC_XS_TO_SM_4</value>
+      <footprint>dmf_relay_board:ELEC_XS_TO_SM_NUM4</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_XS_TO_SM_4" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F21E54B</tstamp>
+    </comp>
+    <comp ref="EXS12">
+      <value>ELEC_XS_TO_SM_6</value>
+      <footprint>dmf_relay_board:ELEC_XS_TO_SM_NUM6</footprint>
+      <libsource lib="dmf_relay_board" part="ELEC_XS_TO_SM_6" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F234B02</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="dmf_relay_board" part="ELEC_LG">
+      <fields>
+        <field name="Reference">ELG</field>
+        <field name="Value">ELEC_LG</field>
+        <field name="Footprint">dmf_relay_board:ELECTRODE_3_89_4MIL_4_5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="dmf_relay_board" part="ELEC_SML">
+      <fields>
+        <field name="Reference">ESM</field>
+        <field name="Value">ELEC_SML</field>
+        <field name="Footprint">dmf_relay_board:ELECTRODE_2_75_4MIL_4_5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="dmf_relay_board" part="ELEC_SM_TO_LG_1">
+      <fields>
+        <field name="Reference">ELG</field>
+        <field name="Value">ELEC_SM_TO_LG_1</field>
+        <field name="Footprint">dmf_relay_board:ELEC_SM_TO_LG_NUM1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="dmf_relay_board" part="ELEC_SM_TO_LG_2">
+      <fields>
+        <field name="Reference">ELG</field>
+        <field name="Value">ELEC_SM_TO_LG_2</field>
+        <field name="Footprint">dmf_relay_board:ELEC_SM_TO_LG_NUM2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="dmf_relay_board" part="ELEC_SM_TO_LG_3">
+      <fields>
+        <field name="Reference">ELG</field>
+        <field name="Value">ELEC_SM_TO_LG_3</field>
+        <field name="Footprint">dmf_relay_board:ELEC_SM_TO_LG_NUM3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="dmf_relay_board" part="ELEC_XS">
+      <fields>
+        <field name="Reference">EXS</field>
+        <field name="Value">ELEC_XS</field>
+        <field name="Footprint">dmf_relay_board:ELECTRODE_1_375_4MIL_4_5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="dmf_relay_board" part="ELEC_XS_TO_SM_1">
+      <fields>
+        <field name="Reference">EXS</field>
+        <field name="Value">ELEC_XS_TO_SM_1</field>
+        <field name="Footprint">dmf_relay_board:ELEC_XS_TO_SM_NUM1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="dmf_relay_board" part="ELEC_XS_TO_SM_2">
+      <fields>
+        <field name="Reference">EXS</field>
+        <field name="Value">ELEC_XS_TO_SM_2</field>
+        <field name="Footprint">dmf_relay_board:ELEC_XS_TO_SM_NUM2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="dmf_relay_board" part="ELEC_XS_TO_SM_3">
+      <fields>
+        <field name="Reference">EXS</field>
+        <field name="Value">ELEC_XS_TO_SM_3</field>
+        <field name="Footprint">dmf_relay_board:ELEC_XS_TO_SM_NUM3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="dmf_relay_board" part="ELEC_XS_TO_SM_4">
+      <fields>
+        <field name="Reference">EXS</field>
+        <field name="Value">ELEC_XS_TO_SM_4</field>
+        <field name="Footprint">dmf_relay_board:ELEC_XS_TO_SM_NUM4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="dmf_relay_board" part="ELEC_XS_TO_SM_5">
+      <fields>
+        <field name="Reference">EXS</field>
+        <field name="Value">ELEC_XS_TO_SM_5</field>
+        <field name="Footprint">dmf_relay_board:ELEC_XS_TO_SM_NUM5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="dmf_relay_board" part="ELEC_XS_TO_SM_6">
+      <fields>
+        <field name="Reference">EXS</field>
+        <field name="Value">ELEC_XS_TO_SM_6</field>
+        <field name="Footprint">dmf_relay_board:ELEC_XS_TO_SM_NUM6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="dmf_relay_board" part="HV507">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HV507</field>
+        <field name="Footprint">Package_QFP:PQFP-80_14x20mm_P0.8mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="HVOUT41" type="input"/>
+        <pin num="2" name="HVOUT42" type="input"/>
+        <pin num="3" name="HVOUT43" type="input"/>
+        <pin num="4" name="HVOUT44" type="input"/>
+        <pin num="5" name="HVOUT45" type="input"/>
+        <pin num="6" name="HVOUT46" type="input"/>
+        <pin num="7" name="HVOUT47" type="input"/>
+        <pin num="8" name="HVOUT48" type="input"/>
+        <pin num="9" name="HVOUT49" type="input"/>
+        <pin num="10" name="HVOUT50" type="input"/>
+        <pin num="11" name="HVOUT51" type="input"/>
+        <pin num="12" name="HVOUT52" type="input"/>
+        <pin num="13" name="HVOUT53" type="input"/>
+        <pin num="14" name="HVOUT54" type="input"/>
+        <pin num="15" name="HVOUT55" type="input"/>
+        <pin num="16" name="HVOUT56" type="input"/>
+        <pin num="17" name="HVOUT57" type="input"/>
+        <pin num="18" name="HVOUT58" type="input"/>
+        <pin num="19" name="HVOUT59" type="input"/>
+        <pin num="20" name="HVOUT60" type="input"/>
+        <pin num="21" name="HVOUT61" type="input"/>
+        <pin num="22" name="HVOUT62" type="input"/>
+        <pin num="23" name="HVOUT63" type="input"/>
+        <pin num="24" name="HVOUT64" type="input"/>
+        <pin num="25" name="VPP" type="input"/>
+        <pin num="26" name="DIOA" type="input"/>
+        <pin num="27" name="NC" type="input"/>
+        <pin num="28" name="NC" type="input"/>
+        <pin num="29" name="~BL" type="input"/>
+        <pin num="30" name="~POL" type="input"/>
+        <pin num="31" name="VDD" type="input"/>
+        <pin num="32" name="DIR" type="input"/>
+        <pin num="33" name="GND" type="input"/>
+        <pin num="34" name="HVGND" type="input"/>
+        <pin num="35" name="NC" type="input"/>
+        <pin num="36" name="NC" type="input"/>
+        <pin num="37" name="CLK" type="input"/>
+        <pin num="38" name="~LE" type="input"/>
+        <pin num="39" name="DIOB" type="input"/>
+        <pin num="40" name="VPP" type="input"/>
+        <pin num="41" name="HVOUT1" type="input"/>
+        <pin num="42" name="HVOUT2" type="input"/>
+        <pin num="43" name="HVOUT3" type="input"/>
+        <pin num="44" name="HVOUT4" type="input"/>
+        <pin num="45" name="HVOUT5" type="input"/>
+        <pin num="46" name="HVOUT6" type="input"/>
+        <pin num="47" name="HVOUT7" type="input"/>
+        <pin num="48" name="HVOUT8" type="input"/>
+        <pin num="49" name="HVOUT9" type="input"/>
+        <pin num="50" name="HVOUT10" type="input"/>
+        <pin num="51" name="HVOUT11" type="input"/>
+        <pin num="52" name="HVOUT12" type="input"/>
+        <pin num="53" name="HVOUT13" type="input"/>
+        <pin num="54" name="HVOUT14" type="input"/>
+        <pin num="55" name="HVOUT15" type="input"/>
+        <pin num="56" name="HVOUT16" type="input"/>
+        <pin num="57" name="HVOUT17" type="input"/>
+        <pin num="58" name="HVOUT18" type="input"/>
+        <pin num="59" name="HVOUT19" type="input"/>
+        <pin num="60" name="HVOUT20" type="input"/>
+        <pin num="61" name="HVOUT21" type="input"/>
+        <pin num="62" name="HVOUT22" type="input"/>
+        <pin num="63" name="HVOUT23" type="input"/>
+        <pin num="64" name="HVOUT24" type="input"/>
+        <pin num="65" name="HVOUT25" type="input"/>
+        <pin num="66" name="HVOUT26" type="input"/>
+        <pin num="67" name="HVOUT27" type="input"/>
+        <pin num="68" name="HVOUT28" type="input"/>
+        <pin num="69" name="HVOUT29" type="input"/>
+        <pin num="70" name="HVOUT30" type="input"/>
+        <pin num="71" name="HVOUT31" type="input"/>
+        <pin num="72" name="HVOUT32" type="input"/>
+        <pin num="73" name="HVOUT33" type="input"/>
+        <pin num="74" name="HVOUT34" type="input"/>
+        <pin num="75" name="HVOUT35" type="input"/>
+        <pin num="76" name="HVOUT36" type="input"/>
+        <pin num="77" name="HVOUT37" type="input"/>
+        <pin num="78" name="HVOUT38" type="input"/>
+        <pin num="79" name="HVOUT39" type="input"/>
+        <pin num="80" name="HVOUT40" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="dmf_relay_board-rescue" part="Arduino_Nano_v2.x-MCU_Module">
+      <footprints>
+        <fp>Arduino*Nano*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Arduino_Nano_v2.x-MCU_Module</field>
+        <field name="Footprint">Module:Arduino_Nano</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D1/TX" type="BiDi"/>
+        <pin num="2" name="D0/RX" type="BiDi"/>
+        <pin num="3" name="~RESET" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="D2" type="BiDi"/>
+        <pin num="6" name="D3" type="BiDi"/>
+        <pin num="7" name="D4" type="BiDi"/>
+        <pin num="8" name="D5" type="BiDi"/>
+        <pin num="9" name="D6" type="BiDi"/>
+        <pin num="10" name="D7" type="BiDi"/>
+        <pin num="11" name="D8" type="BiDi"/>
+        <pin num="12" name="D9" type="BiDi"/>
+        <pin num="13" name="D10" type="BiDi"/>
+        <pin num="14" name="D11" type="BiDi"/>
+        <pin num="15" name="D12" type="BiDi"/>
+        <pin num="16" name="D13" type="BiDi"/>
+        <pin num="17" name="3V3" type="power_out"/>
+        <pin num="18" name="AREF" type="input"/>
+        <pin num="19" name="A0" type="BiDi"/>
+        <pin num="20" name="A1" type="BiDi"/>
+        <pin num="21" name="A2" type="BiDi"/>
+        <pin num="22" name="A3" type="BiDi"/>
+        <pin num="23" name="A4" type="BiDi"/>
+        <pin num="24" name="A5" type="BiDi"/>
+        <pin num="25" name="A6" type="BiDi"/>
+        <pin num="26" name="A7" type="BiDi"/>
+        <pin num="27" name="+5V" type="power_out"/>
+        <pin num="28" name="~RESET" type="input"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="dmf_relay_board-rescue" part="Conn_01x02-Connector_Generic">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02-Connector_Generic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dmf_relay_board-rescue" part="Conn_01x30-Connector_Generic">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x30-Connector_Generic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dmf_relay_board-rescue" part="LED-Device">
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dmf_relay_board-rescue" part="R-Device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="dmf_relay_board">
+      <uri>D:\Rahul's Stuff\Developments\Digital-Microfluidic-Control\pcb_hardware\dmf_relay_board/dmf_relay_board.lib</uri>
+    </library>
+    <library logical="dmf_relay_board-rescue">
+      <uri>D:\Rahul's Stuff\Developments\Digital-Microfluidic-Control\pcb_hardware\dmf_relay_board/dmf_relay_board-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="CHNL_55">
+      <node ref="U1" pin="15"/>
+      <node ref="J3" pin="23"/>
+    </net>
+    <net code="2" name="CHNL_53">
+      <node ref="J3" pin="27"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="3" name="CHNL_54">
+      <node ref="J3" pin="25"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="4" name="CHNL_52">
+      <node ref="U1" pin="12"/>
+      <node ref="J3" pin="29"/>
+    </net>
+    <net code="5" name="CHNL_56">
+      <node ref="U1" pin="16"/>
+      <node ref="J3" pin="21"/>
+    </net>
+    <net code="6" name="CHNL_57">
+      <node ref="U1" pin="17"/>
+      <node ref="J3" pin="19"/>
+    </net>
+    <net code="7" name="CHNL_58">
+      <node ref="U1" pin="18"/>
+      <node ref="J3" pin="17"/>
+    </net>
+    <net code="8" name="CHNL_47">
+      <node ref="U1" pin="7"/>
+      <node ref="J3" pin="22"/>
+    </net>
+    <net code="9" name="CHNL_48">
+      <node ref="U1" pin="8"/>
+      <node ref="J3" pin="24"/>
+    </net>
+    <net code="10" name="CHNL_49">
+      <node ref="U1" pin="9"/>
+      <node ref="J3" pin="26"/>
+    </net>
+    <net code="11" name="CHNL_46">
+      <node ref="J3" pin="20"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="12" name="CHNL_50">
+      <node ref="U1" pin="10"/>
+      <node ref="J3" pin="28"/>
+    </net>
+    <net code="13" name="CHNL_51">
+      <node ref="U1" pin="11"/>
+      <node ref="J3" pin="30"/>
+    </net>
+    <net code="14" name="CHNL_61">
+      <node ref="U1" pin="21"/>
+      <node ref="J3" pin="13"/>
+    </net>
+    <net code="15" name="Net-(U1-Pad23)">
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="16" name="Net-(U1-Pad24)">
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="17" name="Net-(U1-Pad25)">
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="18" name="Net-(U1-Pad27)">
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="19" name="Net-(U1-Pad28)">
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="20" name="Net-(U1-Pad35)">
+      <node ref="U1" pin="35"/>
+    </net>
+    <net code="21" name="Net-(U1-Pad36)">
+      <node ref="U1" pin="36"/>
+    </net>
+    <net code="22" name="CHNL_59">
+      <node ref="U1" pin="19"/>
+      <node ref="J3" pin="9"/>
+    </net>
+    <net code="23" name="CHNL_6">
+      <node ref="U1" pin="46"/>
+      <node ref="J2" pin="7"/>
+    </net>
+    <net code="24" name="CHNL_20">
+      <node ref="U1" pin="60"/>
+      <node ref="J2" pin="14"/>
+    </net>
+    <net code="25" name="CHNL_3">
+      <node ref="U1" pin="43"/>
+      <node ref="J2" pin="13"/>
+    </net>
+    <net code="26" name="CHNL_19">
+      <node ref="J2" pin="12"/>
+      <node ref="U1" pin="59"/>
+    </net>
+    <net code="27" name="CHNL_4">
+      <node ref="U1" pin="44"/>
+      <node ref="J2" pin="11"/>
+    </net>
+    <net code="28" name="CHNL_18">
+      <node ref="U1" pin="58"/>
+      <node ref="J2" pin="10"/>
+    </net>
+    <net code="29" name="CHNL_5">
+      <node ref="J2" pin="9"/>
+      <node ref="U1" pin="45"/>
+    </net>
+    <net code="30" name="CHNL_7">
+      <node ref="J2" pin="5"/>
+      <node ref="U1" pin="47"/>
+    </net>
+    <net code="31" name="CHNL_8">
+      <node ref="J2" pin="3"/>
+      <node ref="U1" pin="48"/>
+    </net>
+    <net code="32" name="CHNL_9">
+      <node ref="U1" pin="49"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="33" name="CHNL_33">
+      <node ref="U1" pin="73"/>
+      <node ref="J3" pin="7"/>
+    </net>
+    <net code="34" name="CHNL_34">
+      <node ref="J3" pin="5"/>
+      <node ref="U1" pin="74"/>
+    </net>
+    <net code="35" name="CHNL_36">
+      <node ref="J3" pin="1"/>
+      <node ref="U1" pin="76"/>
+    </net>
+    <net code="36" name="CHNL_29">
+      <node ref="J2" pin="29"/>
+      <node ref="U1" pin="69"/>
+    </net>
+    <net code="37" name="CHNL_30">
+      <node ref="U1" pin="70"/>
+      <node ref="J2" pin="27"/>
+    </net>
+    <net code="38" name="CHNL_26">
+      <node ref="J2" pin="26"/>
+      <node ref="U1" pin="66"/>
+    </net>
+    <net code="39" name="CHNL_31">
+      <node ref="U1" pin="71"/>
+      <node ref="J2" pin="25"/>
+    </net>
+    <net code="40" name="CHNL_25">
+      <node ref="U1" pin="65"/>
+      <node ref="J2" pin="24"/>
+    </net>
+    <net code="41" name="CHNL_32">
+      <node ref="U1" pin="72"/>
+      <node ref="J2" pin="23"/>
+    </net>
+    <net code="42" name="CHNL_44">
+      <node ref="J3" pin="16"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="43" name="CHNL_43">
+      <node ref="U1" pin="3"/>
+      <node ref="J3" pin="14"/>
+    </net>
+    <net code="44" name="CHNL_45">
+      <node ref="J3" pin="18"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="45" name="CHNL_41">
+      <node ref="U1" pin="1"/>
+      <node ref="J3" pin="10"/>
+    </net>
+    <net code="46" name="CHNL_42">
+      <node ref="U1" pin="2"/>
+      <node ref="J3" pin="12"/>
+    </net>
+    <net code="47" name="CHNL_37">
+      <node ref="J3" pin="2"/>
+      <node ref="U1" pin="77"/>
+    </net>
+    <net code="48" name="CHNL_38">
+      <node ref="U1" pin="78"/>
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="49" name="CHNL_39">
+      <node ref="U1" pin="79"/>
+      <node ref="J3" pin="6"/>
+    </net>
+    <net code="50" name="CHNL_40">
+      <node ref="J3" pin="8"/>
+      <node ref="U1" pin="80"/>
+    </net>
+    <net code="51" name="Net-(ESM24-Pad1)">
+      <node ref="ESM24" pin="1"/>
+    </net>
+    <net code="52" name="Net-(ESM14-Pad1)">
+      <node ref="ESM14" pin="1"/>
+    </net>
+    <net code="53" name="Net-(ESM15-Pad1)">
+      <node ref="ESM15" pin="1"/>
+    </net>
+    <net code="54" name="Net-(ESM16-Pad1)">
+      <node ref="ESM16" pin="1"/>
+    </net>
+    <net code="55" name="Net-(ESM17-Pad1)">
+      <node ref="ESM17" pin="1"/>
+    </net>
+    <net code="56" name="Net-(ESM18-Pad1)">
+      <node ref="ESM18" pin="1"/>
+    </net>
+    <net code="57" name="Net-(ESM19-Pad1)">
+      <node ref="ESM19" pin="1"/>
+    </net>
+    <net code="58" name="Net-(ESM20-Pad1)">
+      <node ref="ESM20" pin="1"/>
+    </net>
+    <net code="59" name="Net-(ESM21-Pad1)">
+      <node ref="ESM21" pin="1"/>
+    </net>
+    <net code="60" name="Net-(ESM22-Pad1)">
+      <node ref="ESM22" pin="1"/>
+    </net>
+    <net code="61" name="Net-(ESM23-Pad1)">
+      <node ref="ESM23" pin="1"/>
+    </net>
+    <net code="62" name="Net-(ESM13-Pad1)">
+      <node ref="ESM13" pin="1"/>
+    </net>
+    <net code="63" name="Net-(ESM28-Pad1)">
+      <node ref="ESM28" pin="1"/>
+    </net>
+    <net code="64" name="Net-(ESM29-Pad1)">
+      <node ref="ESM29" pin="1"/>
+    </net>
+    <net code="65" name="Net-(EXS6-Pad1)">
+      <node ref="J5" pin="21"/>
+      <node ref="EXS6" pin="1"/>
+    </net>
+    <net code="66" name="Net-(J5-Pad1)">
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="67" name="Net-(J5-Pad2)">
+      <node ref="J5" pin="2"/>
+    </net>
+    <net code="68" name="Net-(J5-Pad3)">
+      <node ref="J5" pin="3"/>
+    </net>
+    <net code="69" name="Net-(J5-Pad4)">
+      <node ref="J5" pin="4"/>
+    </net>
+    <net code="70" name="Net-(J5-Pad5)">
+      <node ref="J5" pin="5"/>
+    </net>
+    <net code="71" name="Net-(J5-Pad6)">
+      <node ref="J5" pin="6"/>
+    </net>
+    <net code="72" name="Net-(J4-Pad21)">
+      <node ref="J4" pin="21"/>
+    </net>
+    <net code="73" name="Net-(J4-Pad18)">
+      <node ref="J4" pin="18"/>
+    </net>
+    <net code="74" name="Net-(ESM6-Pad1)">
+      <node ref="ESM6" pin="1"/>
+    </net>
+    <net code="75" name="Net-(ESM7-Pad1)">
+      <node ref="ESM7" pin="1"/>
+    </net>
+    <net code="76" name="Net-(ESM8-Pad1)">
+      <node ref="ESM8" pin="1"/>
+    </net>
+    <net code="77" name="Net-(ESM9-Pad1)">
+      <node ref="ESM9" pin="1"/>
+    </net>
+    <net code="78" name="Net-(ESM10-Pad1)">
+      <node ref="ESM10" pin="1"/>
+    </net>
+    <net code="79" name="Net-(ESM11-Pad1)">
+      <node ref="ESM11" pin="1"/>
+    </net>
+    <net code="80" name="Net-(ESM12-Pad1)">
+      <node ref="ESM12" pin="1"/>
+    </net>
+    <net code="81" name="Net-(J4-Pad19)">
+      <node ref="J4" pin="19"/>
+    </net>
+    <net code="82" name="Net-(J4-Pad20)">
+      <node ref="J4" pin="20"/>
+    </net>
+    <net code="83" name="Net-(J5-Pad7)">
+      <node ref="J5" pin="7"/>
+    </net>
+    <net code="84" name="Net-(J4-Pad22)">
+      <node ref="J4" pin="22"/>
+    </net>
+    <net code="85" name="Net-(J4-Pad23)">
+      <node ref="J4" pin="23"/>
+    </net>
+    <net code="86" name="Net-(J4-Pad24)">
+      <node ref="J4" pin="24"/>
+    </net>
+    <net code="87" name="Net-(J4-Pad25)">
+      <node ref="J4" pin="25"/>
+    </net>
+    <net code="88" name="Net-(J4-Pad26)">
+      <node ref="J4" pin="26"/>
+    </net>
+    <net code="89" name="Net-(J4-Pad27)">
+      <node ref="J4" pin="27"/>
+    </net>
+    <net code="90" name="Net-(J4-Pad28)">
+      <node ref="J4" pin="28"/>
+    </net>
+    <net code="91" name="Net-(J4-Pad29)">
+      <node ref="J4" pin="29"/>
+    </net>
+    <net code="92" name="Net-(J4-Pad30)">
+      <node ref="J4" pin="30"/>
+    </net>
+    <net code="93" name="Net-(ESM3-Pad1)">
+      <node ref="ESM3" pin="1"/>
+    </net>
+    <net code="94" name="Net-(ELG5-Pad1)">
+      <node ref="ELG5" pin="1"/>
+    </net>
+    <net code="95" name="Net-(ELG6-Pad1)">
+      <node ref="ELG6" pin="1"/>
+    </net>
+    <net code="96" name="Net-(EXS10-Pad1)">
+      <node ref="EXS10" pin="1"/>
+      <node ref="J5" pin="26"/>
+    </net>
+    <net code="97" name="Net-(EXS1-Pad1)">
+      <node ref="EXS1" pin="1"/>
+      <node ref="J5" pin="27"/>
+    </net>
+    <net code="98" name="Net-(EXS7-Pad1)">
+      <node ref="EXS7" pin="1"/>
+      <node ref="J5" pin="28"/>
+    </net>
+    <net code="99" name="Net-(EXS2-Pad1)">
+      <node ref="EXS2" pin="1"/>
+      <node ref="J5" pin="29"/>
+    </net>
+    <net code="100" name="Net-(EXS8-Pad1)">
+      <node ref="EXS8" pin="1"/>
+      <node ref="J5" pin="30"/>
+    </net>
+    <net code="101" name="Net-(ESM30-Pad1)">
+      <node ref="ESM30" pin="1"/>
+    </net>
+    <net code="102" name="Net-(ESM5-Pad1)">
+      <node ref="ESM5" pin="1"/>
+    </net>
+    <net code="103" name="Net-(ESM4-Pad1)">
+      <node ref="ESM4" pin="1"/>
+    </net>
+    <net code="104" name="Net-(ELG3-Pad1)">
+      <node ref="ELG3" pin="1"/>
+    </net>
+    <net code="105" name="Net-(ESM2-Pad1)">
+      <node ref="ESM2" pin="1"/>
+    </net>
+    <net code="106" name="Net-(ESM1-Pad1)">
+      <node ref="ESM1" pin="1"/>
+    </net>
+    <net code="107" name="Net-(EXS4-Pad1)">
+      <node ref="EXS4" pin="1"/>
+      <node ref="J5" pin="25"/>
+    </net>
+    <net code="108" name="Net-(EXS12-Pad1)">
+      <node ref="EXS12" pin="1"/>
+      <node ref="J5" pin="22"/>
+    </net>
+    <net code="109" name="Net-(J5-Pad18)">
+      <node ref="J5" pin="18"/>
+    </net>
+    <net code="110" name="Net-(J5-Pad8)">
+      <node ref="J5" pin="8"/>
+    </net>
+    <net code="111" name="Net-(J5-Pad9)">
+      <node ref="J5" pin="9"/>
+    </net>
+    <net code="112" name="Net-(J5-Pad10)">
+      <node ref="J5" pin="10"/>
+    </net>
+    <net code="113" name="Net-(J5-Pad11)">
+      <node ref="J5" pin="11"/>
+    </net>
+    <net code="114" name="Net-(J5-Pad12)">
+      <node ref="J5" pin="12"/>
+    </net>
+    <net code="115" name="Net-(J5-Pad13)">
+      <node ref="J5" pin="13"/>
+    </net>
+    <net code="116" name="Net-(J5-Pad14)">
+      <node ref="J5" pin="14"/>
+    </net>
+    <net code="117" name="Net-(J5-Pad15)">
+      <node ref="J5" pin="15"/>
+    </net>
+    <net code="118" name="Net-(J5-Pad16)">
+      <node ref="J5" pin="16"/>
+    </net>
+    <net code="119" name="Net-(J5-Pad17)">
+      <node ref="J5" pin="17"/>
+    </net>
+    <net code="120" name="Net-(J4-Pad17)">
+      <node ref="J4" pin="17"/>
+    </net>
+    <net code="121" name="Net-(EXS5-Pad1)">
+      <node ref="J5" pin="19"/>
+      <node ref="EXS5" pin="1"/>
+    </net>
+    <net code="122" name="Net-(EXS11-Pad1)">
+      <node ref="J5" pin="20"/>
+      <node ref="EXS11" pin="1"/>
+    </net>
+    <net code="123" name="Net-(EXS3-Pad1)">
+      <node ref="J5" pin="23"/>
+      <node ref="EXS3" pin="1"/>
+    </net>
+    <net code="124" name="Net-(EXS9-Pad1)">
+      <node ref="EXS9" pin="1"/>
+      <node ref="J5" pin="24"/>
+    </net>
+    <net code="125" name="Net-(ELG2-Pad1)">
+      <node ref="ELG2" pin="1"/>
+    </net>
+    <net code="126" name="Net-(ELG1-Pad1)">
+      <node ref="ELG1" pin="1"/>
+    </net>
+    <net code="127" name="Net-(ELG4-Pad1)">
+      <node ref="ELG4" pin="1"/>
+    </net>
+    <net code="128" name="CHNL_27">
+      <node ref="J2" pin="28"/>
+      <node ref="U1" pin="67"/>
+    </net>
+    <net code="129" name="CHNL_21">
+      <node ref="U1" pin="61"/>
+      <node ref="J2" pin="16"/>
+    </net>
+    <net code="130" name="CHNL_23">
+      <node ref="U1" pin="63"/>
+      <node ref="J2" pin="20"/>
+    </net>
+    <net code="131" name="CHNL_24">
+      <node ref="J2" pin="22"/>
+      <node ref="U1" pin="64"/>
+    </net>
+    <net code="132" name="CHNL_28">
+      <node ref="J2" pin="30"/>
+      <node ref="U1" pin="68"/>
+    </net>
+    <net code="133" name="CHNL_35">
+      <node ref="U1" pin="75"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="134" name="Net-(U1-Pad39)">
+      <node ref="U1" pin="39"/>
+    </net>
+    <net code="135" name="Net-(U1-Pad41)">
+      <node ref="U1" pin="41"/>
+    </net>
+    <net code="136" name="Net-(U1-Pad42)">
+      <node ref="U1" pin="42"/>
+    </net>
+    <net code="137" name="CHNL_15">
+      <node ref="J2" pin="4"/>
+      <node ref="U1" pin="55"/>
+    </net>
+    <net code="138" name="Net-(J4-Pad7)">
+      <node ref="J4" pin="7"/>
+    </net>
+    <net code="139" name="Net-(J4-Pad1)">
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="140" name="Net-(J4-Pad2)">
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="141" name="Net-(J4-Pad3)">
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="142" name="Net-(J4-Pad4)">
+      <node ref="J4" pin="4"/>
+    </net>
+    <net code="143" name="Net-(J4-Pad5)">
+      <node ref="J4" pin="5"/>
+    </net>
+    <net code="144" name="Net-(J4-Pad6)">
+      <node ref="J4" pin="6"/>
+    </net>
+    <net code="145" name="Net-(J4-Pad8)">
+      <node ref="J4" pin="8"/>
+    </net>
+    <net code="146" name="Net-(J4-Pad9)">
+      <node ref="J4" pin="9"/>
+    </net>
+    <net code="147" name="Net-(J4-Pad10)">
+      <node ref="J4" pin="10"/>
+    </net>
+    <net code="148" name="Net-(J4-Pad11)">
+      <node ref="J4" pin="11"/>
+    </net>
+    <net code="149" name="Net-(J4-Pad12)">
+      <node ref="J4" pin="12"/>
+    </net>
+    <net code="150" name="Net-(J4-Pad13)">
+      <node ref="J4" pin="13"/>
+    </net>
+    <net code="151" name="Net-(J4-Pad14)">
+      <node ref="J4" pin="14"/>
+    </net>
+    <net code="152" name="Net-(J4-Pad15)">
+      <node ref="J4" pin="15"/>
+    </net>
+    <net code="153" name="Net-(J4-Pad16)">
+      <node ref="J4" pin="16"/>
+    </net>
+    <net code="154" name="CHNL_60">
+      <node ref="J3" pin="11"/>
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="155" name="CHNL_62">
+      <node ref="U1" pin="22"/>
+      <node ref="J3" pin="15"/>
+    </net>
+    <net code="156" name="Net-(A1-Pad5)">
+      <node ref="A1" pin="5"/>
+    </net>
+    <net code="157" name="DI">
+      <node ref="A1" pin="14"/>
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="158" name="Net-(A1-Pad3)">
+      <node ref="A1" pin="3"/>
+    </net>
+    <net code="159" name="Net-(A1-Pad30)">
+      <node ref="A1" pin="30"/>
+    </net>
+    <net code="160" name="Net-(A1-Pad6)">
+      <node ref="A1" pin="6"/>
+    </net>
+    <net code="161" name="Net-(A1-Pad7)">
+      <node ref="A1" pin="7"/>
+    </net>
+    <net code="162" name="Net-(A1-Pad8)">
+      <node ref="A1" pin="8"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="163" name="Net-(A1-Pad9)">
+      <node ref="A1" pin="9"/>
+    </net>
+    <net code="164" name="Net-(A1-Pad29)">
+      <node ref="A1" pin="29"/>
+    </net>
+    <net code="165" name="SCLK">
+      <node ref="A1" pin="16"/>
+      <node ref="U1" pin="37"/>
+    </net>
+    <net code="166" name="VDD">
+      <node ref="U1" pin="31"/>
+      <node ref="U1" pin="30"/>
+      <node ref="A1" pin="27"/>
+    </net>
+    <net code="167" name="~BL">
+      <node ref="U1" pin="29"/>
+      <node ref="A1" pin="10"/>
+    </net>
+    <net code="168" name="~LE">
+      <node ref="U1" pin="38"/>
+      <node ref="A1" pin="11"/>
+    </net>
+    <net code="169" name="Net-(A1-Pad2)">
+      <node ref="A1" pin="2"/>
+    </net>
+    <net code="170" name="Net-(A1-Pad12)">
+      <node ref="A1" pin="12"/>
+    </net>
+    <net code="171" name="Net-(A1-Pad13)">
+      <node ref="A1" pin="13"/>
+    </net>
+    <net code="172" name="Net-(A1-Pad15)">
+      <node ref="A1" pin="15"/>
+    </net>
+    <net code="173" name="Net-(A1-Pad17)">
+      <node ref="A1" pin="17"/>
+    </net>
+    <net code="174" name="Net-(A1-Pad18)">
+      <node ref="A1" pin="18"/>
+    </net>
+    <net code="175" name="Net-(A1-Pad19)">
+      <node ref="A1" pin="19"/>
+    </net>
+    <net code="176" name="GND">
+      <node ref="D1" pin="1"/>
+      <node ref="A1" pin="4"/>
+      <node ref="U1" pin="32"/>
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="33"/>
+      <node ref="U1" pin="34"/>
+    </net>
+    <net code="177" name="Net-(A1-Pad20)">
+      <node ref="A1" pin="20"/>
+    </net>
+    <net code="178" name="Net-(A1-Pad21)">
+      <node ref="A1" pin="21"/>
+    </net>
+    <net code="179" name="Net-(A1-Pad22)">
+      <node ref="A1" pin="22"/>
+    </net>
+    <net code="180" name="Net-(A1-Pad23)">
+      <node ref="A1" pin="23"/>
+    </net>
+    <net code="181" name="Net-(A1-Pad24)">
+      <node ref="A1" pin="24"/>
+    </net>
+    <net code="182" name="Net-(A1-Pad25)">
+      <node ref="A1" pin="25"/>
+    </net>
+    <net code="183" name="Net-(A1-Pad26)">
+      <node ref="A1" pin="26"/>
+    </net>
+    <net code="184" name="Net-(A1-Pad28)">
+      <node ref="A1" pin="28"/>
+    </net>
+    <net code="185" name="CHNL_17">
+      <node ref="U1" pin="57"/>
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="186" name="CHNL_16">
+      <node ref="J2" pin="6"/>
+      <node ref="U1" pin="56"/>
+    </net>
+    <net code="187" name="CHNL_14">
+      <node ref="J2" pin="2"/>
+      <node ref="U1" pin="54"/>
+    </net>
+    <net code="188" name="CHNL_13">
+      <node ref="J2" pin="21"/>
+      <node ref="U1" pin="53"/>
+    </net>
+    <net code="189" name="CHNL_12">
+      <node ref="U1" pin="52"/>
+      <node ref="J2" pin="19"/>
+    </net>
+    <net code="190" name="CHNL_22">
+      <node ref="U1" pin="62"/>
+      <node ref="J2" pin="18"/>
+    </net>
+    <net code="191" name="CHNL_11">
+      <node ref="U1" pin="51"/>
+      <node ref="J2" pin="17"/>
+    </net>
+    <net code="192" name="CHNL_10">
+      <node ref="J2" pin="15"/>
+      <node ref="U1" pin="50"/>
+    </net>
+    <net code="193" name="Net-(A1-Pad1)">
+      <node ref="A1" pin="1"/>
+    </net>
+    <net code="194" name="Net-(D1-Pad2)">
+      <node ref="R1" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="195" name="VPP">
+      <node ref="U1" pin="40"/>
+      <node ref="J1" pin="1"/>
+    </net>
+  </nets>
+</export>

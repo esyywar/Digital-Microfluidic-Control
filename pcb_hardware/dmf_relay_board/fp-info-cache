@@ -1,4 +1,4 @@
-16964898471325441
+16966487184079148
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75335,6 +75335,13 @@ ELEC_XS_TO_SM_NUM5
 1
 dmf_relay_board
 ELEC_XS_TO_SM_NUM6
+
+
+0
+2
+1
+dmf_relay_board
+ELEC_XS_TO_SM_NUM7
 
 
 0

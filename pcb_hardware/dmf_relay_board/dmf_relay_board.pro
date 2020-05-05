@@ -1,4 +1,4 @@
-update=2020-05-04 9:56:09 PM
+update=2020-05-05 1:57:39 PM
 version=1
 last_client=kicad
 [general]
@@ -259,7 +259,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=ELEC_HV
-Clearance=0
+Clearance=0.2
 TrackWidth=0.2
 ViaDiameter=0.6
 ViaDrill=0.3
