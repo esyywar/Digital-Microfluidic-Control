@@ -11,7 +11,7 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal)
+    (0 F.Cu signal hide)
     (1 In1.Cu signal)
     (2 In2.Cu signal)
     (31 B.Cu signal)
@@ -22,7 +22,7 @@
     (36 B.SilkS user)
     (37 F.SilkS user)
     (38 B.Mask user)
-    (39 F.Mask user)
+    (39 F.Mask user hide)
     (40 Dwgs.User user)
     (41 Cmts.User user)
     (42 Eco1.User user)
@@ -8422,7 +8422,7 @@
   (segment (start 134.577379 89.271541) (end 134.578659 89.271541) (width 0.2) (layer In2.Cu) (net 162))
   (segment (start 134.578659 89.271541) (end 152.6795 71.1707) (width 0.2) (layer In2.Cu) (net 162))
 
-  (zone (net 7) (net_name GND) (layer In2.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 7) (net_name GND) (layer In2.Cu) (tstamp 5EBB8B7E) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508) (smoothing chamfer))
@@ -9050,7 +9050,7 @@
       )
     )
   )
-  (zone (net 72) (net_name VPP) (layer In1.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 72) (net_name VPP) (layer In1.Cu) (tstamp 5EBB8B7B) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508) (smoothing chamfer))
