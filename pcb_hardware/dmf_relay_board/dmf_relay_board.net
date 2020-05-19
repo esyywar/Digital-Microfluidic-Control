@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\rahul\Desktop\Dev_Projects\Digital-Microfluidic-Control\pcb_hardware\dmf_relay_board\dmf_relay_board.sch)
-    (date "2020-05-12 2:51:45 PM")
+    (date "2020-05-18 5:07:07 PM")
     (tool "Eeschema (5.1.5)-3")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
