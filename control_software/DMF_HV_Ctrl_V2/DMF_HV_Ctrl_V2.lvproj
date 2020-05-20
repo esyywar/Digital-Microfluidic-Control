@@ -25,8 +25,6 @@
 			<Item Name="Genereate Square Wave.vi" Type="VI" URL="../subVIs/Genereate Square Wave.vi"/>
 			<Item Name="Electrode Switch Function.vi" Type="VI" URL="../subVIs/Electrode Switch Function.vi"/>
 			<Item Name="Calculate DO Pin.vi" Type="VI" URL="../subVIs/Calculate DO Pin.vi"/>
-			<Item Name="HV507 Write.vi" Type="VI" URL="../subVIs/HV507 Write.vi"/>
-			<Item Name="XS Electrode Write To Buffer.vi" Type="VI" URL="../subVIs/XS Electrode Write To Buffer.vi"/>
 		</Item>
 		<Item Name="Support VIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -38,6 +36,12 @@
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
 			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
+		</Item>
+		<Item Name="HV507 Utilities" Type="Folder">
+			<Item Name="HV507 Write.vi" Type="VI" URL="../subVIs/HV507 Write.vi"/>
+			<Item Name="XS Electrode Write To Buffer.vi" Type="VI" URL="../subVIs/XS Electrode Write To Buffer.vi"/>
+			<Item Name="SM Electrode Write To Buffer.vi" Type="VI" URL="../subVIs/SM Electrode Write To Buffer.vi"/>
+			<Item Name="LG Electrode Write To Buffer.vi" Type="VI" URL="../subVIs/LG Electrode Write To Buffer.vi"/>
 		</Item>
 		<Item Name="DMFicon.ico" Type="Document" URL="../DMFicon.ico"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
