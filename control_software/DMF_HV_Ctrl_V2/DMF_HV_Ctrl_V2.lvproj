@@ -26,6 +26,7 @@
 			<Item Name="Electrode Switch Function.vi" Type="VI" URL="../subVIs/Electrode Switch Function.vi"/>
 			<Item Name="Calculate DO Pin.vi" Type="VI" URL="../subVIs/Calculate DO Pin.vi"/>
 			<Item Name="HV507 Write.vi" Type="VI" URL="../subVIs/HV507 Write.vi"/>
+			<Item Name="XS Electrode Write To Buffer.vi" Type="VI" URL="../subVIs/XS Electrode Write To Buffer.vi"/>
 		</Item>
 		<Item Name="Support VIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
