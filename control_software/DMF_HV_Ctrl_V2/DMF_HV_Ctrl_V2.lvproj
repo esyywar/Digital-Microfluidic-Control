@@ -43,8 +43,12 @@
 			<Item Name="SM Electrode Write To Buffer.vi" Type="VI" URL="../subVIs/SM Electrode Write To Buffer.vi"/>
 			<Item Name="LG Electrode Write To Buffer.vi" Type="VI" URL="../subVIs/LG Electrode Write To Buffer.vi"/>
 		</Item>
+		<Item Name="Classes" Type="Folder">
+			<Item Name="ElectrodeGrid.lvclass" Type="LVClass" URL="../Classes/ElectrodeGrid.lvclass"/>
+		</Item>
 		<Item Name="DMFicon.ico" Type="Document" URL="../DMFicon.ico"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="HV Seq Record.vi" Type="VI" URL="../recording_subVI/HV Seq Record.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -97,6 +101,7 @@
 			<Item Name="liblinxdevice.dll" Type="Document" URL="liblinxdevice.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="QMH Fundamentals - Message Cluster.ctl" Type="VI" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/Design Patterns/Queued Message Handler/support/QMH Fundamentals - Message Cluster.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Digital Microfluidic HV Control" Type="EXE">
