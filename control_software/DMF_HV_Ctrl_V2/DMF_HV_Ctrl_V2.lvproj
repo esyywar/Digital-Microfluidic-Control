@@ -25,6 +25,7 @@
 			<Item Name="Genereate Square Wave.vi" Type="VI" URL="../subVIs/Genereate Square Wave.vi"/>
 			<Item Name="Electrode Switch Function.vi" Type="VI" URL="../subVIs/Electrode Switch Function.vi"/>
 			<Item Name="Calculate DO Pin.vi" Type="VI" URL="../subVIs/Calculate DO Pin.vi"/>
+			<Item Name="Init Elec Grid Objects.vi" Type="VI" URL="../subVIs/Init Elec Grid Objects.vi"/>
 		</Item>
 		<Item Name="Support VIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -35,7 +36,8 @@
 			<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop.vi"/>
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
-			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
+			<Item Name="UI Main Data.ctl" Type="VI" URL="../controls/UI Main Data.ctl"/>
+			<Item Name="UI Record Data.ctl" Type="VI" URL="../controls/UI Record Data.ctl"/>
 		</Item>
 		<Item Name="HV507 Utilities" Type="Folder">
 			<Item Name="HV507 Write.vi" Type="VI" URL="../subVIs/HV507 Write.vi"/>
@@ -154,7 +156,7 @@
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Type Definitions/UI Data.ctl</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Type Definitions/UI Main Data.ctl</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
