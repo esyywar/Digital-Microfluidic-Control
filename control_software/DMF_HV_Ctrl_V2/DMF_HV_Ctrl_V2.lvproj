@@ -44,6 +44,7 @@
 			<Item Name="XS Electrode Write To Buffer.vi" Type="VI" URL="../subVIs/XS Electrode Write To Buffer.vi"/>
 			<Item Name="SM Electrode Write To Buffer.vi" Type="VI" URL="../subVIs/SM Electrode Write To Buffer.vi"/>
 			<Item Name="LG Electrode Write To Buffer.vi" Type="VI" URL="../subVIs/LG Electrode Write To Buffer.vi"/>
+			<Item Name="Test Buffer to Elec Grid.vi" Type="VI" URL="../subVIs/Test Buffer to Elec Grid.vi"/>
 		</Item>
 		<Item Name="Classes" Type="Folder">
 			<Item Name="ElectrodeGrid.lvclass" Type="LVClass" URL="../Classes/ElectrodeGrid.lvclass"/>
