@@ -22,10 +22,8 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Sub VIs" Type="Folder">
-			<Item Name="Genereate Square Wave.vi" Type="VI" URL="../subVIs/Genereate Square Wave.vi"/>
-			<Item Name="Electrode Switch Function.vi" Type="VI" URL="../subVIs/Electrode Switch Function.vi"/>
-			<Item Name="Calculate DO Pin.vi" Type="VI" URL="../subVIs/Calculate DO Pin.vi"/>
 			<Item Name="Init Elec Grid Objects.vi" Type="VI" URL="../subVIs/Init Elec Grid Objects.vi"/>
+			<Item Name="Update All Elec Grid Controls.vi" Type="VI" URL="../subVIs/Update All Elec Grid Controls.vi"/>
 		</Item>
 		<Item Name="Support VIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -44,10 +42,12 @@
 			<Item Name="XS Electrode Write To Buffer.vi" Type="VI" URL="../subVIs/XS Electrode Write To Buffer.vi"/>
 			<Item Name="SM Electrode Write To Buffer.vi" Type="VI" URL="../subVIs/SM Electrode Write To Buffer.vi"/>
 			<Item Name="LG Electrode Write To Buffer.vi" Type="VI" URL="../subVIs/LG Electrode Write To Buffer.vi"/>
-			<Item Name="Test Buffer to Elec Grid.vi" Type="VI" URL="../subVIs/Test Buffer to Elec Grid.vi"/>
 		</Item>
 		<Item Name="Classes" Type="Folder">
 			<Item Name="ElectrodeGrid.lvclass" Type="LVClass" URL="../Classes/ElectrodeGrid.lvclass"/>
+		</Item>
+		<Item Name="Test VIs" Type="Folder">
+			<Item Name="Test Buffer to Elec Grid.vi" Type="VI" URL="../test_VIs/Test Buffer to Elec Grid.vi"/>
 		</Item>
 		<Item Name="DMFicon.ico" Type="Document" URL="../DMFicon.ico"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
@@ -85,11 +85,9 @@
 				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
 				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
 				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
-				<Item Name="Set Duty Cycle and Frequency.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Onboard IO/PWM/vis/Set Duty Cycle and Frequency.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Smart Open.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Onboard IO/DIO/vis/Smart Open.vi"/>
-				<Item Name="Smart Open.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Onboard IO/PWM/vis/Smart Open.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -145,15 +143,15 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Sub VIs/Electrode Switch Function.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Sub VIs/Genereate Square Wave.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref"></Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Sub VIs/Calculate DO Pin.vi</Property>
+				<Property Name="Source[4].itemID" Type="Ref"></Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
