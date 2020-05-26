@@ -24,6 +24,8 @@
 		<Item Name="Sub VIs" Type="Folder">
 			<Item Name="Init Elec Grid Objects.vi" Type="VI" URL="../subVIs/Init Elec Grid Objects.vi"/>
 			<Item Name="Update All Elec Grid Controls.vi" Type="VI" URL="../subVIs/Update All Elec Grid Controls.vi"/>
+			<Item Name="Update String Indicator From Ref.vi" Type="VI" URL="../subVIs/Update String Indicator From Ref.vi"/>
+			<Item Name="Upate Step Num Indicator From Ref.vi" Type="VI" URL="../subVIs/Upate Step Num Indicator From Ref.vi"/>
 		</Item>
 		<Item Name="Support VIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
