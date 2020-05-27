@@ -51,6 +51,9 @@
 		</Item>
 		<Item Name="Test VIs" Type="Folder">
 			<Item Name="Test Buffer to Elec Grid.vi" Type="VI" URL="../test_VIs/Test Buffer to Elec Grid.vi"/>
+			<Item Name="Grid Map to Bool Array Test.vi" Type="VI" URL="../test_VIs/Grid Map to Bool Array Test.vi"/>
+			<Item Name="Custom Func HV507 Write Test.vi" Type="VI" URL="../test_VIs/Custom Func HV507 Write Test.vi"/>
+			<Item Name="Bool Array To Grid Map Test.vi" Type="VI" URL="../test_VIs/Bool Array To Grid Map Test.vi"/>
 		</Item>
 		<Item Name="DMFicon.ico" Type="Document" URL="../DMFicon.ico"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
