@@ -1,4 +1,4 @@
-update=2020-05-07 1:23:00 AM
+update=2020-07-14 11:59:00 AM
 version=1
 last_client=kicad
 [general]
@@ -248,7 +248,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=DMF_HV
-Clearance=0.2
+Clearance=0.4
 TrackWidth=0.2
 ViaDiameter=0.6
 ViaDrill=0.3

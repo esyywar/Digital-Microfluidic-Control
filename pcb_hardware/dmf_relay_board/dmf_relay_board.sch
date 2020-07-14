@@ -110,17 +110,6 @@ Text GLabel 10500 4800 2    50   Input ~ 0
 CHNL_8
 Text GLabel 10500 4600 2    50   Input ~ 0
 CHNL_7
-$Comp
-L dmf_relay_board-rescue:GND-power #PWR0104
-U 1 1 5EB873B4
-P 1750 1700
-F 0 "#PWR0104" H 1750 1450 50  0001 C CNN
-F 1 "GND" H 1755 1527 50  0000 C CNN
-F 2 "" H 1750 1700 50  0001 C CNN
-F 3 "" H 1750 1700 50  0001 C CNN
-	1    1750 1700
-	1    0    0    -1  
-$EndComp
 Text GLabel 9350 4400 2    50   Input ~ 0
 CHNL_33
 Text GLabel 9350 4600 2    50   Input ~ 0
@@ -215,8 +204,6 @@ Wire Wire Line
 	9350 4300 9200 4300
 Text GLabel 9350 4300 2    50   Input ~ 0
 CHNL_40
-Wire Wire Line
-	1750 1500 1750 1700
 Text GLabel 9350 4100 2    50   Input ~ 0
 CHNL_41
 Text GLabel 9350 3900 2    50   Input ~ 0
@@ -444,13 +431,6 @@ Text GLabel 3700 3600 0    50   Input ~ 0
 CHNL_33
 Wire Wire Line
 	3700 3600 3850 3600
-Wire Wire Line
-	8450 2500 8450 2650
-Wire Wire Line
-	8450 2650 8450 2800
-Connection ~ 8450 2650
-Wire Wire Line
-	7750 2650 8450 2650
 NoConn ~ 7250 1250
 NoConn ~ 7100 1250
 Wire Wire Line
@@ -593,10 +573,8 @@ Wire Wire Line
 	7750 2200 8000 2200
 Text GLabel 8200 3100 2    50   Input ~ 0
 VDD
-Text GLabel 8000 3400 2    50   Input ~ 0
+Text GLabel 7950 3400 2    50   Input ~ 0
 ~BL
-Wire Wire Line
-	7750 3400 8000 3400
 Text GLabel 8000 2050 2    50   Input ~ 0
 ~LE
 Wire Wire Line
@@ -604,12 +582,12 @@ Wire Wire Line
 $Comp
 L dmf_relay_board-rescue:GND-power #PWR0102
 U 1 1 5EA2C7CD
-P 8450 2500
-F 0 "#PWR0102" H 8450 2250 50  0001 C CNN
-F 1 "GND" H 8455 2327 50  0000 C CNN
-F 2 "" H 8450 2500 50  0001 C CNN
-F 3 "" H 8450 2500 50  0001 C CNN
-	1    8450 2500
+P 8450 2550
+F 0 "#PWR0102" H 8450 2300 50  0001 C CNN
+F 1 "GND" H 8455 2377 50  0000 C CNN
+F 2 "" H 8450 2550 50  0001 C CNN
+F 3 "" H 8450 2550 50  0001 C CNN
+	1    8450 2550
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -631,7 +609,6 @@ NoConn ~ 7750 2500
 NoConn ~ 7750 2350
 Wire Wire Line
 	8450 2950 8450 2800
-Connection ~ 8450 2800
 NoConn ~ 1550 3650
 Wire Wire Line
 	1000 2950 1000 3100
@@ -1554,4 +1531,37 @@ F 3 "" H 2200 6650 50  0001 C CNN
 	1    2200 6650
 	0    1    1    0   
 $EndComp
+$Comp
+L power:GNDPWR #PWR0104
+U 1 1 5F10BCF0
+P 1750 1650
+F 0 "#PWR0104" H 1750 1450 50  0001 C CNN
+F 1 "GNDPWR" H 1754 1496 50  0000 C CNN
+F 2 "" H 1750 1600 50  0001 C CNN
+F 3 "" H 1750 1600 50  0001 C CNN
+	1    1750 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 1500 1750 1650
+$Comp
+L power:GNDPWR #PWR0105
+U 1 1 5F12BA62
+P 8150 2550
+F 0 "#PWR0105" H 8150 2350 50  0001 C CNN
+F 1 "GNDPWR" H 8154 2396 50  0000 C CNN
+F 2 "" H 8150 2500 50  0001 C CNN
+F 3 "" H 8150 2500 50  0001 C CNN
+	1    8150 2550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7750 2650 8150 2650
+Wire Wire Line
+	7950 3400 7750 3400
+Wire Wire Line
+	8150 2550 8150 2650
+Wire Wire Line
+	8450 2550 8450 2800
+Connection ~ 8450 2800
 $EndSCHEMATC
