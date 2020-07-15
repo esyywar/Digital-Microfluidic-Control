@@ -1,7 +1,26 @@
-Designator,Package,Quantity,Comment,Datasheet
-U1,PQFP-80_14x20mm_P0.8mm,1,HV506 - high voltage driver IC,http://ww1.microchip.com/downloads/en/DeviceDoc/20005845A.pdf
-A1,Arduino Nano,1,Microcontroller,https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf
-D1,THT LED,1,Status LED for latching input on U1,N/A
-R1,THT Axial Resistor,1,Current limit to D1,N/A
-J1,TE_HV_2POS_CONN_TB,1,THT connector to high voltage power supply,https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=282837&DocType=Customer+Drawing&DocLang=English
-"J2, J3, J4, J5",MOLEX_30POS_FFC_TOP_CONN,4,30 position THT FFC connectors for high voltage signals,https://www.digikey.ca/product-detail/en/te-connectivity-amp-connectors/7-520355-0/A144436-ND/1151775
+Comment,Designator,Footprint,LCSC
+Arduino_Nano_v2.x,A1,Module:Arduino_Nano,
+BLUE LED,D1,LED_SMD:LED_0805_2012Metric, C72035
+YELLOW LED,D2,LED_SMD:LED_0805_2012Metric,C2296
+GREEN LED,D3,LED_SMD:LED_0805_2012Metric,C63855
+ELEC_SM_TO_LG_1,ELG1,dmf_relay_board:ELEC_SM_TO_LG_NUM1,
+ELEC_SM_TO_LG_2,ELG3,dmf_relay_board:ELEC_SM_TO_LG_NUM2,
+ELEC_SM_TO_LG_3,ELG5,dmf_relay_board:ELEC_SM_TO_LG_NUM3,
+ELEC_LG,"ELG2,ELG4,ELG6",dmf_relay_board:ELECTRODE_3_89_4MIL_4_5,
+ELEC_SML,"ESM1,ESM2,ESM3,ESM4,ESM5,ESM6,ESM7,ESM8,ESM9,ESM10,ESM11,ESM12,ESM13,ESM14,ESM15,ESM16,ESM17,ESM18,ESM19,ESM20,ESM21,ESM22,ESM23,ESM24,ESM25,ESM26,ESM27,ESM28,ESM29,ESM30,ESM31,ESM32,ESM33,ESM34,ESM35,ESM36",dmf_relay_board:ELECTRODE_2_75_4MIL_4_5,
+ELEC_XS,"EXS1,EXS2,EXS4,EXS5,EXS7,EXS8,EXS10,EXS11,EXS13,EXS14,EXS16,EXS17",dmf_relay_board:ELECTRODE_1_375_4MIL_4_5,
+ELEC_XS_TO_SM_4,EXS12,dmf_relay_board:ELEC_XS_TO_SM_NUM4,
+ELEC_XS_TO_SM_5,EXS15,dmf_relay_board:ELEC_XS_TO_SM_NUM5,
+ELEC_XS_TO_SM_6,EXS18,dmf_relay_board:ELEC_XS_TO_SM_NUM6,
+ELEC_XS_TO_SM_1,EXS3,dmf_relay_board:ELEC_XS_TO_SM_NUM1,
+ELEC_XS_TO_SM_2,EXS6,dmf_relay_board:ELEC_XS_TO_SM_NUM2,
+ELEC_XS_TO_SM_3,EXS9,dmf_relay_board:ELEC_XS_TO_SM_NUM3,
+HVPS,J1,dmf_relay_board:TE_HV_2POS_CONN_TB,
+Relays to Electrodes 1,J2,dmf_relay_board:MOLEX_30POS_FFC_TOP_CONN,
+Relays to Electrodes 2,J3,dmf_relay_board:MOLEX_30POS_FFC_TOP_CONN,
+Electrodes from Relay 1,J4,dmf_relay_board:MOLEX_30POS_FFC_TOP_CONN,
+Electrodes from Relay 2,J5,dmf_relay_board:MOLEX_30POS_FFC_TOP_CONN,
+1K,R1,Resistor_SMD:R_0805_2012Metric,C17513
+750,"R2,R3",Resistor_SMD:R_0805_2012Metric,C17818
+HV507,U1,HV507:QFP80P2390X1790X340-80N,
+AQY210EHA,"U2,U3",SamacSys_Parts:SOP254P962X315-4N,C77719

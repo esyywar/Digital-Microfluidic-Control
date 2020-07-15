@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source D:\Desktop\Dev_Projects\Digital-Microfluidic-Control\pcb_hardware\dmf_relay_board\dmf_relay_board.sch)
-    (date "2020-07-14 10:29:26 PM")
+    (date "2020-07-15 10:05:15 AM")
     (tool "Eeschema (5.1.5)-3")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1031,10 +1031,10 @@
     (net (code 102) (name "Net-(ESM35-Pad1)")
       (node (ref ESM35) (pin 1))
       (node (ref J4) (pin 16)))
-    (net (code 103) (name RELAY_VPP)
+    (net (code 103) (name VPP_ON)
       (node (ref A1) (pin 7))
       (node (ref U2) (pin 1)))
-    (net (code 104) (name RELAY_VDD)
+    (net (code 104) (name VDD_ON)
       (node (ref A1) (pin 6))
       (node (ref U2) (pin 3)))
     (net (code 105) (name HV507_VPP)
