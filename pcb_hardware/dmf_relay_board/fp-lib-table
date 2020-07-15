@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name dmf_relay_board)(type KiCad)(uri ${KIPRJMOD}/dmf_relay_board.pretty)(options "")(descr ""))
+  (lib (name HV507)(type KiCad)(uri ${KIPRJMOD}/HV507)(options "")(descr ""))
 )
