@@ -71,7 +71,8 @@ void loop()
     digitalWrite(CLK_Pin, LOW);
     digitalWrite(BL_Pin, HIGH);
 
-    for (int i = 0; i < 64; i++)
+    /* Direction from HVOUT64 - HVOUT1 */
+    for (int i = 63; i >= 0; i--)
     {
       digitalWrite(DI_Pin, data & (1 << i));
 
