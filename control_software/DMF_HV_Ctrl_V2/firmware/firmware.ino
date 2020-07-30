@@ -72,22 +72,24 @@ void loop()
   
     /* Read data as 64 bit */
     uint64_t data = *((uint64_t*)input);
-  
-    digitalWrite(LE_Pin, LOW);
+
+    /* Set in transparent latch mode -> data appears directly on output channels */
+    digitalWrite(LE_Pin, HIGH);
+    
     digitalWrite(CLK_Pin, LOW);
     digitalWrite(BL_Pin, HIGH);
 
     /* Direction from HVOUT64 - HVOUT1 */
     for (int i = 63; i >= 0; i--)
     {
-      digitalWrite(DI_Pin, data & (1 << i));
+      digitalWrite(DI_Pin, data & ((uint64_t)1 << i));
 
       /* Move data in SR */
       digitalWrite(CLK_Pin, HIGH);
       digitalWrite(CLK_Pin, LOW);
     }
 
-    digitalWrite(LE_Pin, HIGH);
+    /* Exit transparent latch mode */
     digitalWrite(LE_Pin, LOW);
 
     *numResponseBytes = 0;
