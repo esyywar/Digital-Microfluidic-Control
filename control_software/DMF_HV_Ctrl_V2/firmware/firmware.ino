@@ -63,9 +63,15 @@ void loop()
  *          unsigned char* response - L_OK for success
  */
  int HV507_Write(unsigned char numInputBytes, unsigned char* input, unsigned char* numResponseBytes, unsigned char* response)
- {
-    /* Convert input into 64-bitmask */
-    uint64_t data = (uint64_t)(*input);
+ {  
+    /* Convert data to bytes */
+    for (int i = 0; i < numInputBytes; i++)
+    {
+      input[i] = byte(input[i]);
+    }
+  
+    /* Read data as 64 bit */
+    uint64_t data = *((uint64_t*)input);
   
     digitalWrite(LE_Pin, LOW);
     digitalWrite(CLK_Pin, LOW);
@@ -84,8 +90,7 @@ void loop()
     digitalWrite(LE_Pin, HIGH);
     digitalWrite(LE_Pin, LOW);
 
-    *numResponseBytes = 1;
-    *response = L_OK;
+    *numResponseBytes = 0;
 
-    return 0;
+    return L_OK;
  }
