@@ -75,7 +75,7 @@ void loop()
      *  Direction from HVOUT64 - HVOUT1 
      *  Note: LabVIEW input to this function is 8 bytes each send MSB first 
     */
-    for (int i = 0; i < 8; i++)
+    for (int i = 7; i >= 0; i--)
     {
       uint8_t dataByte = *((uint8_t*)input + i);
 
