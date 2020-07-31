@@ -64,35 +64,35 @@ void loop()
  */
  int HV507_Write(unsigned char numInputBytes, unsigned char* input, unsigned char* numResponseBytes, unsigned char* response)
  {  
-    /* Convert data to bytes */
-    for (int i = 0; i < numInputBytes; i++)
-    {
-      input[i] = byte(input[i]);
-    }
-  
-    /* Read data as 64 bit */
-    uint64_t data = *((uint64_t*)input);
-
     /* Set in transparent latch mode -> data appears directly on output channels */
     digitalWrite(LE_Pin, HIGH);
     
     digitalWrite(CLK_Pin, LOW);
     digitalWrite(BL_Pin, HIGH);
 
-    /* Direction from HVOUT64 - HVOUT1 */
-    for (int i = 63; i >= 0; i--)
+    /* 
+     *  Brief: Writing data to the 64 HVOUT channels on HV507
+     *  Direction from HVOUT64 - HVOUT1 
+     *  Note: LabVIEW input to this function is 8 bytes each send MSB first 
+    */
+    for (int i = 0; i < 8; i++)
     {
-      digitalWrite(DI_Pin, data & ((uint64_t)1 << i));
+      uint8_t dataByte = *((uint8_t*)input + i);
 
-      /* Move data in SR */
-      digitalWrite(CLK_Pin, HIGH);
-      digitalWrite(CLK_Pin, LOW);
+      for (int j = 7; j >= 0; j--)
+      {
+        digitalWrite(DI_Pin, (dataByte & ((uint8_t)1 << j)) ? HIGH : LOW);
+
+        /* Move data in SR */
+        digitalWrite(CLK_Pin, HIGH);
+        digitalWrite(CLK_Pin, LOW);
+      }
     }
+
+    digitalWrite(DI_Pin, LOW);
 
     /* Exit transparent latch mode */
     digitalWrite(LE_Pin, LOW);
-
-    *numResponseBytes = 0;
 
     return L_OK;
  }
