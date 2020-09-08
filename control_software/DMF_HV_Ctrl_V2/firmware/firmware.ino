@@ -61,11 +61,12 @@ void loop()
  *          unsigned char* input - 64-bit data buffer
  *          unsigned char* numResponseBytes - 1 byte send back to LabVIEW as feedback
  *          unsigned char* response - L_OK for success
+ *          
+ *  Note: Toggling of BL pin at pin 7 is handled in LabVIEW 'HV Write' VI
  */
  int HV507_Write(unsigned char numInputBytes, unsigned char* input, unsigned char* numResponseBytes, unsigned char* response)
  {  
     digitalWrite(CLK_Pin, LOW);
-    digitalWrite(BL_Pin, HIGH);
 
     /* 
      *  Brief: Writing data to the 64 HVOUT channels on HV507

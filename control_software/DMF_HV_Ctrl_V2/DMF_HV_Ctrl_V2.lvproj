@@ -106,6 +106,8 @@
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Onboard IO/DIO/vis/Write.vi"/>
+				<Item Name="Smart Open.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Onboard IO/PWM/vis/Smart Open.vi"/>
+				<Item Name="Set Duty Cycle and Frequency.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Onboard IO/PWM/vis/Set Duty Cycle and Frequency.vi"/>
 			</Item>
 			<Item Name="liblinxdevice.dll" Type="Document" URL="liblinxdevice.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -128,7 +130,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{70D99A64-EC00-4B17-9D89-76B490DF7A49}</Property>
-				<Property Name="Bld_version.build" Type="Int">14</Property>
+				<Property Name="Bld_version.build" Type="Int">15</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">DMF Control.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/DMF Control.exe</Property>
