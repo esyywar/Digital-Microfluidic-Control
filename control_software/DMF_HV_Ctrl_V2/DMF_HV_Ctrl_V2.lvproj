@@ -265,8 +265,8 @@
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
 				<Property Name="INST_buildSpecName" Type="Str">ProtoDrop_Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{03B8A714-1831-42F8-ABF1-8BA61C2DB42F}</Property>
-				<Property Name="INST_productName" Type="Str">DMF_HV_Ctrl_V2</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.3</Property>
+				<Property Name="INST_productName" Type="Str">ProtoDrop Control Software</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.5</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">17008005</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Applied Optics and Microsystems Laboratory</Property>
@@ -276,6 +276,8 @@
 				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
 				<Property Name="MSI_osCheck" Type="Int">0</Property>
 				<Property Name="MSI_upgradeCode" Type="Str">{39E0EB80-8C54-4B29-B371-D89E8A3A41B0}</Property>
+				<Property Name="MSI_windowMessage" Type="Str">Welcome! Step through this installer to get the ProtoDrop desktop control software.</Property>
+				<Property Name="MSI_windowTitle" Type="Str">ProtoDrop Installer</Property>
 				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
 				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
 				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
