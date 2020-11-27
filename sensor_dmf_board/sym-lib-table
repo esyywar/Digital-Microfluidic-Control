@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name HV507)(type Legacy)(uri D:/Desktop/Dev_Projects/Digital-Microfluidic-Control/sensor_dmf_board/HV507/HV507PG-G.lib)(options "")(descr ""))
+  (lib (name DMF)(type Legacy)(uri D:/Desktop/Dev_Projects/Digital-Microfluidic-Control/sensor_dmf_board/dmf_relay_board.pretty/dmf_relay_board.lib)(options "")(descr ""))
+  (lib (name MAX771)(type Legacy)(uri D:/Desktop/Dev_Projects/Digital-Microfluidic-Control/sensor_dmf_board/MAX771EPA/MAX771EPA.lib)(options "")(descr ""))
+)

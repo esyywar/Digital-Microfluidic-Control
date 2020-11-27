@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name DMF)(type KiCad)(uri D:/Desktop/Dev_Projects/Digital-Microfluidic-Control/sensor_dmf_board/dmf_relay_board.pretty)(options "")(descr ""))
+  (lib (name HV507)(type KiCad)(uri D:/Desktop/Dev_Projects/Digital-Microfluidic-Control/sensor_dmf_board/HV507)(options "")(descr ""))
+  (lib (name MAX771)(type KiCad)(uri D:/Desktop/Dev_Projects/Digital-Microfluidic-Control/sensor_dmf_board/MAX771EPA)(options "")(descr ""))
+  (lib (name AQY210)(type KiCad)(uri D:/Desktop/Dev_Projects/Digital-Microfluidic-Control/sensor_dmf_board/AQY210)(options "")(descr ""))
+)
