@@ -29,7 +29,7 @@ SMD LED 0805* | 2 | $1.00
 [30 Position FFC Connectors](https://www.digikey.ca/en/products/detail/molex/0039532304/2405276) | 4 | $15.00
 [30 Position FFC Ribbon Cables](https://www.digikey.ca/en/products/detail/molex/0151680368/3282127) | 4 | $10.00
 
-*Cheap surface mount parts are best purchased for a PCB manufacturer who offers SMD service
+*Cheap surface mount parts are best purchased from a PCB manufacturer who offers SMD service
 
 ## Uploading Firmware
 
